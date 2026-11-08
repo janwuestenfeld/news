@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 240
     environment: {name: github-pages, url: "${{ steps.deploy.outputs.page_url }}"}
-    env: {GH_TOKEN: "${{ github.token }}", TZ: America/New_York, OMP_NUM_THREADS: "2", WIM_THREADS: "2", PYTHONDONTWRITEBYTECODE: "1"}
+    env: {GH_TOKEN: "${{ github.token }}", GH_REPO: "${{ github.repository }}", TZ: America/New_York, OMP_NUM_THREADS: "2", WIM_THREADS: "2", PYTHONDONTWRITEBYTECODE: "1"}
     steps:
       - uses: actions/checkout@v4      # engine code from the private repository (read-only deploy key)
         with: {repository: janwuestenfeld/news-engine, ssh-key: "${{ secrets.ENGINE_DEPLOY_KEY }}", path: pipeline, fetch-depth: 1}

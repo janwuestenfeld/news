@@ -1,0 +1,794 @@
+[
+{
+"src": "BreakingMarketNews",
+"platform": "tg",
+"channel": "BreakingMarketNews",
+"role": "gauged source (full version)"
+},
+{
+"src": "Cointelegraph",
+"platform": "tg",
+"channel": "Cointelegraph",
+"role": "gauged source (full version)"
+},
+{
+"src": "FinancialJuice",
+"platform": "tg",
+"channel": "FinancialJuice",
+"role": "backup path"
+},
+{
+"src": "WalterBloomberg",
+"platform": "tg",
+"channel": "WalterBloomberg",
+"role": "gauged source (full version)"
+},
+{
+"src": "clashreport",
+"platform": "tg",
+"channel": "clashreport",
+"role": "gauged source (full version)"
+},
+{
+"src": "disclosetv",
+"platform": "tg",
+"channel": "disclosetv",
+"role": "accruing"
+},
+{
+"src": "france24_en",
+"platform": "tg",
+"channel": "france24_en",
+"role": "gauged source (full version)"
+},
+{
+"src": "insiderpaper",
+"platform": "tg",
+"channel": "insiderpaper",
+"role": "gauged source (full version)"
+},
+{
+"src": "livemint",
+"platform": "tg",
+"channel": "livemint",
+"role": "gauged source (full version)"
+},
+{
+"src": "marketfeed",
+"platform": "tg",
+"channel": "marketfeed",
+"role": "gauged source (full version)"
+},
+{
+"src": "trtworld",
+"platform": "tg",
+"channel": "trtworld",
+"role": "gauged source (full version)"
+},
+{
+"src": "watcherguru",
+"platform": "tg",
+"channel": "watcherguru",
+"role": "gauged source (full version)"
+},
+{
+"src": "abc_au",
+"platform": "bs",
+"actor": "news.abc.net.au",
+"role": "gauged source (full version)"
+},
+{
+"src": "afp_en",
+"platform": "bs",
+"actor": "en.afp.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "aljazeera",
+"platform": "bs",
+"actor": "aljazeera.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "ap",
+"platform": "bs",
+"actor": "apnews.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "aptnnews",
+"platform": "bs",
+"actor": "aptnnews.bsky.social",
+"role": "gauged source, weekdays only (rest days accruing)"
+},
+{
+"src": "arstechnica",
+"platform": "bs",
+"actor": "arstechnica.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "axios",
+"platform": "bs",
+"actor": "axios.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "barchart",
+"platform": "bs",
+"actor": "barchart.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "bbcnewsnight",
+"platform": "bs",
+"actor": "bbcnewsnight.bsky.social",
+"role": "accruing"
+},
+{
+"src": "bloomberg",
+"platform": "bs",
+"actor": "bloomberg.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "brusselstimes",
+"platform": "bs",
+"actor": "brusselstimes.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "bulwark",
+"platform": "bs",
+"actor": "thebulwark.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "businessinsider",
+"platform": "bs",
+"actor": "businessinsider.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "capitalsnitch",
+"platform": "bs",
+"actor": "capitalsnitch.bsky.social",
+"role": "accruing"
+},
+{
+"src": "carlquintanilla",
+"platform": "bs",
+"actor": "carlquintanilla.bsky.social",
+"role": "gauged source (full version)"
+},
+{
+"src": "cbsnews",
+"platform": "bs",
+"actor": "cbsnews.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "channel4news",
+"platform": "bs",
+"actor": "channel4news.bsky.social",
+"role": "gauged source (full version)"
+},
+{
+"src": "cna_bsky",
+"platform": "bs",
+"actor": "channelnewsasia.bsky.social",
+"role": "gauged source (full version)"
+},
+{
+"src": "cnbc",
+"platform": "bs",
+"actor": "cnbc.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "cnn",
+"platform": "bs",
+"actor": "cnn.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "dailybeast",
+"platform": "bs",
+"actor": "thedailybeast.bsky.social",
+"role": "gauged source (full version)"
+},
+{
+"src": "deadline",
+"platform": "bs",
+"actor": "deadline.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "decrypt",
+"platform": "bs",
+"actor": "decrypt.co",
+"role": "gauged source (full version)"
+},
+{
+"src": "dw",
+"platform": "bs",
+"actor": "deutschewelle.dw.com",
+"role": "accruing"
+},
+{
+"src": "ecb",
+"platform": "bs",
+"actor": "ecb.europa.eu",
+"role": "announcement source (story layer)"
+},
+{
+"src": "economist",
+"platform": "bs",
+"actor": "economist.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "econreporter",
+"platform": "bs",
+"actor": "econreporter.bsky.social",
+"role": "gauged source (full version)"
+},
+{
+"src": "elixstocksdata",
+"platform": "bs",
+"actor": "elixstocksdata.bsky.social",
+"role": "accruing"
+},
+{
+"src": "eu_commission",
+"platform": "bs",
+"actor": "ec.europa.eu",
+"role": "announcement source (story layer)"
+},
+{
+"src": "euractiv",
+"platform": "bs",
+"actor": "euractiv.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "euronews_bsky",
+"platform": "bs",
+"actor": "euronews.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "faytuks",
+"platform": "bs",
+"actor": "faytuksnetwork.bsky.social",
+"role": "gauged source (full version)"
+},
+{
+"src": "federalreserve",
+"platform": "bs",
+"actor": "federalreserve.gov",
+"role": "announcement source (story layer)"
+},
+{
+"src": "financialpost",
+"platform": "bs",
+"actor": "financialpost.com",
+"role": "gauged source, weekdays only (rest days accruing)"
+},
+{
+"src": "fintwitter",
+"platform": "bs",
+"actor": "fintwitter.bsky.social",
+"role": "backup path"
+},
+{
+"src": "fj_bsky",
+"platform": "bs",
+"actor": "financialjuice.bsky.social",
+"role": "backup path"
+},
+{
+"src": "forbes",
+"platform": "bs",
+"actor": "forbes.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "formdelta",
+"platform": "bs",
+"actor": "formdelta.bsky.social",
+"role": "accruing"
+},
+{
+"src": "fortune",
+"platform": "bs",
+"actor": "fortune.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "foxnews_bridge",
+"platform": "bs",
+"actor": "foxnews.com.web.brid.gy",
+"role": "gauged source (full version)"
+},
+{
+"src": "ft_bsky",
+"platform": "bs",
+"actor": "financialtimes.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "globeandmail",
+"platform": "bs",
+"actor": "theglobeandmail.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "groundnews",
+"platform": "bs",
+"actor": "groundnews.bsky.social",
+"role": "gauged source, weekdays only (rest days accruing)"
+},
+{
+"src": "guardian",
+"platform": "bs",
+"actor": "theguardian.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "guardian_us",
+"platform": "bs",
+"actor": "us.theguardian.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "gunpowderusa",
+"platform": "bs",
+"actor": "gunpowderusa.bsky.social",
+"role": "gauged source, weekdays only (rest days accruing)"
+},
+{
+"src": "highcountrynews",
+"platform": "bs",
+"actor": "highcountrynews.org",
+"role": "gauged source (full version)"
+},
+{
+"src": "huffpost",
+"platform": "bs",
+"actor": "huffpost.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "independent",
+"platform": "bs",
+"actor": "the-independent.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "independent_ie",
+"platform": "bs",
+"actor": "independent.ie",
+"role": "gauged source (full version)"
+},
+{
+"src": "indiewire",
+"platform": "bs",
+"actor": "indiewire.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "insideclimate",
+"platform": "bs",
+"actor": "insideclimatenews.org",
+"role": "gauged source (full version)"
+},
+{
+"src": "insiderwire",
+"platform": "bs",
+"actor": "insiderwire.com",
+"role": "accruing"
+},
+{
+"src": "irishtimes",
+"platform": "bs",
+"actor": "irishtimes.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "japantimes",
+"platform": "bs",
+"actor": "japantimes.co.jp",
+"role": "gauged source (full version)"
+},
+{
+"src": "kyivindependent",
+"platform": "bs",
+"actor": "kyivindependent.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "latimes",
+"platform": "bs",
+"actor": "latimes.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "livesquawk",
+"platform": "bs",
+"actor": "livesquawknews.bsky.social",
+"role": "gauged source, weekdays only (rest days accruing)"
+},
+{
+"src": "marshallproject",
+"platform": "bs",
+"actor": "themarshallproject.org",
+"role": "gauged source, weekdays only (rest days accruing)"
+},
+{
+"src": "meduza",
+"platform": "bs",
+"actor": "meduza.io",
+"role": "gauged source, weekdays only (rest days accruing)"
+},
+{
+"src": "moscowtimes",
+"platform": "bs",
+"actor": "themoscowtimes.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "motherjones",
+"platform": "bs",
+"actor": "motherjones.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "mprnews",
+"platform": "bs",
+"actor": "mprnews.org",
+"role": "gauged source (full version)"
+},
+{
+"src": "nbcnews",
+"platform": "bs",
+"actor": "nbcnews.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "newrepublic",
+"platform": "bs",
+"actor": "newrepublic.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "newscientist",
+"platform": "bs",
+"actor": "newscientist.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "newsweek",
+"platform": "bs",
+"actor": "newsweek.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "newyorker",
+"platform": "bs",
+"actor": "newyorker.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "nikkei_asia",
+"platform": "bs",
+"actor": "asia.nikkei.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "npr",
+"platform": "bs",
+"actor": "npr.org",
+"role": "gauged source (full version)"
+},
+{
+"src": "nypost",
+"platform": "bs",
+"actor": "nypost.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "nytimes",
+"platform": "bs",
+"actor": "nytimes.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "pbsnews",
+"platform": "bs",
+"actor": "pbsnews.org",
+"role": "gauged source (full version)"
+},
+{
+"src": "politico_eu",
+"platform": "bs",
+"actor": "politico.eu",
+"role": "gauged source (full version)"
+},
+{
+"src": "politico_us",
+"platform": "bs",
+"actor": "politico.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "propublica",
+"platform": "bs",
+"actor": "propublica.org",
+"role": "gauged source (full version)"
+},
+{
+"src": "quartz",
+"platform": "bs",
+"actor": "quartzmedia.bsky.social",
+"role": "gauged source (full version)"
+},
+{
+"src": "reuters",
+"platform": "bs",
+"actor": "reuters.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "rewirenews",
+"platform": "bs",
+"actor": "rewirenewsgroup.com",
+"role": "gauged source, weekdays only (rest days accruing)"
+},
+{
+"src": "rte",
+"platform": "bs",
+"actor": "rte.ie",
+"role": "accruing"
+},
+{
+"src": "rte_news",
+"platform": "bs",
+"actor": "news.rte.ie",
+"role": "gauged source (full version)"
+},
+{
+"src": "salon",
+"platform": "bs",
+"actor": "salon.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "semafor",
+"platform": "bs",
+"actor": "semafor.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "sipirtu",
+"platform": "bs",
+"actor": "sipirtu.com",
+"role": "accruing"
+},
+{
+"src": "skynews",
+"platform": "bs",
+"actor": "news.sky.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "slate",
+"platform": "bs",
+"actor": "slate.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "statesnewsroom",
+"platform": "bs",
+"actor": "statesnewsroom.com",
+"role": "gauged source, weekdays only (rest days accruing)"
+},
+{
+"src": "stocktitan",
+"platform": "bs",
+"actor": "stocktitan.net",
+"role": "gauged source (full version)"
+},
+{
+"src": "techmeme",
+"platform": "bs",
+"actor": "techmeme.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "theatlantic",
+"platform": "bs",
+"actor": "theatlantic.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "thediplomat",
+"platform": "bs",
+"actor": "thediplomat.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "thehill",
+"platform": "bs",
+"actor": "thehill.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "thehindu",
+"platform": "bs",
+"actor": "thehindu.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "theinformation",
+"platform": "bs",
+"actor": "theinformation.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "theintercept",
+"platform": "bs",
+"actor": "theintercept.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "thejournal",
+"platform": "bs",
+"actor": "thejournal.ie",
+"role": "gauged source (full version)"
+},
+{
+"src": "thenational",
+"platform": "bs",
+"actor": "thenationalnews.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "thenewsagents",
+"platform": "bs",
+"actor": "thenewsagents.co.uk",
+"role": "gauged source (full version)"
+},
+{
+"src": "therealnews",
+"platform": "bs",
+"actor": "therealnews.com",
+"role": "gauged source, weekdays only (rest days accruing)"
+},
+{
+"src": "theregister",
+"platform": "bs",
+"actor": "theregister.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "thetimes",
+"platform": "bs",
+"actor": "thetimes.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "theverge",
+"platform": "bs",
+"actor": "theverge.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "timesofisrael",
+"platform": "bs",
+"actor": "timesofisrael.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "uazmi",
+"platform": "bs",
+"actor": "uazmi.media",
+"role": "gauged source (full version)"
+},
+{
+"src": "unseenjapan",
+"platform": "bs",
+"actor": "unseenjapan.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "usnews",
+"platform": "bs",
+"actor": "usnews.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "vanityfair",
+"platform": "bs",
+"actor": "vanityfair.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "vox",
+"platform": "bs",
+"actor": "vox.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "washingtonpost",
+"platform": "bs",
+"actor": "washingtonpost.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "wired",
+"platform": "bs",
+"actor": "wired.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "worldimpact",
+"platform": "bs",
+"actor": "worldimpactnews.bsky.social",
+"role": "accruing"
+},
+{
+"src": "wsj",
+"platform": "bs",
+"actor": "wsj.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "wto",
+"platform": "bs",
+"actor": "wto.org",
+"role": "announcement source (story layer)"
+},
+{
+"src": "yahoofinance",
+"platform": "bs",
+"actor": "yahoofinance.com",
+"role": "gauged source (full version)"
+},
+{
+"src": "yahoonews",
+"platform": "bs",
+"actor": "yahoonews.com",
+"role": "gauged source, weekdays only (rest days accruing)"
+},
+{
+"src": "yicaiglobal",
+"platform": "bs",
+"actor": "yicaiglobal.bsky.social",
+"role": "gauged source (full version)"
+},
+{
+"src": "tradingeconomics",
+"platform": "web",
+"site": "tradingeconomics",
+"role": "website (not yet in the index)"
+},
+{
+"src": "investinglive",
+"platform": "web",
+"site": "investinglive",
+"role": "website (not yet in the index)"
+},
+{
+"src": "interfax",
+"platform": "web",
+"site": "interfax",
+"role": "website (not yet in the index)"
+},
+{
+"src": "bno",
+"platform": "web",
+"site": "bno",
+"role": "website (not yet in the index)"
+}
+]

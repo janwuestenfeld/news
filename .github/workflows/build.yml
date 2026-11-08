@@ -1,0 +1,84 @@
+# News Pulse page: started by the collect loop after every 5-minute cycle (collector/loop.sh), today's readings at the current clock and the front page.
+# State: the nightly state (actions cache "night-<date>", written by the nightly workflow) plus a small run state
+# (cache "run-<date>-<run id>"). Today's posts: the collection chunks in the release raw-<New York date>.
+# Log: per step only seconds, peak memory, status and counts (logs/steps.jsonl); never post text.
+name: build
+on:
+  workflow_dispatch: {}
+permissions: {contents: write, pages: write, id-token: write, actions: write}   # contents: write: the raw-<date> and engine-files releases are drafts
+concurrency: {group: pipeline, cancel-in-progress: false}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    environment: {name: github-pages, url: "${{ steps.deploy.outputs.page_url }}"}
+    env: {GH_TOKEN: "${{ github.token }}", TZ: America/New_York, OMP_NUM_THREADS: "2", WIM_THREADS: "2", PYTHONDONTWRITEBYTECODE: "1"}
+    steps:
+      - uses: actions/checkout@v4      # engine code from the private repository (read-only deploy key)
+        with: {repository: janwuestenfeld/news-engine, ssh-key: "${{ secrets.ENGINE_DEPLOY_KEY }}", path: pipeline, fetch-depth: 1}
+      - id: d
+        run: echo "day=$(date +%F)" >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - name: Restore Python packages
+        id: venv
+        uses: actions/cache@v4
+        with: {path: venv, key: "venv-${{ runner.os }}-${{ hashFiles('pipeline/requirements_live.txt') }}-torch2.15.0"}
+      - name: Install Python packages (first time only)
+        if: steps.venv.outputs.cache-hit != 'true'
+        run: |
+          python -m venv venv
+          venv/bin/pip install -q torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+          venv/bin/pip install -q -r pipeline/requirements_live.txt
+      - run: echo "$PWD/venv/bin" >> "$GITHUB_PATH"
+      - name: Restore nightly state
+        id: night
+        uses: actions/cache/restore@v4
+        with: {path: live, key: "night-${{ steps.d.outputs.day }}", restore-keys: "night-"}
+      - name: Stop if there is no nightly state yet
+        if: steps.night.outputs.cache-matched-key == ''
+        run: |
+          echo "No nightly state yet. Run the workflow nightly once (it starts from the release engine-files)."
+          exit 1
+      - name: Restore run state of today
+        uses: actions/cache/restore@v4
+        with: {path: run_state, key: "run-${{ steps.d.outputs.day }}-${{ github.run_id }}", restore-keys: "run-${{ steps.d.outputs.day }}-"}
+      - name: Restore labeller model
+        id: model
+        uses: actions/cache/restore@v4
+        with: {path: pipeline/labeller/model_v2, key: labeller-model-v2}
+      - name: Fetch labeller model (first time only)
+        if: steps.model.outputs.cache-hit != 'true'
+        env: {ENGINE_KEY: "${{ secrets.ENGINE_KEY }}"}
+        run: |
+          gh release download engine-files -p "model_v2.tar.gz.enc" -D /tmp
+          openssl enc -d -aes-256-cbc -pbkdf2 -pass env:ENGINE_KEY -in /tmp/model_v2.tar.gz.enc | tar xz -C pipeline/labeller
+      - name: Save labeller model
+        if: steps.model.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with: {path: pipeline/labeller/model_v2, key: labeller-model-v2}
+      - name: Today's posts
+        run: |
+          mkdir -p chunks
+          python pipeline/live/state_io.py restore run_state live
+          gh release download "raw-${{ steps.d.outputs.day }}" -p "chunk_*.jsonl.gz" -D chunks || echo "no chunks yet today"
+      - name: Update (counts, status, seconds and memory per step only)
+        run: python pipeline/run_live.py --live live --chunks chunks
+      - name: Save run state
+        if: always()
+        run: python pipeline/live/state_io.py save live run_state
+      - uses: actions/cache/save@v4
+        if: always()
+        with: {path: run_state, key: "run-${{ steps.d.outputs.day }}-${{ github.run_id }}"}
+      - name: Page files only
+        run: |
+          mkdir -p _site && cd live/site
+          cp index.html history.html ../../_site/ 2>/dev/null || true
+          cp -R data archive ../../_site/ 2>/dev/null || true
+          [ -f ../../pipeline/site/methodology.html ] && cp ../../pipeline/site/methodology.html ../../_site/ || true
+          ls ../../_site
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: _site}
+      - id: deploy
+        uses: actions/deploy-pages@v4

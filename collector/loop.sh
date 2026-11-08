@@ -26,6 +26,11 @@ while [ "$(date +%s)" -lt "$END" ]; do
       cp run/state.json run/out/state.json
       gh release view collector-state >/dev/null 2>&1 || gh release create collector-state --prerelease --title "Collector state" --notes "Last id / time per source and source health (no post text). Replaced every run."
       gh release upload collector-state run/out/state.json run/out/health.json --clobber || echo "state upload failed; kept locally"
+      if gh cache list --key night- --limit 1 --json key -q '.[].key' 2>/dev/null | grep -q night-; then
+        gh workflow run build.yml --ref main >/dev/null 2>&1 && echo "page update started" || echo "page update not started"
+      else
+        echo "no nightly state yet: page update waits for the first nightly run"
+      fi
     else
       echo "chunk upload failed: position not advanced, the same posts are fetched again next cycle"
     fi

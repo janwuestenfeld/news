@@ -1,7 +1,6 @@
 # After midnight New York: merge the previous day's collection chunks into one file raw_<date>.jsonl.gz and remove the chunks.
 name: raw-daily
 on:
-  schedule: [{cron: "40 8 * * *"}]
   workflow_dispatch: {inputs: {day: {description: "New York date YYYY-MM-DD (default: yesterday)", required: false}}}
 permissions: {contents: write}
 concurrency: {group: raw-daily, cancel-in-progress: false}

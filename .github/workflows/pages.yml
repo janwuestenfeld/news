@@ -1,8 +1,6 @@
+# Preview deploy, by hand only: the live page is deployed by build.yml (a push of page files must not overwrite it).
 name: pages
 on:
-  push:
-    branches: [main]
-    paths: ["index.html", "history.html", "methodology.html", "data/**", ".github/workflows/pages.yml"]
   workflow_dispatch: {}
 permissions: {contents: read, pages: write, id-token: write}
 concurrency: {group: pages, cancel-in-progress: true}

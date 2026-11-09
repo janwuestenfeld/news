@@ -3,7 +3,6 @@
 # First run: no stored state yet -> starts from the release engine-seed (made once on Jan's Mac).
 name: nightly
 on:
-  schedule: [{cron: "0 8 * * *"}]
   workflow_dispatch: {inputs: {day: {description: "finished New York date YYYY-MM-DD (default: yesterday)", required: false}}}
 permissions: {contents: write, pages: write, id-token: write, actions: write}   # contents: write: the raw-<date> and engine-files releases are drafts
 concurrency: {group: pipeline, cancel-in-progress: false}

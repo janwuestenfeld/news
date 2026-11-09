@@ -38,9 +38,9 @@ while [ "$(date +%s)" -lt "$END" ]; do
     echo "collect_run failed; retry next cycle"
   fi
   # GitHub skips most scheduled runs (9 Nov: nightly 08:00 UTC and raw-daily 08:40 UTC never started), so the loop
-  # starts them: after 03:00 New York, nightly if today's state (cache night-<today>) is missing, raw-daily if
+  # starts them: from 00:05 New York, nightly if today's state (cache night-<today>) is missing, raw-daily if
   # yesterday's merged file is missing; each at most once every 150 minutes (a failed run is retried after that).
-  if [ "$(date +%H)" -ge 3 ]; then
+  if [ "$(date +%-H%M)" -ge 5 ]; then
     TODAY=$(date +%F); YDAY=$(date -d yesterday +%F); NOW=$(date +%s)
     recent() { local c; c=$(gh run list -w "$1" --limit 1 --json createdAt -q '.[0].createdAt' 2>/dev/null); [ -n "$c" ] && [ $(( NOW - $(date -d "$c" +%s) )) -lt 9000 ]; }
     if ! gh cache list --key "night-$TODAY" --limit 1 --json key -q '.[].key' 2>/dev/null | grep -q . && ! recent nightly; then

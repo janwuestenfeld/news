@@ -1,0 +1,59 @@
+# One-off tools on the stored nightly state: compare two nights (do past days change?) and export the state (encrypted draft release)
+name: state-tools
+on:
+  workflow_dispatch: {inputs: {a: {required: true}, b: {required: false, default: ""}, export: {required: false, default: "no"}}}
+permissions: {contents: write}
+jobs:
+  tools:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env: {GH_TOKEN: "${{ github.token }}", GH_REPO: "${{ github.repository }}"}
+    steps:
+      - uses: actions/cache/restore@v4
+        with: {path: live, key: "${{ github.event.inputs.a }}", fail-on-cache-miss: true}
+      - run: mv live A && du -sh A && find A -maxdepth 2 | head -60
+      - if: github.event.inputs.b != ''
+        uses: actions/cache/restore@v4
+        with: {path: live, key: "${{ github.event.inputs.b }}", fail-on-cache-miss: true}
+      - if: github.event.inputs.b != ''
+        run: mv live B && du -sh B
+      - if: github.event.inputs.b != ''
+        name: Compare past days
+        shell: python
+        run: |
+          import os, glob, datetime as dt, numpy as np
+          D0 = dt.date(2025, 8, 1)
+          fa = {os.path.relpath(p, "A") for p in glob.glob("A/**/*.npz", recursive=True)}
+          fb = {os.path.relpath(p, "B") for p in glob.glob("B/**/*.npz", recursive=True)}
+          print("npz only in A:", sorted(fa - fb)[:20]); print("npz only in B:", sorted(fb - fa)[:20])
+          for f in sorted(fa & fb):
+              A = np.load("A/" + f, allow_pickle=True); B = np.load("B/" + f, allow_pickle=True)
+              nk = nd = 0; days = {}; skipped = 0
+              for k in set(A.files) & set(B.files):
+                  a, b = A[k], B[k]
+                  if a.ndim == 0 or b.ndim == 0 or a.dtype.kind not in "fiub" or b.dtype.kind not in "fiub":
+                      skipped += 1; continue
+                  nk += 1
+                  if a.shape == b.shape:
+                      n = a.shape[0]
+                  elif a.shape[1:] == b.shape[1:] and b.shape[0] == a.shape[0] + 1:
+                      n = a.shape[0]
+                  else:
+                      skipped += 1; continue
+                  x = a[:n].astype(np.float64); y = b[:n].astype(np.float64)
+                  bad = ~((x == y) | (np.isnan(x) & np.isnan(y)))
+                  if bad.any():
+                      nd += 1
+                      rows = np.where(bad.reshape(n, -1).any(1))[0]
+                      for r in rows: days[r] = days.get(r, 0) + 1
+              dl = sorted(days)
+              lab = [str(D0 + dt.timedelta(days=int(r))) for r in dl]
+              print(f"{f}: keys {nk}, differing {nd}, skipped {skipped}; rows differing {len(dl)}: first {lab[:3]} last {lab[-5:]}")
+      - if: github.event.inputs.export == 'yes'
+        name: Export (encrypted, draft release state-export)
+        env: {ENGINE_KEY: "${{ secrets.ENGINE_KEY }}"}
+        run: |
+          tar czf - -C A . | openssl enc -aes-256-cbc -pbkdf2 -pass env:ENGINE_KEY -out "/tmp/${{ github.event.inputs.a }}.tar.gz.enc"
+          ls -la /tmp/*.enc
+          gh release view state-export >/dev/null 2>&1 || gh release create state-export --draft --title state-export --notes "nightly state export"
+          gh release upload state-export "/tmp/${{ github.event.inputs.a }}.tar.gz.enc" --clobber

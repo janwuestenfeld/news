@@ -18,6 +18,8 @@ jobs:
       - if: github.event.inputs.b != ''
         run: mv live B && du -sh B
       - if: github.event.inputs.b != ''
+        run: pip install -q numpy
+      - if: github.event.inputs.b != ''
         name: Compare past days
         shell: python
         run: |

@@ -120,9 +120,13 @@ jobs:
                   if old in s:
                       s = s.replace(old, new); n += 1
               p.write_text(s); print("history wording patch:", n, "applied")
+              if "og-card.png" not in s:
+                  s = s.replace("</head>", '<meta property="og:title" content="News Pulse"><meta property="og:description" content="How hot is the news today? Live readings of global English-language news, minute by minute."><meta property="og:type" content="website"><meta property="og:image" content="https://janwuestenfeld.github.io/news/og-card.png"><meta property="og:url" content="https://janwuestenfeld.github.io/news/history.html"><meta name="twitter:card" content="summary_large_image"></head>', 1)
+                  p.write_text(s); print("history og tags added")
           PYEOF
           cp -R data archive ../../_site/ 2>/dev/null || true
           [ -f ../../pipeline/site/methodology.html ] && cp ../../pipeline/site/methodology.html ../../_site/ || true
+          [ -f ../../pipeline/site/og-card.png ] && cp ../../pipeline/site/og-card.png ../../_site/ || true
           ls ../../_site
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

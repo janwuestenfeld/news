@@ -1,463 +1,463 @@
-date,day_type,news_heat,news_heat_leading_topic,breadth,breadth_sources_more_serious,breadth_sources_read,news_sentiment,confluence,news_velocity,news_velocity_times_usual,focus_topic,focus_share,focus_usual_share,consensus_geopolitics,consensus_us_politics,shock_share,shock_share_rank
-2025-08-01,weekday,,,,,,,,,,,,,,,,
-2025-08-02,weekend,,,,,,,,,,,,,,,,
-2025-08-03,weekend,,,,,,,,,,,,,,,,
-2025-08-04,weekday,,,,,,,,,,,,,,,,
-2025-08-05,weekday,,,,,,,,,,,,,,,,
-2025-08-06,weekday,,,,,,,,,,,,,,,,
-2025-08-07,weekday,,,,,,,,,,,,,,,,
-2025-08-08,weekday,,,,,,,,,,,,,,,,
-2025-08-09,weekend,,,,,,,,,,,,,,,,
-2025-08-10,weekend,,,,,,,,,,,,,,,,
-2025-08-11,weekday,,,,,,,,,,,,,,,,
-2025-08-12,weekday,,,,,,,,,,,,,,,,
-2025-08-13,weekday,,Fiscal,,,,,,,0.79,Geopolitics,0.403,0.304,,,0.253,
-2025-08-14,weekday,,Tech and AI,,,,,,,0.86,Geopolitics,0.341,0.311,,,0.181,
-2025-08-15,weekday,,US politics,,,,,,,0.73,Geopolitics,0.436,0.326,,,0.282,
-2025-08-16,weekend,,,,,,,,,,,,,,,,
-2025-08-17,weekend,,,,,,,,,,,,,,,,
-2025-08-18,weekday,,Geopolitics,,,,,,,0.87,Geopolitics,0.552,0.341,,,0.291,
-2025-08-19,weekday,,Tech and AI,,,,,,,0.95,Geopolitics,0.402,0.348,,,0.21,
-2025-08-20,weekday,,US politics,,,,,,,0.92,Geopolitics,0.408,0.356,,,0.235,
-2025-08-21,weekday,,US politics,,,,,,,1.06,Geopolitics,0.365,0.377,,,0.25,
-2025-08-22,weekday,,Central banks,,,,,,,0.92,Geopolitics,0.332,0.365,,,0.251,
-2025-08-23,weekend,,,,,,,,,,,,,,,,
-2025-08-24,weekend,,,,,,,,,,,,,,,,
-2025-08-25,weekday,0.0,Geopolitics,,,,12.5,,0.0,0.85,Geopolitics,0.444,0.361,,,0.329,100.0
-2025-08-26,weekday,11.1,Energy and commodities,,,,22.2,,77.8,0.92,Geopolitics,0.395,0.365,,,0.271,66.7
-2025-08-27,weekday,90.0,Tech and AI,,,,30.0,,80.0,0.99,Geopolitics,0.312,0.38,,,0.216,20.0
-2025-08-28,weekday,36.4,Geopolitics,,,,0.0,,90.9,1.07,Geopolitics,0.497,0.365,,,0.334,100.0
-2025-08-29,weekday,100.0,Trade,,15.0,53.0,50.0,,41.7,0.89,Geopolitics,0.364,0.38,,,0.279,66.7
-2025-08-30,weekend,,Trade,,,,,,,1.13,Geopolitics,0.728,0.688,,,0.478,
-2025-08-31,weekend,,Fiscal,,,,,,,1.06,Geopolitics,0.663,0.698,,,0.353,
-2025-09-01,weekday,26.7,Fiscal,,15.0,54.0,,,46.7,0.84,Geopolitics,0.499,0.408,,,0.269,46.7
-2025-09-02,weekday,100.0,Regulation,,20.0,63.0,23.1,,100.0,1.17,Geopolitics,0.363,0.365,,,0.228,23.1
-2025-09-03,weekday,71.4,Regulation,,13.0,64.0,42.8,,92.9,1.13,Geopolitics,0.362,0.365,,,0.191,7.1
-2025-09-04,weekday,26.7,US politics,,6.0,68.0,73.3,,60.0,1.07,Geopolitics,0.299,0.364,,,0.165,0.0
-2025-09-05,weekday,6.2,US politics,,18.0,71.0,50.0,,31.2,0.91,Geopolitics,0.348,0.364,,,0.229,37.5
-2025-09-06,weekend,,Regulation,,,,,,,0.78,Geopolitics,0.496,0.688,,,0.351,
-2025-09-07,weekend,,Geopolitics,,,,,,,1.22,Geopolitics,0.615,0.677,,,0.377,
-2025-09-08,weekday,11.8,Company news,,23.0,71.0,52.9,,29.4,0.88,Geopolitics,0.415,0.363,,,0.28,76.5
-2025-09-09,weekday,94.4,Geopolitics,,36.0,73.0,11.1,,100.0,1.37,Geopolitics,0.554,0.364,,,0.473,100.0
-2025-09-10,weekday,84.2,Geopolitics,,32.0,74.0,26.3,,100.0,1.41,Geopolitics,0.472,0.364,0.0,0.0,0.401,94.7
-2025-09-11,weekday,50.0,US politics,,22.0,72.0,60.0,,70.0,1.09,Geopolitics,0.347,0.365,85.7,23.8,0.309,80.0
-2025-09-12,weekday,76.2,US politics,,24.0,76.0,61.9,,33.3,0.92,Geopolitics,0.445,0.364,77.3,4.5,0.344,90.5
-2025-09-13,weekend,,Company news,,,,,,,1.18,Geopolitics,0.69,0.67,,,0.476,
-2025-09-14,weekend,,Geopolitics,,,,,,,1.2,Geopolitics,0.63,0.677,,,0.457,
-2025-09-15,weekday,50.0,Central banks,,18.0,76.0,68.2,,63.6,1.05,Geopolitics,0.384,0.365,100.0,52.2,0.275,54.5
-2025-09-16,weekday,34.8,Fiscal,,19.0,77.0,65.2,,78.3,1.11,Geopolitics,0.395,0.365,37.5,25.0,0.256,47.8
-2025-09-17,weekday,100.0,Central banks,,21.0,77.0,95.8,,79.2,1.03,Geopolitics,0.262,0.374,72.0,38.0,0.231,29.2
-2025-09-18,weekday,84.0,Central banks,,19.0,79.0,36.0,,32.0,0.99,Geopolitics,0.363,0.365,92.3,84.6,0.251,40.0
-2025-09-19,weekday,92.3,Fiscal,,10.0,76.0,53.9,,57.7,1.07,Geopolitics,0.444,0.365,44.4,100.0,0.202,11.5
-2025-09-20,weekend,,US politics,,,,,,,1.02,Geopolitics,0.591,0.67,,,0.396,
-2025-09-21,weekend,,Company news,,,,100.0,,,0.94,Geopolitics,0.555,0.663,,,0.292,
-2025-09-22,weekday,88.9,Tech and AI,,23.0,82.0,85.2,,29.6,0.91,Geopolitics,0.383,0.365,96.4,96.4,0.282,74.1
-2025-09-23,weekday,57.1,Tech and AI,,13.0,77.0,25.0,,46.4,1.01,Geopolitics,0.4,0.374,86.2,93.1,0.257,53.6
-2025-09-24,weekday,17.2,Fiscal,,19.0,78.0,34.5,,41.4,1.01,Geopolitics,0.335,0.383,73.3,83.3,0.281,69.0
-2025-09-25,weekday,73.3,US politics,,20.0,82.0,10.0,,83.3,1.21,Geopolitics,0.345,0.374,87.1,51.6,0.264,53.3
-2025-09-26,weekday,3.2,US politics,20.0,18.0,78.0,22.6,quiet,19.4,0.93,Geopolitics,0.377,0.365,56.2,84.4,0.254,45.2
-2025-09-27,weekend,87.5,Fiscal,,,,33.3,,75.0,1.13,Geopolitics,0.587,0.647,,,0.324,12.5
-2025-09-28,weekend,44.4,US politics,,,,40.0,,88.9,1.13,Geopolitics,0.669,0.63,,,0.384,55.6
-2025-09-29,weekday,96.9,Fiscal,90.5,29.0,84.0,93.8,positive shock day,84.4,1.09,Geopolitics,0.424,0.371,93.9,100.0,0.27,56.2
-2025-09-30,weekday,97.0,Fiscal,9.1,12.0,81.0,57.6,"busy, ordinary",81.8,1.18,Geopolitics,0.285,0.377,35.3,55.9,0.202,9.1
-2025-10-01,weekday,100.0,Fiscal,4.3,10.0,83.0,70.6,"busy, ordinary",91.2,1.18,Geopolitics,0.337,0.371,100.0,91.4,0.23,26.5
-2025-10-02,weekday,88.6,Fiscal,25.0,18.0,82.0,8.6,"busy, ordinary",77.1,1.01,Geopolitics,0.398,0.365,44.4,97.2,0.274,62.9
-2025-10-03,weekday,88.9,Fiscal,24.0,17.0,81.0,83.3,"busy, ordinary",47.2,0.93,Geopolitics,0.472,0.371,29.7,97.3,0.297,83.3
-2025-10-04,weekend,80.0,Geopolitics,,,,72.7,,100.0,1.17,Geopolitics,0.689,0.647,,,0.449,70.0
-2025-10-05,weekend,90.9,US politics,,,,91.7,,90.9,1.2,Geopolitics,0.553,0.663,,,0.358,36.4
-2025-10-06,weekday,70.3,Fiscal,3.8,8.0,79.0,78.4,mixed,62.2,1.12,Geopolitics,0.304,0.377,100.0,15.8,0.205,13.5
-2025-10-07,weekday,92.1,Fiscal,14.8,12.0,85.0,71.0,"busy, ordinary",78.9,1.05,Geopolitics,0.259,0.371,76.9,23.1,0.243,34.2
-2025-10-08,weekday,92.3,Fiscal,21.4,14.0,86.0,97.4,"busy, ordinary",74.4,1.08,Geopolitics,0.392,0.365,25.0,25.0,0.209,15.4
-2025-10-09,weekday,82.5,Fiscal,86.2,28.0,87.0,100.0,positive shock day,95.0,1.29,Geopolitics,0.431,0.371,19.5,87.8,0.27,57.5
-2025-10-10,weekday,75.6,Trade,73.3,24.0,84.0,92.7,mixed,63.4,1.03,Geopolitics,0.413,0.377,69.0,66.7,0.281,75.6
-2025-10-11,weekend,91.7,Fiscal,,10.0,26.0,100.0,,58.3,1.13,Geopolitics,0.591,0.647,,,0.399,66.7
-2025-10-12,weekend,100.0,Trade,,14.0,33.0,100.0,,61.5,1.14,Geopolitics,0.534,0.63,,,0.345,15.4
-2025-10-13,weekday,57.1,Geopolitics,77.4,25.0,80.0,97.6,mixed,57.1,1.05,Geopolitics,0.471,0.38,16.3,97.7,0.262,52.4
-2025-10-14,weekday,53.5,Crypto,71.9,25.0,85.0,60.4,mixed,86.0,1.19,Geopolitics,0.339,0.383,93.2,97.7,0.24,32.6
-2025-10-15,weekday,70.5,Fiscal,33.3,19.0,84.0,61.4,mixed,90.9,1.3,Geopolitics,0.3,0.38,95.6,95.6,0.185,4.5
-2025-10-16,weekday,64.4,Fiscal,23.5,14.0,82.0,48.9,mixed,84.4,1.16,Geopolitics,0.376,0.377,32.6,76.1,0.241,35.6
-2025-10-17,weekday,69.6,Fiscal,28.6,17.0,82.0,39.1,mixed,58.7,1.0,Geopolitics,0.358,0.377,27.7,40.4,0.213,19.6
-2025-10-18,weekend,0.0,Fiscal,,8.0,38.0,73.3,,21.4,0.89,Geopolitics,0.691,0.623,,,0.42,71.4
-2025-10-19,weekend,73.3,Geopolitics,,20.0,43.0,62.5,,26.7,1.11,Geopolitics,0.707,0.63,,,0.528,100.0
-2025-10-20,weekday,27.7,Fiscal,8.3,10.0,81.0,66.0,quiet,6.4,0.85,Geopolitics,0.39,0.376,87.5,41.7,0.227,23.4
-2025-10-21,weekday,62.5,Fiscal,73.0,25.0,87.0,79.2,mixed,52.1,1.09,Geopolitics,0.332,0.377,18.4,100.0,0.243,39.6
-2025-10-22,weekday,30.6,Fiscal,34.2,18.0,85.0,10.2,quiet,85.7,1.2,Geopolitics,0.415,0.376,48.0,82.0,0.26,57.1
-2025-10-23,weekday,56.0,Fiscal,25.6,16.0,84.0,18.0,quiet,50.0,1.1,Geopolitics,0.384,0.377,98.0,19.6,0.214,20.0
-2025-10-24,weekday,52.9,Trade,30.0,17.0,83.0,23.5,mixed,9.8,0.82,Geopolitics,0.406,0.377,51.9,100.0,0.277,72.5
-2025-10-25,weekend,6.2,Energy and commodities,,4.0,36.0,29.4,,0.0,0.9,Geopolitics,0.629,0.647,,,0.398,56.2
-2025-10-26,weekend,100.0,Trade,,10.0,45.0,94.4,,47.1,1.11,Geopolitics,0.511,0.63,,,0.318,5.9
-2025-10-27,weekday,17.3,Trade,50.0,19.0,79.0,71.1,mixed,0.0,0.77,Geopolitics,0.326,0.38,98.1,98.1,0.228,26.9
-2025-10-28,weekday,67.9,Fiscal,92.9,28.0,85.0,84.9,mixed,88.7,1.23,Geopolitics,0.286,0.377,24.1,94.4,0.252,49.1
-2025-10-29,weekday,94.4,Central banks,41.9,20.0,87.0,96.3,"busy, ordinary",98.1,1.41,Geopolitics,0.276,0.377,29.1,98.2,0.217,22.2
-2025-10-30,weekday,83.6,Trade,25.0,17.0,86.0,89.1,"busy, ordinary",61.8,1.08,Geopolitics,0.231,0.376,92.9,85.7,0.18,1.8
-2025-10-31,weekday,89.3,Fiscal,57.8,21.0,86.0,53.6,mixed,17.9,0.9,Geopolitics,0.345,0.371,89.5,91.2,0.233,35.7
-2025-11-01,weekend,66.7,Trade,,6.0,43.0,84.2,,77.8,1.2,Geopolitics,0.539,0.63,,,0.315,5.6
-2025-11-02,weekend,47.4,Geopolitics,,11.0,48.0,15.0,,31.6,1.04,Geopolitics,0.605,0.629,,,0.379,47.4
-2025-11-03,weekday,56.1,Fiscal,63.0,22.0,81.0,57.9,mixed,7.0,0.93,Geopolitics,0.282,0.365,100.0,98.3,0.221,24.6
-2025-11-04,weekday,93.1,Fiscal,10.6,12.0,89.0,48.3,"busy, ordinary",53.4,1.07,Company news,0.232,0.115,98.3,30.5,0.158,0.0
-2025-11-05,weekday,94.9,Fiscal,4.2,9.0,86.0,61.0,"busy, ordinary",47.5,1.0,Geopolitics,0.209,0.364,96.7,85.0,0.154,0.0
-2025-11-06,weekday,90.0,Fiscal,79.6,26.0,88.0,81.7,positive shock day,86.7,1.17,Geopolitics,0.256,0.364,96.7,21.3,0.212,20.0
-2025-11-07,weekday,85.2,Fiscal,43.0,20.0,87.0,75.4,"busy, ordinary",11.5,0.85,Geopolitics,0.356,0.363,96.8,95.2,0.272,72.1
-2025-11-08,weekend,100.0,Fiscal,,10.0,52.0,23.8,,45.0,1.01,Geopolitics,0.591,0.622,95.0,95.0,0.419,70.0
-2025-11-09,weekend,100.0,Fiscal,,5.0,52.0,68.2,,42.9,1.17,Fiscal,0.359,0.03,100.0,95.2,0.22,0.0
-2025-11-10,weekday,98.4,Fiscal,15.7,12.0,84.0,87.1,"busy, ordinary",77.4,1.11,Geopolitics,0.261,0.363,25.4,36.5,0.21,19.4
-2025-11-11,weekday,82.5,Fiscal,31.7,17.0,83.0,9.5,"busy, ordinary",27.0,0.96,Geopolitics,0.386,0.363,26.6,90.6,0.305,90.5
-2025-11-12,weekday,96.9,Fiscal,24.5,16.0,93.0,56.2,"busy, ordinary",75.0,1.15,Geopolitics,0.251,0.363,90.8,16.9,0.164,3.1
-2025-11-13,weekday,72.3,Fiscal,37.0,18.0,86.0,49.2,mixed,27.7,0.99,Geopolitics,0.287,0.363,90.9,56.1,0.243,47.7
-2025-11-14,weekday,42.4,Trade,65.5,22.0,83.0,78.8,mixed,19.7,0.87,Geopolitics,0.321,0.363,50.7,20.9,0.258,62.1
-2025-11-15,weekend,18.2,Fiscal,,16.0,52.0,60.9,,9.1,0.84,Geopolitics,0.521,0.61,90.9,72.7,0.39,54.5
-2025-11-16,weekend,52.2,US politics,,10.0,52.0,45.8,,26.1,1.05,Geopolitics,0.512,0.605,100.0,4.3,0.333,21.7
-2025-11-17,weekday,35.8,US politics,25.0,15.0,81.0,71.6,quiet,38.8,1.06,Geopolitics,0.361,0.362,69.1,22.1,0.199,11.9
-2025-11-18,weekday,60.3,US politics,50.9,20.0,86.0,42.7,mixed,55.9,1.06,Geopolitics,0.33,0.361,89.9,4.3,0.239,42.6
-2025-11-19,weekday,50.7,Tech and AI,40.5,18.0,85.0,62.3,quiet,76.8,1.17,Geopolitics,0.338,0.361,84.3,48.6,0.207,17.4
-2025-11-20,weekday,27.1,US politics,25.4,16.0,85.0,37.1,quiet,54.3,1.03,Geopolitics,0.317,0.359,88.7,46.5,0.191,11.4
-2025-11-21,weekday,25.4,US politics,80.0,24.0,83.0,74.7,"serious news, few sources",2.8,0.71,Geopolitics,0.33,0.358,72.2,22.2,0.205,18.3
-2025-11-22,weekend,16.7,Fiscal,,9.0,53.0,60.0,,12.5,0.98,Geopolitics,0.655,0.6,50.0,75.0,0.345,29.2
-2025-11-23,weekend,64.0,Geopolitics,,12.0,52.0,15.4,,20.0,1.05,Geopolitics,0.64,0.605,20.0,100.0,0.376,44.0
-2025-11-24,weekday,18.1,Tech and AI,34.4,18.0,87.0,81.9,quiet,9.7,0.87,Geopolitics,0.377,0.357,93.2,93.2,0.216,30.6
-2025-11-25,weekday,8.2,Regulation,54.8,20.0,84.0,86.3,mixed,20.5,0.93,Geopolitics,0.382,0.358,83.8,77.0,0.25,54.8
-2025-11-26,weekday,50.0,Geopolitics,88.9,25.0,79.0,14.9,"serious news, few sources",25.7,0.99,Geopolitics,0.372,0.359,44.0,88.0,0.265,70.3
-2025-11-27,weekday,23.8,Fiscal,95.3,23.0,69.0,7.4,"serious news, few sources",29.7,0.9,Geopolitics,0.506,0.392,21.1,35.5,0.324,73.3
-2025-11-28,weekday,1.3,Geopolitics,96.9,32.0,75.0,13.3,"serious news, few sources",1.3,0.68,Geopolitics,0.522,0.361,15.6,100.0,0.349,97.3
-2025-11-29,weekend,26.9,Energy and commodities,,22.0,54.0,35.7,,0.0,0.92,Geopolitics,0.736,0.61,11.5,92.3,0.571,100.0
-2025-11-30,weekend,11.1,US politics,,6.0,56.0,86.2,,22.2,0.9,Geopolitics,0.626,0.615,70.4,51.9,0.328,18.5
-2025-12-01,weekday,22.4,Geopolitics,75.0,25.0,87.0,68.4,"serious news, few sources",32.9,0.92,Geopolitics,0.385,0.361,100.0,83.3,0.223,32.9
-2025-12-02,weekday,42.9,Geopolitics,82.1,27.0,88.0,67.5,"serious news, few sources",45.5,0.98,Geopolitics,0.437,0.362,49.4,100.0,0.268,70.1
-2025-12-03,weekday,21.8,US politics,20.6,15.0,84.0,33.3,quiet,25.6,0.95,Geopolitics,0.373,0.363,83.8,27.5,0.24,46.2
-2025-12-04,weekday,29.1,Geopolitics,48.6,20.0,86.0,45.6,quiet,64.6,1.01,Geopolitics,0.41,0.363,24.7,34.6,0.277,78.5
-2025-12-05,weekday,83.7,Company news,88.6,27.0,84.0,90.0,positive shock day,28.7,0.82,Geopolitics,0.306,0.363,91.5,97.6,0.286,87.5
-2025-12-06,weekend,46.4,Company news,,24.0,56.0,46.7,,17.9,0.86,Geopolitics,0.649,0.62,100.0,96.4,0.48,92.9
-2025-12-07,weekend,44.8,Regulation,,13.0,61.0,54.8,,3.4,0.86,Geopolitics,0.569,0.626,100.0,86.2,0.384,55.2
-2025-12-08,weekday,67.9,Company news,60.6,21.0,85.0,51.9,mixed,40.7,0.97,Geopolitics,0.316,0.363,88.0,18.1,0.247,50.6
-2025-12-09,weekday,43.9,Regulation,4.2,10.0,84.0,67.1,mixed,24.4,1.0,Geopolitics,0.296,0.363,96.4,98.8,0.207,17.1
-2025-12-10,weekday,95.2,Central banks,41.1,20.0,91.0,74.7,"busy, ordinary",61.4,1.15,Geopolitics,0.306,0.362,64.7,97.6,0.204,14.5
-2025-12-11,weekday,25.0,Regulation,13.5,13.0,88.0,38.1,quiet,42.9,1.02,Geopolitics,0.369,0.361,50.0,37.2,0.203,14.3
-2025-12-12,weekday,3.5,Crypto,64.7,22.0,83.0,27.1,mixed,7.1,0.81,Geopolitics,0.412,0.362,42.5,23.0,0.261,65.9
-2025-12-13,weekend,26.7,Geopolitics,,32.0,59.0,15.6,,66.7,1.16,Geopolitics,0.799,0.62,20.0,100.0,0.498,93.3
-2025-12-14,weekend,35.5,Central banks,,26.0,60.0,12.1,,35.5,1.13,Geopolitics,0.757,0.626,9.7,96.8,0.56,96.8
-2025-12-15,weekday,18.6,Regulation,98.7,40.0,88.0,31.4,"serious news, few sources",23.3,0.92,Geopolitics,0.438,0.363,45.5,100.0,0.314,93.0
-2025-12-16,weekday,9.2,Geopolitics,94.8,33.0,83.0,4.6,"serious news, few sources",11.5,0.88,Geopolitics,0.437,0.363,32.6,100.0,0.272,74.7
-2025-12-17,weekday,18.2,Energy and commodities,80.8,27.0,87.0,55.7,"serious news, few sources",26.1,0.87,Geopolitics,0.359,0.363,100.0,41.1,0.27,71.6
-2025-12-18,weekday,71.9,Central banks,36.7,18.0,85.0,85.4,mixed,49.4,1.07,Geopolitics,0.324,0.363,68.1,49.5,0.186,7.9
-2025-12-19,weekday,5.6,Company news,50.0,19.0,80.0,57.8,mixed,7.8,0.86,Geopolitics,0.434,0.363,67.4,31.5,0.298,90.0
-2025-12-20,weekend,0.0,Crypto,35.0,11.0,57.0,41.2,quiet,15.6,0.93,Geopolitics,0.715,0.627,100.0,81.2,0.468,78.1
-2025-12-21,weekend,6.1,Central banks,61.9,17.0,58.0,17.1,mixed,0.0,0.81,Geopolitics,0.696,0.629,84.8,72.7,0.423,69.7
-2025-12-22,weekday,1.1,Energy and commodities,93.8,32.0,81.0,20.9,"serious news, few sources",0.0,0.73,Geopolitics,0.455,0.363,11.8,90.3,0.314,93.4
-2025-12-23,weekday,1.1,Energy and commodities,14.6,13.0,81.0,9.8,quiet,3.3,0.76,Geopolitics,0.416,0.363,75.5,85.1,0.264,64.1
-2025-12-24,weekday,3.2,Regulation,92.8,30.0,76.0,58.1,"serious news, few sources",2.2,0.64,Geopolitics,0.521,0.363,78.9,91.6,0.366,97.8
-2025-12-25,weekday,0.0,Crypto,97.6,27.0,60.0,5.6,"serious news, few sources",3.1,0.64,Geopolitics,0.724,0.4,59.4,100.0,0.508,97.7
-2025-12-26,weekday,0.0,Tech and AI,96.5,29.0,67.0,19.2,"serious news, few sources",0.0,0.62,Geopolitics,0.742,0.364,11.3,90.7,0.494,100.0
-2025-12-27,weekend,2.9,Geopolitics,18.2,9.0,58.0,78.4,quiet,14.7,0.87,Geopolitics,0.826,0.63,52.9,97.1,0.487,88.2
-2025-12-28,weekend,51.4,Geopolitics,69.6,21.0,55.0,92.1,mixed,8.6,0.83,Geopolitics,0.788,0.63,25.7,100.0,0.466,74.3
-2025-12-29,weekday,16.8,Geopolitics,96.5,35.0,79.0,37.9,"serious news, few sources",4.2,0.66,Geopolitics,0.676,0.364,82.7,85.7,0.395,96.8
-2025-12-30,weekday,2.1,Central banks,61.5,22.0,81.0,3.1,mixed,6.2,0.67,Geopolitics,0.599,0.365,46.5,89.9,0.323,90.6
-2025-12-31,weekday,1.0,Geopolitics,86.9,27.0,81.0,9.3,"serious news, few sources",0.0,0.55,Geopolitics,0.571,0.365,91.0,85.0,0.388,95.9
-2026-01-01,weekday,3.7,Trade,100.0,37.0,62.0,71.8,"serious news, few sources",2.2,0.66,Geopolitics,0.63,0.405,20.8,98.0,0.438,89.6
-2026-01-02,weekday,6.1,Crypto,37.8,17.0,76.0,19.4,quiet,0.0,0.52,Geopolitics,0.592,0.367,7.8,93.1,0.263,60.2
-2026-01-03,weekend,97.2,Geopolitics,91.7,30.0,65.0,0.0,negative shock day,100.0,2.11,Geopolitics,0.897,0.635,0.0,100.0,0.584,100.0
-2026-01-04,weekend,86.5,Geopolitics,64.0,23.0,62.0,12.2,mixed,91.9,1.28,Geopolitics,0.828,0.64,62.2,83.8,0.534,91.9
-2026-01-05,weekday,67.7,Geopolitics,75.3,27.0,87.0,1.0,mixed,73.7,1.17,Geopolitics,0.629,0.369,16.5,83.5,0.366,93.9
-2026-01-06,weekday,71.0,Geopolitics,64.1,26.0,92.0,48.0,mixed,77.0,1.17,Geopolitics,0.523,0.37,55.8,97.1,0.344,92.0
-2026-01-07,weekday,60.4,Geopolitics,91.4,40.0,96.0,1.0,mixed,96.0,1.27,Geopolitics,0.432,0.372,18.1,0.0,0.414,98.0
-2026-01-08,weekday,92.2,US politics,91.5,40.0,94.0,54.9,"shock day, mixed direction",100.0,1.59,Geopolitics,0.406,0.372,34.0,0.9,0.368,94.1
-2026-01-09,weekday,37.9,Geopolitics,89.5,36.0,89.0,61.2,"serious news, few sources",94.2,1.29,Geopolitics,0.514,0.373,33.6,1.9,0.419,98.1
-2026-01-10,weekend,55.3,Geopolitics,34.6,13.0,62.0,23.8,mixed,73.7,1.18,Geopolitics,0.676,0.645,55.3,0.0,0.435,63.2
-2026-01-11,weekend,71.8,Geopolitics,18.5,10.0,64.0,9.3,mixed,89.7,1.26,Geopolitics,0.643,0.649,17.9,7.7,0.42,56.4
-2026-01-12,weekday,74.0,Trade,21.9,17.0,89.0,28.9,mixed,73.1,1.11,Geopolitics,0.373,0.375,25.9,27.8,0.25,46.2
-2026-01-13,weekday,68.6,US politics,84.5,31.0,92.0,0.0,mixed,97.1,1.32,Geopolitics,0.368,0.373,43.1,8.3,0.275,68.6
-2026-01-14,weekday,55.7,Geopolitics,54.1,24.0,94.0,30.2,mixed,95.3,1.36,Geopolitics,0.482,0.373,10.9,12.7,0.284,77.4
-2026-01-15,weekday,21.5,US politics,36.9,19.0,84.0,67.3,quiet,71.0,1.15,Geopolitics,0.405,0.373,57.7,50.5,0.263,56.1
-2026-01-16,weekday,75.9,Trade,12.0,14.0,90.0,77.8,"busy, ordinary",33.3,0.83,Geopolitics,0.34,0.375,98.2,75.9,0.203,13.0
-2026-01-17,weekend,97.5,Trade,57.1,15.0,63.0,50.0,mixed,92.5,1.27,Geopolitics,0.507,0.646,100.0,67.5,0.307,5.0
-2026-01-18,weekend,97.6,Trade,65.5,22.0,67.0,35.5,mixed,92.7,1.43,Geopolitics,0.505,0.643,100.0,78.0,0.322,12.2
-2026-01-19,weekday,83.4,Trade,3.0,9.0,76.0,41.3,"busy, ordinary",31.1,1.04,Geopolitics,0.415,0.412,45.1,74.3,0.213,15.9
-2026-01-20,weekday,90.8,Trade,2.9,10.0,89.0,11.0,"busy, ordinary",76.1,1.15,Geopolitics,0.365,0.373,20.2,78.9,0.227,28.4
-2026-01-21,weekday,93.6,Trade,9.2,12.0,89.0,90.9,"busy, ordinary",75.5,1.14,Geopolitics,0.366,0.373,18.3,64.3,0.181,4.5
-2026-01-22,weekday,55.9,Company news,5.8,11.0,92.0,94.6,mixed,69.4,1.13,Geopolitics,0.355,0.373,44.8,69.0,0.19,8.1
-2026-01-23,weekday,20.5,US politics,15.2,13.0,87.0,72.3,quiet,18.8,0.77,Geopolitics,0.397,0.372,78.6,16.2,0.213,23.2
-2026-01-24,weekend,90.5,Trade,96.7,35.0,66.0,42.6,"shock day, mixed direction",92.9,1.19,Geopolitics,0.466,0.641,90.5,0.0,0.566,95.2
-2026-01-25,weekend,86.0,US politics,61.3,19.0,61.0,70.8,mixed,72.1,1.13,Geopolitics,0.383,0.64,97.7,0.0,0.473,74.4
-2026-01-26,weekday,75.2,US politics,64.2,25.0,89.0,31.0,mixed,68.1,1.0,US politics,0.279,0.132,100.0,4.2,0.257,54.0
-2026-01-27,weekday,59.6,Trade,70.1,26.0,89.0,70.2,mixed,77.2,1.13,Geopolitics,0.3,0.372,100.0,10.1,0.247,43.9
-2026-01-28,weekday,96.5,Central banks,27.8,18.0,88.0,34.8,"busy, ordinary",90.4,1.24,Geopolitics,0.274,0.372,89.2,14.2,0.228,31.3
-2026-01-29,weekday,66.4,Fiscal,53.2,22.0,90.0,85.4,mixed,84.5,1.21,Geopolitics,0.267,0.37,93.4,14.0,0.199,11.2
-2026-01-30,weekday,63.2,US politics,20.9,15.0,87.0,83.7,mixed,45.3,0.96,Geopolitics,0.334,0.369,84.4,9.0,0.25,46.2
-2026-01-31,weekend,45.5,Fiscal,21.9,11.0,62.0,34.7,mixed,43.2,1.03,Geopolitics,0.554,0.635,90.9,22.7,0.328,15.9
-2026-02-01,weekend,68.9,Fiscal,33.3,12.0,59.0,78.0,mixed,28.9,0.91,Geopolitics,0.507,0.635,68.9,62.2,0.241,2.2
-2026-02-02,weekday,38.1,Fiscal,14.0,12.0,81.0,98.3,quiet,16.1,0.87,Geopolitics,0.315,0.369,67.5,19.5,0.191,8.5
-2026-02-03,weekday,85.7,Fiscal,23.2,16.0,87.0,74.8,"busy, ordinary",84.9,1.21,Geopolitics,0.298,0.369,16.1,12.1,0.262,58.8
-2026-02-04,weekday,80.0,Company news,53.5,21.0,86.0,49.2,mixed,65.0,1.07,Geopolitics,0.328,0.369,70.4,61.6,0.265,63.3
-2026-02-05,weekday,43.8,Central banks,41.2,19.0,84.0,39.7,quiet,23.1,0.93,Geopolitics,0.308,0.369,100.0,73.8,0.17,3.3
-2026-02-06,weekday,22.1,Geopolitics,87.8,34.0,88.0,43.4,"serious news, few sources",26.2,0.87,Geopolitics,0.498,0.369,12.6,94.5,0.305,84.4
-2026-02-07,weekend,12.0,Regulation,55.9,15.0,57.0,98.0,mixed,39.1,0.88,Geopolitics,0.59,0.635,100.0,60.9,0.386,45.7
-2026-02-08,weekend,36.2,Company news,0.0,1.0,55.0,69.2,quiet,2.1,0.77,Geopolitics,0.522,0.63,100.0,63.8,0.311,8.5
-2026-02-09,weekday,42.3,US politics,9.5,12.0,89.0,25.2,quiet,15.4,0.77,Geopolitics,0.318,0.369,100.0,10.2,0.248,45.5
-2026-02-10,weekday,25.8,Company news,17.1,14.0,89.0,37.1,quiet,40.3,0.94,Geopolitics,0.286,0.368,99.2,17.8,0.207,20.2
-2026-02-11,weekday,56.0,Trade,51.7,21.0,87.0,72.8,mixed,49.6,1.05,Geopolitics,0.34,0.368,49.2,72.3,0.202,12.8
-2026-02-12,weekday,67.2,Regulation,36.6,18.0,85.0,34.1,mixed,54.4,1.07,Geopolitics,0.262,0.366,57.7,61.5,0.206,19.2
-2026-02-13,weekday,25.6,US politics,23.3,15.0,83.0,34.6,quiet,12.0,0.84,Geopolitics,0.388,0.366,65.4,98.5,0.198,10.4
-2026-02-14,weekend,43.8,Tech and AI,61.1,18.0,59.0,45.3,mixed,4.2,0.87,Geopolitics,0.721,0.627,85.4,87.5,0.391,50.0
-2026-02-15,weekend,2.0,Tech and AI,56.8,17.0,60.0,25.9,mixed,0.0,0.72,Geopolitics,0.692,0.627,89.8,83.7,0.403,57.1
-2026-02-16,weekday,21.1,Regulation,28.9,15.0,74.0,63.6,quiet,2.3,0.69,Geopolitics,0.481,0.405,70.8,99.2,0.263,44.6
-2026-02-17,weekday,54.8,Regulation,57.0,22.0,90.0,63.3,mixed,29.8,0.95,Geopolitics,0.36,0.365,99.2,96.9,0.243,46.0
-2026-02-18,weekday,14.5,Central banks,50.0,20.0,84.0,53.5,mixed,11.3,0.83,Geopolitics,0.457,0.365,92.3,88.5,0.249,48.4
-2026-02-19,weekday,4.8,Company news,29.8,19.0,93.0,10.8,quiet,27.4,0.81,Geopolitics,0.431,0.365,60.0,97.7,0.2,12.9
-2026-02-20,weekday,100.0,Trade,30.0,19.0,93.0,91.6,"busy, ordinary",89.5,1.15,Trade,0.46,0.091,62.3,75.4,0.177,4.0
-2026-02-21,weekend,90.0,Trade,21.1,11.0,64.0,8.9,"busy, ordinary",48.0,1.11,Geopolitics,0.543,0.627,16.0,92.0,0.313,10.0
-2026-02-22,weekend,84.3,Trade,71.8,24.0,68.0,5.3,mixed,82.4,1.38,Geopolitics,0.594,0.627,39.2,84.3,0.357,33.3
-2026-02-23,weekday,95.2,Trade,84.1,29.0,89.0,3.8,negative shock day,80.6,1.21,Geopolitics,0.376,0.365,53.1,84.6,0.243,43.5
-2026-02-24,weekday,79.0,Trade,44.1,20.0,88.0,14.3,"busy, ordinary",79.8,1.27,Geopolitics,0.347,0.365,38.5,93.1,0.17,3.2
-2026-02-25,weekday,29.8,Regulation,39.1,20.0,92.0,11.2,quiet,65.3,1.1,Geopolitics,0.333,0.365,80.8,24.6,0.202,16.9
-2026-02-26,weekday,60.5,US politics,7.0,12.0,95.0,41.5,mixed,94.4,1.22,Geopolitics,0.378,0.365,98.5,39.2,0.206,23.4
-2026-02-27,weekday,79.8,Tech and AI,77.7,27.0,87.0,40.4,"shock day, mixed direction",58.9,1.03,Geopolitics,0.391,0.365,12.3,87.7,0.274,74.2
-2026-02-28,weekend,98.1,Geopolitics,100.0,52.0,71.0,0.0,negative shock day,100.0,4.49,Geopolitics,0.932,0.62,1.9,75.0,0.679,100.0
-2026-03-01,weekend,98.1,Geopolitics,95.1,39.0,72.0,1.7,negative shock day,98.1,2.81,Geopolitics,0.906,0.62,3.8,94.2,0.646,98.1
-2026-03-02,weekday,90.3,Geopolitics,99.2,50.0,92.0,0.0,negative shock day,100.0,2.23,Geopolitics,0.747,0.365,1.5,52.3,0.521,100.0
-2026-03-03,weekday,83.2,Geopolitics,97.7,44.0,95.0,0.7,negative shock day,99.2,1.96,Geopolitics,0.69,0.366,2.3,79.2,0.424,97.6
-2026-03-04,weekday,84.0,Geopolitics,90.0,37.0,93.0,1.4,negative shock day,98.4,1.79,Geopolitics,0.643,0.368,2.3,65.4,0.411,95.2
-2026-03-05,weekday,71.2,Energy and commodities,66.5,25.0,89.0,5.0,mixed,96.0,1.66,Geopolitics,0.616,0.369,15.4,53.8,0.367,91.2
-2026-03-06,weekday,66.4,Geopolitics,85.4,31.0,91.0,2.1,mixed,56.0,1.24,Geopolitics,0.673,0.372,0.0,97.7,0.413,95.2
-2026-03-07,weekend,78.8,Geopolitics,50.0,17.0,68.0,5.0,mixed,94.2,1.9,Geopolitics,0.864,0.62,7.7,76.9,0.555,88.5
-2026-03-08,weekend,76.9,Geopolitics,60.5,22.0,72.0,6.6,mixed,75.0,1.47,Geopolitics,0.794,0.627,26.9,75.0,0.522,82.7
-2026-03-09,weekday,93.6,Energy and commodities,72.3,27.0,91.0,2.8,mixed,83.2,1.5,Geopolitics,0.634,0.373,8.5,100.0,0.405,93.6
-2026-03-10,weekday,85.6,Energy and commodities,90.8,40.0,97.0,3.5,negative shock day,89.6,1.44,Geopolitics,0.562,0.373,51.5,78.5,0.393,91.2
-2026-03-11,weekday,99.2,Energy and commodities,83.1,32.0,96.0,12.5,negative shock day,98.4,1.8,Geopolitics,0.56,0.373,13.1,91.5,0.357,87.2
-2026-03-12,weekday,88.0,Energy and commodities,73.1,28.0,92.0,3.4,mixed,92.8,1.47,Geopolitics,0.571,0.373,14.6,91.5,0.368,91.2
-2026-03-13,weekday,57.6,Energy and commodities,86.2,32.0,93.0,8.9,mixed,72.8,1.3,Geopolitics,0.709,0.373,29.2,96.9,0.407,94.4
-2026-03-14,weekend,71.2,Geopolitics,52.3,19.0,68.0,9.7,mixed,71.2,1.55,Geopolitics,0.839,0.63,11.5,80.8,0.515,80.8
-2026-03-15,weekend,59.6,Energy and commodities,11.1,10.0,65.0,20.6,mixed,38.5,1.32,Geopolitics,0.748,0.63,82.7,75.0,0.371,32.7
-2026-03-16,weekday,80.0,Energy and commodities,69.2,26.0,90.0,13.6,mixed,76.8,1.37,Geopolitics,0.564,0.373,49.2,97.7,0.352,85.6
-2026-03-17,weekday,60.0,Geopolitics,66.2,27.0,95.0,11.5,mixed,86.4,1.36,Geopolitics,0.533,0.373,15.4,86.9,0.313,80.8
-2026-03-18,weekday,87.2,Central banks,58.5,24.0,93.0,15.4,mixed,90.4,1.45,Geopolitics,0.52,0.373,20.8,88.5,0.36,86.4
-2026-03-19,weekday,77.6,Energy and commodities,78.5,30.0,94.0,18.7,negative shock day,84.8,1.37,Geopolitics,0.489,0.376,7.7,84.6,0.353,84.8
-2026-03-20,weekday,49.6,Geopolitics,40.0,20.0,90.0,3.3,mixed,45.6,1.16,Geopolitics,0.565,0.376,10.8,67.7,0.339,81.6
-2026-03-21,weekend,57.7,Geopolitics,69.6,22.0,63.0,34.4,mixed,42.3,1.19,Geopolitics,0.766,0.634,86.5,67.3,0.527,82.7
-2026-03-22,weekend,67.3,Geopolitics,47.9,16.0,64.0,4.6,mixed,44.2,1.15,Geopolitics,0.768,0.641,28.8,69.2,0.405,53.8
-2026-03-23,weekday,75.2,Energy and commodities,56.9,22.0,88.0,73.0,mixed,40.8,1.22,Geopolitics,0.592,0.376,12.3,80.0,0.303,76.0
-2026-03-24,weekday,60.8,Energy and commodities,25.0,17.0,89.0,43.1,mixed,79.2,1.35,Geopolitics,0.555,0.376,39.2,73.8,0.322,80.0
-2026-03-25,weekday,71.2,Energy and commodities,62.3,25.0,91.0,9.7,mixed,47.2,1.26,Geopolitics,0.567,0.376,36.2,83.1,0.331,80.8
-2026-03-26,weekday,35.2,Geopolitics,32.3,19.0,91.0,35.5,quiet,50.4,1.2,Geopolitics,0.51,0.377,66.2,72.3,0.278,69.6
-2026-03-27,weekday,53.6,Energy and commodities,55.8,21.0,85.0,5.1,mixed,39.2,1.18,Geopolitics,0.546,0.377,23.1,86.2,0.301,73.6
-2026-03-28,weekend,71.2,Geopolitics,68.8,22.0,66.0,18.2,mixed,55.8,1.28,Geopolitics,0.832,0.646,9.6,75.0,0.557,88.5
-2026-03-29,weekend,53.8,Geopolitics,16.3,11.0,66.0,22.4,mixed,42.3,1.21,Geopolitics,0.779,0.652,9.6,71.2,0.478,69.2
-2026-03-30,weekday,59.2,Geopolitics,31.2,18.0,87.0,36.3,mixed,35.2,1.14,Geopolitics,0.582,0.378,19.2,88.5,0.32,78.4
-2026-03-31,weekday,84.0,Energy and commodities,25.4,18.0,92.0,24.7,"busy, ordinary",81.6,1.31,Geopolitics,0.546,0.378,6.2,30.8,0.326,80.0
-2026-04-01,weekday,42.4,Geopolitics,58.5,23.0,90.0,70.5,mixed,51.2,1.18,Geopolitics,0.598,0.382,4.6,95.4,0.302,72.0
-2026-04-02,weekday,39.2,Energy and commodities,51.5,22.0,91.0,21.3,mixed,47.2,1.12,Geopolitics,0.473,0.384,53.1,79.2,0.295,68.8
-2026-04-03,weekday,53.7,Fiscal,73.1,25.0,83.0,51.5,mixed,35.0,1.08,Geopolitics,0.655,0.457,3.1,90.8,0.43,86.4
-2026-04-04,weekend,26.9,Geopolitics,50.0,16.0,63.0,26.1,mixed,28.8,1.23,Geopolitics,0.819,0.652,69.2,53.8,0.559,88.5
-2026-04-05,weekend,75.0,Geopolitics,7.8,9.0,67.0,95.7,"busy, ordinary",40.4,1.17,Geopolitics,0.818,0.652,28.8,69.2,0.404,48.1
-2026-04-06,weekday,32.3,Geopolitics,82.3,29.0,88.0,10.6,"serious news, few sources",29.0,1.08,Geopolitics,0.685,0.383,33.1,88.5,0.408,94.4
-2026-04-07,weekday,87.9,Geopolitics,86.5,32.0,93.0,90.7,positive shock day,92.7,1.59,Geopolitics,0.738,0.384,23.8,89.2,0.395,91.1
-2026-04-08,weekday,84.7,Geopolitics,98.5,52.0,96.0,96.9,positive shock day,92.7,1.75,Geopolitics,0.745,0.385,23.1,92.3,0.519,99.2
-2026-04-09,weekday,56.5,Energy and commodities,79.2,31.0,95.0,76.2,mixed,60.5,1.3,Geopolitics,0.636,0.385,26.9,53.8,0.406,91.9
-2026-04-10,weekday,28.2,Energy and commodities,46.2,21.0,88.0,77.0,quiet,19.4,0.94,Geopolitics,0.559,0.385,82.3,89.2,0.337,77.4
-2026-04-11,weekend,42.3,Energy and commodities,18.3,11.0,66.0,88.7,quiet,11.5,0.95,Geopolitics,0.781,0.665,23.1,65.4,0.35,25.0
-2026-04-12,weekend,76.9,Geopolitics,40.4,15.0,70.0,37.5,"busy, ordinary",78.8,1.11,Geopolitics,0.758,0.683,9.6,90.4,0.36,28.8
-2026-04-13,weekday,50.0,Energy and commodities,76.5,30.0,94.0,8.4,"serious news, few sources",57.3,1.16,Geopolitics,0.539,0.385,26.2,75.4,0.346,79.0
-2026-04-14,weekday,42.7,Energy and commodities,60.8,26.0,93.0,68.8,mixed,55.6,1.11,Geopolitics,0.469,0.385,40.0,88.5,0.307,69.4
-2026-04-15,weekday,25.0,Regulation,52.3,23.0,94.0,73.8,mixed,66.9,1.28,Geopolitics,0.548,0.387,13.1,94.6,0.307,68.5
-2026-04-16,weekday,32.3,Energy and commodities,86.2,31.0,88.0,97.0,"serious news, few sources",43.5,1.15,Geopolitics,0.562,0.389,46.2,95.4,0.355,81.5
-2026-04-17,weekday,18.5,Energy and commodities,26.2,17.0,83.0,98.8,quiet,18.5,0.94,Geopolitics,0.593,0.39,23.8,86.2,0.29,61.3
-2026-04-18,weekend,28.8,Geopolitics,78.8,23.0,64.0,23.3,"serious news, few sources",63.5,1.03,Geopolitics,0.803,0.691,69.2,38.5,0.443,59.6
-2026-04-19,weekend,21.2,Tech and AI,51.9,17.0,67.0,47.3,mixed,25.0,0.98,Geopolitics,0.803,0.694,67.3,61.5,0.432,55.8
-2026-04-20,weekday,35.5,Geopolitics,67.3,26.0,89.0,66.1,mixed,25.0,0.94,Geopolitics,0.558,0.394,39.2,80.8,0.306,66.9
-2026-04-21,weekday,29.0,Energy and commodities,59.2,24.0,87.0,94.8,mixed,62.9,1.27,Geopolitics,0.553,0.401,22.3,56.2,0.31,68.5
-2026-04-22,weekday,76.6,Energy and commodities,26.9,19.0,92.0,67.0,"busy, ordinary",71.0,1.2,Geopolitics,0.439,0.405,56.2,84.6,0.3,61.3
-2026-04-23,weekday,31.5,Geopolitics,56.9,24.0,90.0,75.3,mixed,71.8,1.14,Geopolitics,0.499,0.405,60.8,61.5,0.326,73.4
-2026-04-24,weekday,21.8,Energy and commodities,29.6,18.0,86.0,66.8,quiet,35.5,0.92,Geopolitics,0.533,0.406,60.0,54.6,0.276,53.2
-2026-04-25,weekend,46.2,US politics,57.7,19.0,70.0,65.3,mixed,34.6,0.85,Geopolitics,0.767,0.694,98.1,84.6,0.445,61.5
-2026-04-26,weekend,55.8,US politics,80.8,23.0,63.0,59.2,mixed,9.6,0.85,Geopolitics,0.662,0.706,86.5,25.0,0.533,80.8
-2026-04-27,weekday,12.9,US politics,54.6,23.0,88.0,27.8,mixed,36.3,1.02,Geopolitics,0.452,0.408,94.6,10.8,0.287,57.3
-2026-04-28,weekday,82.3,Energy and commodities,4.6,11.0,86.0,50.8,"busy, ordinary",76.6,1.17,Geopolitics,0.335,0.411,93.1,13.8,0.224,27.4
-2026-04-29,weekday,86.3,Central banks,16.9,17.0,92.0,29.8,"busy, ordinary",79.8,1.33,Geopolitics,0.394,0.411,63.1,28.5,0.246,34.7
-2026-04-30,weekday,62.1,Energy and commodities,0.0,9.0,92.0,63.7,mixed,84.7,1.28,Geopolitics,0.373,0.411,39.2,61.5,0.211,22.6
-2026-05-01,weekday,82.3,Trade,17.3,16.0,87.0,60.0,"busy, ordinary",30.6,0.92,Geopolitics,0.438,0.411,36.9,85.4,0.246,33.9
-2026-05-02,weekend,71.2,Company news,30.8,13.0,65.0,36.4,mixed,40.4,0.86,Geopolitics,0.662,0.706,94.2,71.2,0.41,46.2
-2026-05-03,weekend,61.5,Energy and commodities,23.1,13.0,69.0,69.2,mixed,34.6,0.88,Geopolitics,0.646,0.706,86.5,84.6,0.373,26.9
-2026-05-04,weekday,22.6,Energy and commodities,85.4,29.0,84.0,47.5,"serious news, few sources",29.0,1.18,Geopolitics,0.616,0.414,48.5,78.5,0.319,70.2
-2026-05-05,weekday,20.2,Regulation,85.8,31.0,88.0,28.6,"serious news, few sources",39.5,1.07,Geopolitics,0.466,0.423,25.4,60.0,0.307,65.3
-2026-05-06,weekday,34.7,Energy and commodities,39.2,21.0,92.0,78.7,quiet,74.2,1.2,Geopolitics,0.459,0.431,44.6,67.7,0.28,53.2
-2026-05-07,weekday,50.0,Trade,15.4,17.0,94.0,35.3,mixed,45.2,1.18,Geopolitics,0.501,0.433,7.7,85.4,0.301,58.9
-2026-05-08,weekday,22.6,Geopolitics,60.0,25.0,90.0,90.3,mixed,28.2,0.92,Geopolitics,0.517,0.435,59.2,81.5,0.336,75.0
-2026-05-09,weekend,7.7,Tech and AI,55.8,17.0,62.0,64.6,mixed,5.8,0.79,Geopolitics,0.763,0.706,86.5,82.7,0.489,71.2
-2026-05-10,weekend,42.3,Geopolitics,38.5,14.0,63.0,80.0,quiet,15.4,0.88,Geopolitics,0.785,0.718,44.2,84.6,0.342,17.3
-2026-05-11,weekday,8.1,Energy and commodities,19.2,17.0,91.0,37.1,quiet,22.6,0.96,Geopolitics,0.452,0.437,29.2,46.9,0.26,38.7
-2026-05-12,weekday,30.6,Company news,35.4,21.0,95.0,11.2,quiet,53.2,1.07,Geopolitics,0.441,0.437,87.7,74.6,0.272,46.0
-2026-05-13,weekday,7.3,Company news,40.0,20.0,87.0,44.7,quiet,21.8,0.87,Geopolitics,0.415,0.438,63.1,86.9,0.299,57.3
-2026-05-14,weekday,13.7,Energy and commodities,51.2,23.0,92.0,55.0,mixed,28.2,0.92,Geopolitics,0.473,0.438,94.6,46.9,0.265,43.5
-2026-05-15,weekday,16.1,Energy and commodities,18.5,15.0,80.0,83.7,quiet,8.9,0.75,Geopolitics,0.515,0.439,75.4,95.4,0.238,24.2
-2026-05-16,weekend,34.6,Company news,78.8,21.0,58.0,65.4,"serious news, few sources",32.7,0.92,Geopolitics,0.689,0.729,44.2,86.5,0.5,73.1
-2026-05-17,weekend,9.6,Regulation,38.5,15.0,66.0,29.3,quiet,11.5,0.88,Geopolitics,0.748,0.729,36.5,92.3,0.468,59.6
-2026-05-18,weekday,11.3,Regulation,36.2,20.0,89.0,81.2,quiet,21.0,0.9,Geopolitics,0.545,0.44,25.4,65.4,0.276,48.4
-2026-05-19,weekday,29.8,Fiscal,12.3,15.0,86.0,33.3,quiet,34.7,1.0,Geopolitics,0.483,0.447,70.8,78.5,0.301,58.1
-2026-05-20,weekday,62.1,Company news,0.8,10.0,91.0,86.0,mixed,74.2,1.12,Geopolitics,0.403,0.452,18.5,18.5,0.169,0.0
-2026-05-21,weekday,25.8,Company news,0.8,10.0,94.0,46.4,quiet,16.9,0.81,Geopolitics,0.444,0.452,57.7,98.5,0.204,13.7
-2026-05-22,weekday,36.3,US politics,0.8,9.0,86.0,60.5,quiet,15.3,0.78,Geopolitics,0.476,0.452,79.2,16.9,0.199,7.3
-2026-05-23,weekend,15.4,Trade,5.8,9.0,66.0,91.6,quiet,34.6,0.99,Geopolitics,0.8,0.742,55.8,92.3,0.389,32.7
-2026-05-24,weekend,21.2,Geopolitics,92.3,31.0,67.0,85.7,"serious news, few sources",7.7,0.88,Geopolitics,0.883,0.748,13.5,78.8,0.484,65.4
-2026-05-25,weekday,12.5,Geopolitics,82.3,25.0,73.0,77.6,"serious news, few sources",4.0,0.74,Geopolitics,0.778,0.522,33.1,90.8,0.382,68.8
-2026-05-26,weekday,19.5,Tech and AI,78.8,31.0,93.0,13.3,"serious news, few sources",32.5,0.9,Geopolitics,0.513,0.455,60.8,99.2,0.316,68.3
-2026-05-27,weekday,14.6,Tech and AI,66.5,27.0,91.0,35.5,mixed,38.2,0.98,Geopolitics,0.48,0.457,68.5,75.8,0.282,49.6
-2026-05-28,weekday,30.1,Tech and AI,61.9,26.0,92.0,51.5,mixed,37.4,1.03,Geopolitics,0.494,0.459,5.4,73.8,0.315,67.5
-2026-05-29,weekday,4.8,Central banks,70.0,29.0,95.0,27.6,mixed,23.4,0.82,Geopolitics,0.504,0.462,65.4,25.4,0.352,79.8
-2026-05-30,weekend,28.8,Tech and AI,7.7,8.0,58.0,22.1,quiet,19.2,0.91,Geopolitics,0.686,0.753,71.2,28.8,0.439,48.1
-2026-05-31,weekend,11.5,Tech and AI,15.4,10.0,61.0,28.7,quiet,30.8,0.97,Geopolitics,0.708,0.753,73.1,55.8,0.417,40.4
-2026-06-01,weekday,47.6,Tech and AI,32.3,19.0,88.0,37.5,quiet,21.8,1.03,Geopolitics,0.538,0.462,26.9,55.4,0.342,76.6
-2026-06-02,weekday,12.1,Tech and AI,85.4,33.0,95.0,35.3,"serious news, few sources",37.1,0.99,Geopolitics,0.463,0.467,48.5,84.6,0.308,62.9
-2026-06-03,weekday,31.5,Company news,86.9,34.0,94.0,68.3,"serious news, few sources",48.4,1.08,Geopolitics,0.505,0.467,3.1,51.5,0.37,87.1
-2026-06-04,weekday,40.3,Tech and AI,72.3,29.0,93.0,82.8,mixed,38.7,1.02,Geopolitics,0.455,0.471,82.3,61.5,0.296,50.8
-2026-06-05,weekday,33.1,Tech and AI,13.8,16.0,95.0,60.3,quiet,21.0,0.88,Geopolitics,0.487,0.471,57.7,24.6,0.293,49.2
-2026-06-06,weekend,11.5,US politics,58.7,17.0,60.0,43.2,mixed,5.8,0.88,Geopolitics,0.733,0.753,34.6,80.8,0.515,76.9
-2026-06-07,weekend,34.6,Central banks,86.5,25.0,64.0,44.9,"serious news, few sources",73.1,1.75,Geopolitics,0.812,0.753,53.8,76.9,0.47,59.6
-2026-06-08,weekday,60.5,Regulation,73.1,27.0,86.0,41.9,mixed,21.8,1.15,Geopolitics,0.631,0.473,26.9,90.8,0.364,82.3
-2026-06-09,weekday,17.7,Regulation,91.5,35.0,86.0,7.8,"serious news, few sources",32.3,1.05,Geopolitics,0.555,0.475,74.6,72.3,0.373,87.1
-2026-06-10,weekday,37.1,Geopolitics,22.7,18.0,92.0,7.2,quiet,41.1,1.12,Geopolitics,0.56,0.478,33.8,67.7,0.351,75.8
-2026-06-11,weekday,49.2,Central banks,48.5,22.0,89.0,76.9,mixed,61.3,1.19,Geopolitics,0.542,0.481,15.4,72.3,0.299,49.2
-2026-06-12,weekday,90.3,Company news,90.8,39.0,96.0,92.8,positive shock day,18.5,0.89,Geopolitics,0.489,0.482,94.6,96.9,0.361,80.6
-2026-06-13,weekend,40.4,Tech and AI,40.4,15.0,61.0,77.8,quiet,40.4,0.87,Geopolitics,0.721,0.758,80.8,57.7,0.378,23.1
-2026-06-14,weekend,53.8,Geopolitics,68.3,19.0,61.0,100.0,mixed,48.1,1.43,Geopolitics,0.885,0.753,63.5,75.0,0.465,53.8
-2026-06-15,weekday,12.1,Company news,23.1,18.0,90.0,94.8,quiet,22.6,1.0,Geopolitics,0.549,0.485,47.7,26.9,0.303,54.0
-2026-06-16,weekday,37.1,Central banks,23.1,19.0,96.0,82.5,quiet,36.3,0.94,Geopolitics,0.521,0.488,69.2,98.5,0.279,40.3
-2026-06-17,weekday,79.8,Central banks,20.0,17.0,90.0,85.4,"busy, ordinary",13.7,0.93,Geopolitics,0.516,0.489,64.6,90.8,0.245,21.8
-2026-06-18,weekday,46.0,Geopolitics,42.3,22.0,93.0,79.8,quiet,44.4,1.05,Geopolitics,0.527,0.491,36.2,88.5,0.283,41.9
-2026-06-19,weekday,19.3,Geopolitics,78.1,27.0,81.0,82.6,"serious news, few sources",9.7,0.85,Geopolitics,0.705,0.541,24.6,66.2,0.404,73.3
-2026-06-20,weekend,7.7,Geopolitics,71.2,19.0,59.0,28.0,mixed,5.8,0.94,Geopolitics,0.811,0.753,34.6,92.3,0.492,73.1
-2026-06-21,weekend,16.3,Central banks,14.4,10.0,61.0,83.0,quiet,1.9,0.92,Geopolitics,0.759,0.761,26.9,73.1,0.331,11.5
-2026-06-22,weekday,8.9,Fiscal,22.3,17.0,87.0,65.9,quiet,6.5,0.75,Geopolitics,0.417,0.498,94.6,56.2,0.221,16.3
-2026-06-23,weekday,20.3,Fiscal,14.6,16.0,89.0,84.2,quiet,7.3,0.88,Geopolitics,0.411,0.498,99.2,97.7,0.265,34.1
-2026-06-24,weekday,30.9,Tech and AI,33.1,19.0,90.0,55.6,quiet,8.1,0.86,Geopolitics,0.375,0.498,80.8,20.0,0.228,19.5
-2026-06-25,weekday,29.3,Tech and AI,42.3,22.0,96.0,36.9,quiet,6.5,0.82,Geopolitics,0.391,0.494,55.4,21.5,0.228,18.7
-2026-06-26,weekday,27.4,Trade,48.1,21.0,86.0,10.1,quiet,7.3,0.86,Geopolitics,0.545,0.491,82.3,89.2,0.38,87.1
-2026-06-27,weekend,40.4,US politics,61.5,18.0,61.0,16.8,mixed,38.5,1.0,Geopolitics,0.777,0.761,13.5,63.5,0.544,86.5
-2026-06-28,weekend,21.2,Tech and AI,61.5,21.0,70.0,34.4,mixed,15.4,0.85,Geopolitics,0.745,0.761,86.5,88.5,0.497,71.2
-2026-06-29,weekday,37.9,Regulation,70.0,27.0,90.0,73.0,mixed,4.0,0.74,Geopolitics,0.371,0.491,99.2,30.8,0.263,32.3
-2026-06-30,weekday,54.0,US politics,22.3,19.0,99.0,46.4,mixed,35.5,0.86,Geopolitics,0.302,0.489,76.9,10.0,0.259,30.6
-2026-07-01,weekday,15.3,Tech and AI,42.7,21.0,92.0,61.1,quiet,3.2,0.77,Geopolitics,0.372,0.488,100.0,82.3,0.218,16.1
-2026-07-02,weekday,10.5,Energy and commodities,60.0,24.0,89.0,36.0,mixed,4.0,0.77,Geopolitics,0.472,0.485,41.5,94.6,0.317,66.9
-2026-07-03,weekday,48.0,Regulation,70.0,25.0,85.0,57.7,mixed,7.9,0.63,Geopolitics,0.496,0.533,56.9,60.0,0.344,57.6
-2026-07-04,weekend,1.9,Regulation,73.1,19.0,58.0,57.1,mixed,0.0,0.61,Geopolitics,0.617,0.759,82.7,76.9,0.502,73.1
-2026-07-05,weekend,19.2,US politics,7.7,8.0,55.0,63.6,quiet,0.0,0.62,Geopolitics,0.59,0.753,67.3,28.8,0.355,17.3
-2026-07-06,weekday,10.5,Company news,91.5,33.0,89.0,11.7,"serious news, few sources",0.0,0.69,Geopolitics,0.523,0.482,47.7,93.1,0.372,87.9
-2026-07-07,weekday,2.4,Regulation,73.1,27.0,89.0,3.6,mixed,26.6,0.99,Geopolitics,0.528,0.482,32.3,86.2,0.357,80.6
-2026-07-08,weekday,41.9,Geopolitics,94.2,39.0,96.0,1.8,"serious news, few sources",49.2,1.17,Geopolitics,0.633,0.482,5.4,100.0,0.395,90.3
-2026-07-09,weekday,3.2,Energy and commodities,67.7,26.0,89.0,12.8,mixed,11.3,0.87,Geopolitics,0.517,0.485,8.5,77.7,0.379,88.7
-2026-07-10,weekday,0.0,Crypto,85.4,30.0,88.0,27.8,"serious news, few sources",3.2,0.74,Geopolitics,0.513,0.488,80.8,88.5,0.347,75.8
-2026-07-11,weekend,0.0,Geopolitics,36.5,16.0,71.0,28.0,quiet,15.4,0.86,Geopolitics,0.818,0.748,59.6,69.2,0.513,76.9
-2026-07-12,weekend,21.2,Fiscal,92.3,27.0,60.0,13.9,"serious news, few sources",15.4,0.98,Geopolitics,0.805,0.753,32.7,71.2,0.603,96.2
-2026-07-13,weekday,33.1,Company news,93.1,34.0,90.0,2.6,"serious news, few sources",52.4,1.1,Geopolitics,0.604,0.488,11.5,19.2,0.396,92.7
-2026-07-14,weekday,50.8,Tech and AI,60.8,26.0,94.0,24.5,mixed,64.5,1.14,Geopolitics,0.461,0.489,50.0,12.3,0.32,66.9
-2026-07-15,weekday,26.6,Tech and AI,37.3,20.0,90.0,33.5,quiet,52.4,1.1,Geopolitics,0.443,0.489,71.5,53.8,0.261,32.3
-2026-07-16,weekday,27.4,Tech and AI,83.8,32.0,94.0,23.8,"serious news, few sources",36.3,0.97,Geopolitics,0.412,0.489,87.7,94.6,0.318,65.3
-2026-07-17,weekday,50.0,Trade,38.8,20.0,89.0,22.8,quiet,3.2,0.83,Geopolitics,0.524,0.489,43.1,92.3,0.387,89.5
-2026-07-18,weekend,55.8,Geopolitics,88.5,25.0,67.0,4.9,mixed,61.5,1.13,Geopolitics,0.792,0.759,13.5,98.1,0.625,96.2
-2026-07-19,weekend,19.2,Geopolitics,94.2,32.0,64.0,9.7,"serious news, few sources",34.6,1.05,Geopolitics,0.848,0.761,3.8,61.5,0.551,84.6
-2026-07-20,weekday,92.7,Trade,76.9,28.0,88.0,3.0,negative shock day,40.3,1.0,Geopolitics,0.503,0.491,33.1,47.7,0.349,75.0
-2026-07-21,weekday,92.0,Trade,91.5,34.0,92.0,10.7,negative shock day,77.6,1.23,Geopolitics,0.445,0.494,38.5,88.5,0.327,68.8
-2026-07-22,weekday,79.2,Tech and AI,62.7,26.0,92.0,23.8,mixed,77.6,1.25,Geopolitics,0.441,0.494,40.0,37.7,0.291,44.0
-2026-07-23,weekday,90.4,Trade,26.9,20.0,97.0,9.3,"busy, ordinary",75.2,1.21,Geopolitics,0.4,0.494,71.5,93.8,0.265,32.0
-2026-07-24,weekday,98.4,Trade,93.1,34.0,89.0,3.0,negative shock day,59.2,1.12,Geopolitics,0.488,0.494,26.9,74.6,0.342,72.0
-2026-07-25,weekend,86.5,US politics,88.5,27.0,69.0,51.9,"shock day, mixed direction",61.5,1.09,Geopolitics,0.626,0.765,63.5,3.8,0.492,63.5
-2026-07-26,weekend,23.1,US politics,36.5,15.0,65.0,79.1,quiet,78.8,1.13,Geopolitics,0.764,0.765,5.8,57.7,0.54,82.7
-2026-07-27,weekday,73.6,Tech and AI,73.5,29.0,93.0,62.2,mixed,13.6,0.87,Geopolitics,0.471,0.494,23.8,86.9,0.343,72.8
-2026-07-28,weekday,57.6,Tech and AI,65.4,27.0,92.0,36.8,mixed,12.0,0.99,Geopolitics,0.384,0.494,96.2,83.8,0.303,52.0
-2026-07-29,weekday,84.0,Central banks,51.5,23.0,91.0,3.3,mixed,43.2,1.19,Geopolitics,0.447,0.494,51.5,95.4,0.328,67.2
-2026-07-30,weekday,61.6,Central banks,40.4,22.0,93.0,13.3,mixed,44.8,1.1,Geopolitics,0.456,0.494,3.8,72.3,0.339,70.4
-2026-07-31,weekday,64.0,Tech and AI,53.8,23.0,87.0,28.9,mixed,8.0,0.81,Geopolitics,0.431,0.494,47.7,96.9,0.306,51.2
-2026-08-01,weekend,23.1,Fiscal,63.5,19.0,63.0,45.3,mixed,75.0,1.08,Geopolitics,0.721,0.765,26.9,100.0,0.501,67.3
-2026-08-02,weekend,42.3,Fiscal,40.4,15.0,60.0,92.5,quiet,36.5,0.88,Geopolitics,0.69,0.765,36.5,78.8,0.481,53.8
-2026-08-03,weekday,28.8,Fiscal,4.6,11.0,82.0,40.7,quiet,12.0,0.78,Geopolitics,0.403,0.494,53.1,61.5,0.232,16.0
-2026-08-04,weekday,63.2,Company news,52.3,24.0,92.0,36.9,mixed,28.8,0.98,Geopolitics,0.325,0.494,13.8,70.8,0.247,20.8
-2026-08-05,weekday,51.2,Company news,76.9,31.0,96.0,23.3,mixed,72.0,1.08,Geopolitics,0.388,0.494,30.0,96.2,0.315,56.8
-2026-08-06,weekday,28.8,Trade,76.2,31.0,97.0,45.1,"serious news, few sources",32.0,0.94,Geopolitics,0.447,0.494,9.2,90.8,0.33,66.4
-2026-08-07,weekday,2.4,US politics,7.7,15.0,89.0,42.5,quiet,7.2,0.74,Geopolitics,0.455,0.494,84.6,71.5,0.254,22.4
-2026-08-08,weekend,55.8,Fiscal,26.9,15.0,69.0,33.3,mixed,44.2,0.91,Geopolitics,0.675,0.765,51.9,9.6,0.394,26.9
-2026-08-09,weekend,40.4,Company news,1.9,8.0,64.0,35.8,quiet,26.9,0.82,Geopolitics,0.804,0.765,21.2,21.2,0.388,21.2
-2026-08-10,weekday,19.2,Tech and AI,6.2,14.0,92.0,29.0,quiet,13.6,0.77,Geopolitics,0.446,0.489,90.0,98.5,0.265,28.0
-2026-08-11,weekday,0.8,Fiscal,52.3,24.0,91.0,38.5,mixed,20.8,0.83,Geopolitics,0.54,0.489,8.5,100.0,0.312,54.4
-2026-08-12,weekday,60.0,US politics,29.6,20.0,92.0,68.4,mixed,14.4,0.85,Geopolitics,0.424,0.494,85.4,84.6,0.317,58.4
-2026-08-13,weekday,51.2,Trade,41.9,22.0,91.0,30.3,mixed,19.2,0.89,Geopolitics,0.446,0.494,56.2,78.5,0.327,64.0
-2026-08-14,weekday,11.2,Crypto,60.8,25.0,88.0,59.8,mixed,0.0,0.7,Geopolitics,0.42,0.494,95.4,70.8,0.329,65.6
-2026-08-15,weekend,17.3,Trade,23.1,13.0,67.0,39.1,quiet,9.6,0.83,Geopolitics,0.746,0.767,82.7,59.6,0.534,80.8
-2026-08-16,weekend,11.5,Tech and AI,84.6,24.0,65.0,45.9,"serious news, few sources",5.8,0.74,Geopolitics,0.778,0.767,32.7,100.0,0.52,73.1
-2026-08-17,weekday,8.0,Central banks,51.9,23.0,87.0,22.8,mixed,12.8,0.77,Geopolitics,0.507,0.494,24.6,28.5,0.295,36.8
-2026-08-18,weekday,76.2,Trade,20.8,18.0,88.0,42.2,"busy, ordinary",45.2,0.93,Geopolitics,0.459,0.496,88.5,13.8,0.289,33.3
-2026-08-19,weekday,69.0,Fiscal,7.7,16.0,93.0,77.3,mixed,23.8,0.84,Geopolitics,0.452,0.496,87.7,70.0,0.289,32.5
-2026-08-20,weekday,16.7,Fiscal,73.8,29.0,92.0,22.3,mixed,33.3,0.86,Geopolitics,0.467,0.496,10.0,70.0,0.337,69.0
-2026-08-21,weekday,74.6,Trade,24.2,18.0,87.0,41.4,mixed,0.8,0.7,Geopolitics,0.436,0.496,87.7,69.2,0.318,57.1
-2026-08-22,weekend,100.0,Trade,65.4,20.0,65.0,6.2,mixed,76.9,0.95,Geopolitics,0.453,0.768,57.7,94.2,0.43,32.7
-2026-08-23,weekend,82.7,Trade,0.0,6.0,59.0,44.2,"busy, ordinary",21.2,0.84,Geopolitics,0.61,0.768,65.4,73.1,0.387,17.3
-2026-08-24,weekday,99.2,Trade,9.2,17.0,95.0,4.8,"busy, ordinary",50.0,0.93,Geopolitics,0.464,0.496,44.6,76.9,0.241,11.1
-2026-08-25,weekday,99.2,Trade,19.2,19.0,97.0,14.3,"busy, ordinary",56.3,0.97,Geopolitics,0.398,0.496,66.9,56.2,0.254,15.1
-2026-08-26,weekday,59.5,Trade,7.3,15.0,89.0,49.0,mixed,24.6,0.87,Geopolitics,0.297,0.496,96.2,95.4,0.204,2.4
-2026-08-27,weekday,45.2,Trade,13.5,17.0,92.0,78.9,mixed,42.9,0.96,Geopolitics,0.397,0.496,94.6,30.8,0.248,14.3
-2026-08-28,weekday,7.9,Central banks,4.6,13.0,89.0,61.4,quiet,0.8,0.69,Geopolitics,0.382,0.496,99.2,29.2,0.226,6.3
-2026-08-29,weekend,44.2,US politics,76.9,24.0,67.0,86.0,"serious news, few sources",38.5,0.79,Geopolitics,0.702,0.768,42.3,75.0,0.528,76.9
-2026-08-30,weekend,15.4,Central banks,55.8,18.0,64.0,33.0,mixed,65.4,0.98,Geopolitics,0.744,0.767,40.4,59.6,0.42,30.8
-2026-08-31,weekday,19.8,Fiscal,55.0,25.0,91.0,34.8,mixed,24.6,0.89,Geopolitics,0.482,0.496,71.5,14.6,0.312,50.8
-2026-09-01,weekday,28.6,Fiscal,90.8,33.0,92.0,6.0,"serious news, few sources",57.1,1.14,Geopolitics,0.549,0.491,5.4,96.2,0.388,90.5
-2026-09-02,weekday,38.1,Regulation,21.5,18.0,91.0,11.9,quiet,52.4,1.01,Geopolitics,0.459,0.491,20.8,38.5,0.327,64.3
-2026-09-03,weekday,20.6,US politics,41.5,21.0,87.0,23.4,quiet,46.8,0.91,Geopolitics,0.406,0.489,72.3,96.9,0.256,16.7
-2026-09-04,weekday,45.2,Central banks,32.3,19.0,86.0,38.9,quiet,7.1,0.76,Geopolitics,0.438,0.488,38.5,99.2,0.348,77.0
-2026-09-05,weekend,17.3,Company news,50.0,16.0,61.0,85.8,mixed,59.6,1.07,Geopolitics,0.771,0.765,53.8,80.8,0.457,42.3
-2026-09-06,weekend,30.8,Energy and commodities,21.2,10.0,56.0,61.4,quiet,5.8,0.75,Geopolitics,0.724,0.765,84.6,40.4,0.427,32.7
-2026-09-07,weekday,50.0,Trade,10.0,13.0,73.0,16.7,mixed,15.7,0.78,Geopolitics,0.525,0.536,63.1,70.0,0.303,30.9
-2026-09-08,weekday,93.6,Trade,51.2,23.0,90.0,5.6,mixed,65.6,1.09,Geopolitics,0.507,0.487,88.5,92.3,0.353,82.4
-2026-09-09,weekday,24.0,Crypto,28.5,18.0,87.0,12.4,quiet,38.4,0.95,Geopolitics,0.486,0.487,98.5,61.5,0.323,62.4
-2026-09-10,weekday,69.6,Central banks,58.1,24.0,90.0,22.7,mixed,27.2,0.96,Geopolitics,0.404,0.486,56.2,85.4,0.317,57.6
-2026-09-11,weekday,54.4,Central banks,96.9,35.0,91.0,11.2,mixed,21.6,0.92,Geopolitics,0.482,0.483,55.4,71.5,0.367,88.8
-2026-09-12,weekend,17.3,Crypto,11.5,9.0,60.0,79.0,quiet,32.7,0.94,Geopolitics,0.753,0.763,78.8,98.1,0.447,44.2
-2026-09-13,weekend,71.2,Trade,1.9,7.0,60.0,85.2,mixed,63.5,1.01,Geopolitics,0.656,0.761,61.5,34.6,0.388,17.3
-2026-09-14,weekday,48.0,Tech and AI,33.5,20.0,92.0,30.0,mixed,51.2,0.97,Geopolitics,0.447,0.482,90.0,90.0,0.285,30.4
-2026-09-15,weekday,80.0,US politics,24.6,19.0,93.0,22.7,"busy, ordinary",76.0,1.03,Geopolitics,0.421,0.482,87.7,2.3,0.274,24.8
-2026-09-16,weekday,100.0,Central banks,19.2,18.0,93.0,13.9,"busy, ordinary",97.6,1.16,Geopolitics,0.417,0.48,52.3,30.8,0.263,20.8
-2026-09-17,weekday,87.2,Central banks,9.2,16.0,92.0,17.9,"busy, ordinary",52.8,0.92,Geopolitics,0.431,0.476,93.1,76.2,0.222,5.6
-2026-09-18,weekday,61.6,Tech and AI,51.9,22.0,89.0,58.2,mixed,48.8,0.96,Geopolitics,0.425,0.473,75.4,55.4,0.244,12.0
-2026-09-19,weekend,84.6,Tech and AI,1.9,8.0,70.0,59.7,"busy, ordinary",78.8,0.99,Geopolitics,0.694,0.761,84.6,84.6,0.423,32.7
-2026-09-20,weekend,65.4,US politics,73.1,20.0,63.0,22.6,mixed,98.1,1.17,Geopolitics,0.668,0.759,17.3,46.2,0.47,53.8
-2026-09-21,weekday,81.6,Company news,69.2,27.0,94.0,69.2,mixed,87.2,1.02,Geopolitics,0.402,0.473,87.7,0.0,0.287,35.2
-2026-09-22,weekday,36.0,Trade,20.4,18.0,93.0,89.6,quiet,78.4,1.07,Geopolitics,0.535,0.472,72.3,95.4,0.281,32.0
-2026-09-23,weekday,79.2,Tech and AI,11.9,17.0,95.0,78.1,"busy, ordinary",69.6,1.01,Geopolitics,0.449,0.472,63.1,11.5,0.28,31.2
-2026-09-24,weekday,80.0,US politics,65.4,27.0,97.0,39.5,mixed,95.2,1.1,Geopolitics,0.475,0.471,93.1,0.8,0.371,90.4
-2026-09-25,weekday,6.4,Regulation,28.1,18.0,88.0,62.5,quiet,5.6,0.76,Geopolitics,0.499,0.471,76.9,95.4,0.325,67.2
-2026-09-26,weekend,63.5,Tech and AI,46.2,16.0,65.0,79.0,mixed,26.9,0.86,Geopolitics,0.67,0.755,88.5,73.1,0.397,23.1
-2026-09-27,weekend,34.6,Central banks,63.5,18.0,63.0,34.8,mixed,75.0,0.94,Geopolitics,0.685,0.75,96.2,94.2,0.397,23.1
-2026-09-28,weekday,32.8,Tech and AI,46.9,22.0,92.0,83.2,quiet,49.6,0.96,Geopolitics,0.495,0.471,18.5,93.8,0.271,26.4
-2026-09-29,weekday,71.2,Tech and AI,21.9,17.0,87.0,76.1,mixed,59.2,1.03,Geopolitics,0.366,0.471,80.0,87.7,0.245,12.8
-2026-09-30,weekday,55.2,Tech and AI,43.8,22.0,94.0,76.9,mixed,58.4,1.0,Geopolitics,0.403,0.469,88.5,63.8,0.289,39.2
-2026-10-01,weekday,61.6,Fiscal,12.3,17.0,95.0,23.1,mixed,91.2,1.2,Geopolitics,0.428,0.467,70.0,97.7,0.222,5.6
-2026-10-02,weekday,81.6,Energy and commodities,40.8,20.0,89.0,79.3,"busy, ordinary",18.4,0.86,Geopolitics,0.425,0.466,84.6,97.7,0.268,28.0
-2026-10-03,weekend,80.8,US politics,34.6,12.0,55.0,65.8,"busy, ordinary",78.8,0.99,Geopolitics,0.69,0.747,38.5,38.5,0.475,59.6
-2026-10-04,weekend,38.5,Energy and commodities,22.1,10.0,60.0,83.5,quiet,55.8,0.89,Geopolitics,0.677,0.745,75.0,19.2,0.384,13.5
-2026-10-05,weekday,11.9,Energy and commodities,59.2,23.0,87.0,34.8,mixed,16.7,0.96,Geopolitics,0.529,0.465,95.4,10.0,0.347,81.0
-2026-10-06,weekday,79.4,Company news,53.8,23.0,93.0,73.3,mixed,88.1,1.11,Geopolitics,0.402,0.465,90.8,20.8,0.275,31.0
-2026-10-07,weekday,59.5,Tech and AI,27.7,19.0,94.0,11.2,mixed,81.0,1.04,Geopolitics,0.444,0.463,26.9,98.5,0.266,27.8
-2026-10-08,weekday,66.7,US politics,90.4,33.0,95.0,56.2,mixed,99.2,1.16,Geopolitics,0.432,0.462,32.3,8.5,0.281,37.3
-2026-10-09,weekday,69.8,US politics,89.2,34.0,98.0,80.5,positive shock day,67.5,0.96,Geopolitics,0.435,0.46,45.4,1.5,0.325,70.6
-2026-10-10,weekend,55.8,US politics,94.2,26.0,66.0,31.6,mixed,100.0,1.35,Geopolitics,0.708,0.744,13.5,15.4,0.518,82.7
-2026-10-11,weekend,88.5,Geopolitics,94.2,29.0,66.0,79.2,positive shock day,100.0,1.39,Geopolitics,0.829,0.738,26.9,48.1,0.507,76.9
-2026-10-12,weekday,19.8,US politics,88.5,28.0,81.0,27.2,"serious news, few sources",87.3,1.12,Geopolitics,0.546,0.459,16.9,20.0,0.373,95.2
-2026-10-13,weekday,73.8,US politics,71.5,27.0,93.0,33.1,mixed,81.7,1.17,Geopolitics,0.457,0.459,54.6,0.8,0.352,85.7
-2026-10-14,weekday,17.5,US politics,36.2,20.0,94.0,24.3,quiet,82.5,1.16,Geopolitics,0.451,0.459,13.8,45.4,0.32,68.3
-2026-10-15,weekday,34.9,Fiscal,90.8,34.0,97.0,31.5,"serious news, few sources",97.6,1.15,Geopolitics,0.434,0.458,9.2,26.2,0.304,54.0
-2026-10-16,weekday,11.9,US politics,70.0,26.0,91.0,49.0,mixed,39.7,0.89,Geopolitics,0.502,0.456,86.2,9.2,0.332,77.0
-2026-10-17,weekend,57.7,US politics,50.0,17.0,63.0,71.9,mixed,78.8,0.93,Geopolitics,0.755,0.738,98.1,9.6,0.493,67.3
-2026-10-18,weekend,73.1,Geopolitics,76.9,23.0,66.0,39.1,mixed,92.3,1.4,Geopolitics,0.734,0.738,57.7,1.9,0.379,9.6
-2026-10-19,weekday,2.4,Tech and AI,70.8,26.0,90.0,37.2,mixed,76.2,1.04,Geopolitics,0.517,0.456,86.2,57.7,0.292,45.2
-2026-10-20,weekday,19.8,Fiscal,62.7,24.0,89.0,43.0,mixed,53.2,1.04,Geopolitics,0.472,0.456,91.5,62.3,0.281,37.3
-2026-10-21,weekday,50.0,US politics,6.2,15.0,90.0,100.0,quiet,97.6,1.32,Geopolitics,0.459,0.456,1.5,57.7,0.227,8.7
-2026-10-22,weekday,56.3,Tech and AI,28.1,19.0,95.0,58.2,mixed,72.2,1.01,Geopolitics,0.374,0.458,65.4,63.8,0.251,19.0
-2026-10-23,weekday,25.4,Trade,85.4,31.0,91.0,91.7,"serious news, few sources",46.8,0.89,Geopolitics,0.508,0.456,30.0,97.7,0.378,95.2
-2026-10-24,weekend,44.2,US politics,25.0,12.0,63.0,48.2,quiet,80.8,1.0,Geopolitics,0.705,0.733,94.2,9.6,0.477,55.8
-2026-10-25,weekend,92.3,US politics,15.4,10.0,63.0,84.3,"busy, ordinary",92.3,1.14,Geopolitics,0.647,0.728,88.5,5.8,0.319,0.0
-2026-10-26,weekday,52.4,US politics,33.1,19.0,92.0,87.6,mixed,75.4,0.99,Geopolitics,0.402,0.456,76.2,4.6,0.267,30.2
-2026-10-27,weekday,63.5,US politics,44.6,21.0,92.0,96.4,mixed,88.1,1.12,Geopolitics,0.402,0.456,38.5,15.4,0.259,22.2
-2026-10-28,weekday,97.6,Central banks,0.0,8.0,96.0,74.1,"busy, ordinary",91.3,1.28,Geopolitics,0.285,0.456,80.8,60.8,0.161,0.0
-2026-10-29,weekday,83.3,Crypto,57.3,24.0,92.0,24.7,mixed,88.9,1.25,Geopolitics,0.32,0.456,80.0,30.8,0.26,23.0
-2026-10-30,weekday,99.2,Crypto,100.0,44.0,93.0,74.5,"shock day, mixed direction",68.3,1.04,Geopolitics,0.384,0.456,73.1,82.3,0.36,88.1
-2026-10-31,weekend,98.1,Crypto,23.1,11.0,64.0,92.1,"busy, ordinary",96.2,1.14,Geopolitics,0.598,0.728,40.4,1.9,0.374,9.6
-2026-11-01,weekend,98.1,Crypto,71.2,19.0,60.0,75.6,mixed,84.6,1.02,Geopolitics,0.579,0.728,96.2,7.7,0.458,46.2
-2026-11-02,weekday,87.3,Crypto,94.6,35.0,93.0,68.8,"shock day, mixed direction",98.4,1.22,Geopolitics,0.39,0.456,40.0,57.7,0.325,68.3
-2026-11-03,weekday,90.5,Crypto,73.8,28.0,94.0,64.9,mixed,89.7,1.19,Geopolitics,0.392,0.455,33.1,44.2,0.27,31.0
-2026-11-04,weekday,88.1,US politics,5.4,16.0,99.0,86.9,"busy, ordinary",67.5,0.95,Geopolitics,0.278,0.455,91.5,7.7,0.22,4.8
-2026-11-05,weekday,84.1,US politics,3.8,13.0,94.0,49.0,"busy, ordinary",97.6,1.24,Geopolitics,0.327,0.453,42.3,9.2,0.208,4.0
+date,day_type,news_heat,news_heat_leading_topic,breadth,breadth_sources_more_serious,breadth_sources_read,news_sentiment,confluence,news_velocity,news_velocity_times_usual,focus_topic,focus_share,focus_usual_share,consensus_geopolitics,consensus_us_politics,severe_news_share,severe_news_share_rank
+2025-08-01,weekday,,,,0,0,,,,,,,,,,,
+2025-08-02,weekend,,,,0,0,,,,,,,,,,,
+2025-08-03,weekend,,,,0,0,,,,,,,,,,,
+2025-08-04,weekday,,,,0,0,,,,,,,,,,,
+2025-08-05,weekday,,,,0,0,,,,,,,,,,,
+2025-08-06,weekday,,,,0,0,,,,,,,,,,,
+2025-08-07,weekday,,,,0,0,,,,,,,,,,,
+2025-08-08,weekday,,,,0,0,,,,,,,,,,,
+2025-08-09,weekend,,,,0,0,,,,,,,,,,,
+2025-08-10,weekend,,,,0,0,,,,,,,,,,,
+2025-08-11,weekday,,,,0,0,,,,,,,,,,,
+2025-08-12,weekday,,,,0,0,,,,,,,,,,,
+2025-08-13,weekday,,Central banks,,0,0,,,,0.73,Geopolitics,0.734,,,,0.303,
+2025-08-14,weekday,,Tech and AI,,0,0,,,,0.82,Geopolitics,0.753,0.734,,,0.198,
+2025-08-15,weekday,,US politics,,0,0,,,,0.71,Geopolitics,0.743,0.744,,,0.354,
+2025-08-16,weekend,,,,0,0,,,,,,,,,,,
+2025-08-17,weekend,,,,0,0,,,,,,,,,,,
+2025-08-18,weekday,,Geopolitics,,0,0,,,,0.87,Geopolitics,0.767,0.743,,,0.296,
+2025-08-19,weekday,,Tech and AI,,0,0,,,,0.94,Geopolitics,0.707,0.748,,,0.239,
+2025-08-20,weekday,,US politics,,0,0,,,,0.95,Geopolitics,0.705,0.743,,,0.205,
+2025-08-21,weekday,,US politics,,0,0,,,,1.12,Geopolitics,0.669,0.739,,,0.245,
+2025-08-22,weekday,,Central banks,,0,0,,,,0.98,Geopolitics,0.658,0.734,,,0.262,
+2025-08-23,weekend,,,,0,0,,,,,,,,,,,
+2025-08-24,weekend,,,,0,0,,,,,,,,,,,
+2025-08-25,weekday,0.0,Geopolitics,,0,0,0.0,,12.5,0.66,Geopolitics,0.748,0.72,,,0.381,100.0
+2025-08-26,weekday,11.1,Energy and commodities,,0,0,33.3,,66.7,0.9,Geopolitics,0.671,0.734,,,0.325,77.8
+2025-08-27,weekday,70.0,Tech and AI,,0,0,30.0,,90.0,1.0,Geopolitics,0.661,0.72,,,0.266,50.0
+2025-08-28,weekday,27.3,Geopolitics,,0,0,9.1,,90.9,0.98,Geopolitics,0.723,0.707,,,0.325,81.8
+2025-08-29,weekday,100.0,Trade,,12,42,66.7,,41.7,0.89,Geopolitics,0.683,0.715,,,0.249,33.3
+2025-08-30,weekend,,Trade,,0,0,,,,1.1,Geopolitics,0.874,,,,0.409,
+2025-08-31,weekend,,Fiscal,,0,0,,,,0.84,Geopolitics,0.82,0.874,,,0.389,
+2025-09-01,weekday,,Fiscal,,12,52,53.8,,33.3,0.79,Geopolitics,0.767,0.723,,,0.29,46.7
+2025-09-02,weekday,100.0,Regulation,,16,58,61.5,,100.0,1.23,Geopolitics,0.653,0.707,,,0.196,0.0
+2025-09-03,weekday,50.0,Regulation,,12,61,28.6,,85.7,1.0,Geopolitics,0.652,0.706,,,0.227,21.4
+2025-09-04,weekday,20.0,US politics,,7,64,53.3,,40.0,0.89,Geopolitics,0.673,0.705,,,0.182,0.0
+2025-09-05,weekday,6.2,Tech and AI,,17,66,62.5,,25.0,0.81,Geopolitics,0.709,0.694,,,0.226,25.0
+2025-09-06,weekend,,Regulation,,0,0,,,,0.77,Geopolitics,0.787,0.847,,,0.311,
+2025-09-07,weekend,,Geopolitics,,0,0,,,,1.02,Geopolitics,0.794,0.82,,,0.381,
+2025-09-08,weekday,23.5,Company news,,17,69,17.6,,29.4,0.81,Geopolitics,0.721,0.705,,,0.272,64.7
+2025-09-09,weekday,94.4,Geopolitics,,45,72,5.6,,100.0,1.32,Geopolitics,0.726,0.706,,,0.464,100.0
+2025-09-10,weekday,84.2,US politics,,27,71,21.1,,100.0,1.39,Geopolitics,0.693,0.707,,,0.431,94.7
+2025-09-11,weekday,50.0,US politics,,23,69,75.0,,65.0,0.94,Geopolitics,0.68,0.706,90.0,30.0,0.282,60.0
+2025-09-12,weekday,85.7,US politics,,26,68,33.3,,23.8,0.78,Geopolitics,0.671,0.705,57.1,9.5,0.364,85.7
+2025-09-13,weekend,,Fiscal,,0,0,,,,1.0,Geopolitics,0.819,0.807,,,0.413,
+2025-09-14,weekend,,Geopolitics,,0,0,,,,0.98,Geopolitics,0.81,0.819,,,0.497,
+2025-09-15,weekday,45.5,Central banks,,18,72,54.5,,68.2,1.01,Geopolitics,0.689,0.699,90.9,50.0,0.323,68.2
+2025-09-16,weekday,39.1,US politics,,18,69,78.3,,78.3,1.07,Geopolitics,0.688,0.693,34.8,26.1,0.314,65.2
+2025-09-17,weekday,100.0,Central banks,,18,68,95.8,,79.2,1.02,Geopolitics,0.668,0.691,87.5,45.8,0.282,54.2
+2025-09-18,weekday,88.0,Central banks,,18,71,60.0,,32.0,0.89,Geopolitics,0.731,0.689,88.0,96.0,0.287,56.0
+2025-09-19,weekday,92.3,Fiscal,,6,71,69.2,,53.8,1.01,Geopolitics,0.714,0.691,46.2,61.5,0.194,3.8
+2025-09-20,weekend,,US politics,,0,0,,,,0.74,Geopolitics,0.813,0.815,,,0.397,
+2025-09-21,weekend,,Company news,,0,0,,,,0.78,Geopolitics,0.81,0.813,,,0.241,
+2025-09-22,weekday,88.9,Tech and AI,,19,71,92.6,,33.3,0.79,Geopolitics,0.725,0.693,100.0,92.6,0.274,48.1
+2025-09-23,weekday,53.6,Tech and AI,,11,71,60.7,,42.9,0.94,Geopolitics,0.684,0.699,78.6,100.0,0.273,46.4
+2025-09-24,weekday,17.2,Fiscal,,22,72,27.6,,55.2,0.87,Geopolitics,0.701,0.693,31.0,75.9,0.356,86.2
+2025-09-25,weekday,70.0,US politics,,19,72,40.0,,76.7,1.03,Geopolitics,0.65,0.697,93.3,36.7,0.276,50.0
+2025-09-26,weekday,6.5,US politics,,22,72,29.0,,25.8,0.79,Geopolitics,0.688,0.693,58.1,77.4,0.296,61.3
+2025-09-27,weekend,87.5,US politics,,0,0,62.5,,75.0,0.98,Geopolitics,0.785,0.812,,,0.275,12.5
+2025-09-28,weekend,55.6,US politics,,0,0,55.6,,88.9,0.97,Geopolitics,0.844,0.81,,,0.386,44.4
+2025-09-29,weekday,96.9,Fiscal,80.0,24,77,87.5,"widely covered and serious, positive",84.4,1.06,Geopolitics,0.686,0.691,84.4,81.2,0.3,65.6
+2025-09-30,weekday,97.0,Fiscal,14.3,14,76,30.3,"busy, ordinary",87.9,1.03,Geopolitics,0.642,0.689,27.3,90.9,0.229,21.2
+2025-10-01,weekday,100.0,Fiscal,9.1,11,77,8.8,"busy, ordinary",91.2,1.05,Geopolitics,0.611,0.689,94.1,55.9,0.246,29.4
+2025-10-02,weekday,88.6,Fiscal,26.1,18,77,2.9,"busy, ordinary",65.7,1.06,Geopolitics,0.668,0.688,48.6,88.6,0.304,71.4
+2025-10-03,weekday,88.9,Fiscal,20.8,15,77,80.6,"busy, ordinary",44.4,0.98,Geopolitics,0.71,0.688,22.2,83.3,0.3,66.7
+2025-10-04,weekend,80.0,Geopolitics,,0,0,90.0,,100.0,1.34,Geopolitics,0.832,0.812,,,0.414,90.0
+2025-10-05,weekend,100.0,US politics,,0,0,100.0,,100.0,1.24,Geopolitics,0.806,0.813,,,0.315,27.3
+2025-10-06,weekday,67.6,Fiscal,4.0,7,76,89.2,mixed,54.1,0.99,Geopolitics,0.644,0.688,100.0,16.2,0.165,0.0
+2025-10-07,weekday,92.1,Fiscal,21.2,14,76,68.4,"busy, ordinary",84.2,1.01,Geopolitics,0.669,0.688,84.2,42.1,0.235,23.7
+2025-10-08,weekday,92.3,Fiscal,18.5,14,79,87.2,"busy, ordinary",74.4,1.07,Geopolitics,0.686,0.688,20.5,20.5,0.227,20.5
+2025-10-09,weekday,77.5,Fiscal,75.0,25,82,100.0,"widely covered and serious, positive",95.0,1.3,Geopolitics,0.703,0.687,20.0,75.0,0.328,85.0
+2025-10-10,weekday,75.6,Fiscal,72.4,23,78,80.5,mixed,46.3,0.94,Geopolitics,0.689,0.688,65.9,80.5,0.279,51.2
+2025-10-11,weekend,83.3,Fiscal,,7,17,100.0,,58.3,1.05,Geopolitics,0.794,0.812,,,0.375,33.3
+2025-10-12,weekend,100.0,Trade,,12,25,92.3,,61.5,0.91,Geopolitics,0.788,0.81,,,0.346,30.8
+2025-10-13,weekday,54.8,Geopolitics,90.0,28,81,100.0,mixed,66.7,1.07,Geopolitics,0.704,0.688,0.0,88.1,0.275,47.6
+2025-10-14,weekday,46.5,Crypto,83.9,26,81,39.5,"serious news, few sources",74.4,1.02,Geopolitics,0.707,0.688,97.7,83.7,0.309,74.4
+2025-10-15,weekday,70.5,Fiscal,31.2,16,81,45.5,mixed,90.9,1.18,Geopolitics,0.62,0.689,79.5,93.2,0.19,4.5
+2025-10-16,weekday,62.2,Fiscal,15.2,14,80,44.4,mixed,75.6,1.1,Geopolitics,0.656,0.688,35.6,42.2,0.275,48.9
+2025-10-17,weekday,69.6,Fiscal,35.3,16,79,43.5,mixed,58.7,1.06,Geopolitics,0.661,0.688,43.5,65.2,0.24,28.3
+2025-10-18,weekend,0.0,Fiscal,,8,29,78.6,,21.4,0.86,Geopolitics,0.856,0.81,,,0.36,35.7
+2025-10-19,weekend,66.7,Geopolitics,,13,34,66.7,,40.0,0.95,Geopolitics,0.874,0.81,,,0.503,100.0
+2025-10-20,weekday,27.7,Fiscal,5.7,7,72,72.3,quiet,6.4,0.7,Geopolitics,0.685,0.688,78.7,57.4,0.229,21.3
+2025-10-21,weekday,60.4,Fiscal,66.7,23,82,83.3,mixed,50.0,0.95,Geopolitics,0.702,0.687,20.8,97.9,0.29,62.5
+2025-10-22,weekday,30.6,Fiscal,40.5,19,81,10.2,quiet,81.6,1.0,Geopolitics,0.667,0.688,51.0,40.8,0.264,38.8
+2025-10-23,weekday,54.0,Fiscal,60.5,21,79,10.0,mixed,56.0,0.97,Geopolitics,0.678,0.687,98.0,50.0,0.259,36.0
+2025-10-24,weekday,49.0,Trade,82.1,23,75,23.5,"serious news, few sources",11.8,0.79,Geopolitics,0.681,0.686,52.9,100.0,0.263,39.2
+2025-10-25,weekend,6.2,Crypto,,4,27,43.8,,0.0,0.63,Geopolitics,0.848,0.812,,,0.361,37.5
+2025-10-26,weekend,100.0,Trade,,8,35,100.0,,64.7,1.07,Geopolitics,0.778,0.813,,,0.388,58.8
+2025-10-27,weekday,13.5,Trade,47.5,19,74,76.9,quiet,0.0,0.64,Geopolitics,0.693,0.686,100.0,94.2,0.275,51.9
+2025-10-28,weekday,66.0,Fiscal,87.8,27,84,86.8,mixed,86.8,1.07,Geopolitics,0.641,0.686,26.4,73.6,0.268,43.4
+2025-10-29,weekday,96.3,Central banks,67.9,24,84,96.3,mixed,100.0,1.34,Geopolitics,0.649,0.686,51.9,96.3,0.243,27.8
+2025-10-30,weekday,80.0,Trade,14.0,13,82,85.5,"busy, ordinary",70.9,1.0,Geopolitics,0.633,0.686,96.4,89.1,0.222,12.7
+2025-10-31,weekday,89.3,Fiscal,34.1,17,83,46.4,"busy, ordinary",14.3,0.78,Geopolitics,0.674,0.685,96.4,92.9,0.217,12.5
+2025-11-01,weekend,61.1,Trade,,5,30,77.8,,44.4,0.88,Geopolitics,0.76,0.812,,,0.258,5.6
+2025-11-02,weekend,47.4,Geopolitics,,11,40,31.6,,36.8,0.96,Geopolitics,0.789,0.81,,,0.35,31.6
+2025-11-03,weekday,52.6,Fiscal,40.0,18,76,66.7,mixed,7.0,0.74,Geopolitics,0.652,0.685,96.5,91.2,0.248,35.1
+2025-11-04,weekday,93.1,Fiscal,33.7,17,83,36.2,"busy, ordinary",36.2,0.95,Geopolitics,0.68,0.684,100.0,46.6,0.196,8.6
+2025-11-05,weekday,94.9,Fiscal,8.5,11,82,45.8,"busy, ordinary",57.6,0.89,Geopolitics,0.638,0.684,94.9,100.0,0.181,1.7
+2025-11-06,weekday,90.0,Fiscal,47.9,22,87,80.0,"busy, ordinary",88.3,1.17,Geopolitics,0.656,0.683,93.3,16.7,0.265,46.7
+2025-11-07,weekday,86.9,Fiscal,36.7,16,77,59.0,"busy, ordinary",11.5,0.69,Geopolitics,0.66,0.683,98.4,86.9,0.228,23.0
+2025-11-08,weekend,100.0,Fiscal,,7,40,10.0,,40.0,0.97,Geopolitics,0.763,0.81,95.0,80.0,0.326,25.0
+2025-11-09,weekend,100.0,Fiscal,,3,39,95.2,,52.4,0.95,Fiscal,0.74,0.81,100.0,,0.234,0.0
+2025-11-10,weekday,98.4,Fiscal,16.0,13,80,96.8,"busy, ordinary",82.3,1.07,Geopolitics,0.62,0.682,37.1,59.7,0.218,16.1
+2025-11-11,weekday,82.5,Fiscal,76.5,24,79,39.7,widely covered and serious,28.6,0.84,Geopolitics,0.68,0.681,38.1,79.4,0.307,81.0
+2025-11-12,weekday,96.9,Fiscal,3.8,8,85,93.8,"busy, ordinary",67.2,1.09,Geopolitics,0.638,0.681,98.4,12.5,0.168,1.6
+2025-11-13,weekday,67.7,Fiscal,31.1,16,81,60.0,mixed,27.7,0.85,Geopolitics,0.661,0.68,86.2,52.3,0.274,55.4
+2025-11-14,weekday,34.8,Trade,40.7,17,73,89.4,quiet,22.7,0.86,Geopolitics,0.639,0.68,54.5,34.8,0.215,15.2
+2025-11-15,weekend,13.6,Fiscal,,11,37,68.2,,4.5,0.64,Geopolitics,0.778,0.808,95.5,36.4,0.308,18.2
+2025-11-16,weekend,47.8,US politics,,9,42,43.5,,34.8,0.87,Geopolitics,0.765,0.806,100.0,4.3,0.335,34.8
+2025-11-17,weekday,37.3,US politics,40.0,17,80,68.7,quiet,34.3,0.96,Geopolitics,0.682,0.68,97.0,14.9,0.231,29.9
+2025-11-18,weekday,67.6,US politics,35.7,17,83,63.2,mixed,50.0,1.01,US politics,0.681,0.68,86.8,4.4,0.238,32.4
+2025-11-19,weekday,50.7,Tech and AI,42.1,18,84,66.7,mixed,85.5,1.14,Geopolitics,0.672,0.68,82.6,59.4,0.234,30.4
+2025-11-20,weekday,30.0,US politics,24.1,16,83,28.6,quiet,64.3,0.99,US politics,0.688,0.68,67.1,50.0,0.183,5.7
+2025-11-21,weekday,26.8,US politics,44.1,16,73,46.5,quiet,4.2,0.68,US politics,0.663,0.68,76.1,23.9,0.23,29.6
+2025-11-22,weekend,12.5,Fiscal,,9,46,37.5,,12.5,0.79,Geopolitics,0.799,0.8,66.7,79.2,0.314,25.0
+2025-11-23,weekend,60.0,Geopolitics,,10,45,68.0,,36.0,0.79,Geopolitics,0.82,0.799,16.0,,0.373,56.0
+2025-11-24,weekday,16.7,Tech and AI,51.7,20,82,75.0,mixed,9.7,0.7,Geopolitics,0.68,0.68,94.4,87.5,0.26,47.2
+2025-11-25,weekday,8.2,Regulation,72.1,23,83,79.5,mixed,24.7,0.8,Geopolitics,0.704,0.68,97.3,86.3,0.253,45.2
+2025-11-26,weekday,44.6,Geopolitics,53.2,20,81,8.1,mixed,32.4,0.9,Geopolitics,0.69,0.68,48.6,93.2,0.352,91.9
+2025-11-27,weekday,37.2,Fiscal,,19,65,15.0,,54.0,0.85,Geopolitics,0.704,0.689,34.4,15.9,0.411,91.0
+2025-11-28,weekday,2.7,Geopolitics,98.4,30,70,0.0,"serious news, few sources",0.0,0.59,Geopolitics,0.718,0.68,26.7,28.0,0.367,96.0
+2025-11-29,weekend,30.8,Energy and commodities,,22,42,15.4,,3.8,0.65,Geopolitics,0.81,0.803,15.4,,0.596,100.0
+2025-11-30,weekend,7.4,Energy and commodities,,5,47,85.2,,3.7,0.77,Geopolitics,0.844,0.806,63.0,,0.331,33.3
+2025-12-01,weekday,22.4,Geopolitics,78.1,24,81,65.8,"serious news, few sources",28.9,0.88,Geopolitics,0.692,0.681,96.1,98.7,0.243,38.2
+2025-12-02,weekday,39.0,Geopolitics,75.4,25,85,51.9,"serious news, few sources",46.8,1.02,Geopolitics,0.661,0.681,51.9,36.4,0.286,70.1
+2025-12-03,weekday,19.2,Regulation,40.9,18,78,44.9,quiet,30.8,0.83,Geopolitics,0.676,0.681,92.3,17.9,0.277,65.4
+2025-12-04,weekday,30.4,Geopolitics,40.3,19,84,32.9,quiet,59.5,0.95,Geopolitics,0.676,0.68,39.2,60.8,0.254,44.3
+2025-12-05,weekday,83.7,Company news,92.6,27,80,90.0,"widely covered and serious, positive",28.7,0.76,Geopolitics,0.666,0.68,91.2,100.0,0.291,73.8
+2025-12-06,weekend,42.9,Company news,,16,43,50.0,,21.4,0.86,Geopolitics,0.819,0.808,100.0,89.3,0.459,89.3
+2025-12-07,weekend,41.4,Regulation,,9,46,62.1,,10.3,0.76,Geopolitics,0.818,0.81,93.1,,0.39,72.4
+2025-12-08,weekday,69.1,Company news,60.9,21,80,49.4,mixed,33.3,0.93,Geopolitics,0.621,0.68,69.1,51.9,0.266,53.1
+2025-12-09,weekday,31.7,Regulation,8.6,11,81,53.7,quiet,24.4,0.87,Geopolitics,0.648,0.68,98.8,98.8,0.229,24.4
+2025-12-10,weekday,95.2,Central banks,40.1,19,84,81.9,"busy, ordinary",72.3,0.99,Geopolitics,0.653,0.68,51.8,97.6,0.262,48.2
+2025-12-11,weekday,26.2,Regulation,41.7,19,83,56.0,quiet,33.3,0.82,Geopolitics,0.676,0.68,39.3,57.1,0.232,28.6
+2025-12-12,weekday,8.2,US politics,49.3,19,78,12.9,quiet,7.1,0.73,Geopolitics,0.689,0.68,49.4,9.4,0.253,43.5
+2025-12-13,weekend,30.0,Geopolitics,,25,49,36.7,,60.0,1.03,Geopolitics,0.89,0.81,13.3,,0.492,90.0
+2025-12-14,weekend,35.5,Central banks,,19,42,12.9,,25.8,0.85,Geopolitics,0.855,0.81,45.2,,0.562,96.8
+2025-12-15,weekday,19.8,Regulation,94.6,27,78,38.4,"serious news, few sources",17.4,0.73,Geopolitics,0.689,0.68,82.6,97.7,0.335,90.7
+2025-12-16,weekday,6.9,Geopolitics,92.0,27,79,12.6,"serious news, few sources",23.0,0.79,Geopolitics,0.685,0.68,42.5,97.7,0.289,72.4
+2025-12-17,weekday,14.8,Company news,88.8,27,81,67.0,"serious news, few sources",18.2,0.82,Geopolitics,0.707,0.68,89.8,93.2,0.263,50.0
+2025-12-18,weekday,71.9,Central banks,19.5,15,79,82.0,mixed,55.1,0.97,Geopolitics,0.626,0.68,49.4,22.5,0.187,5.6
+2025-12-19,weekday,7.8,Company news,84.6,23,73,62.2,"serious news, few sources",10.0,0.76,Geopolitics,0.649,0.68,76.7,24.4,0.284,70.0
+2025-12-20,weekend,0.0,Crypto,,12,45,28.1,,15.6,0.7,Geopolitics,0.869,0.81,84.4,87.5,0.43,81.2
+2025-12-21,weekend,6.1,Central banks,65.0,12,42,12.1,mixed,0.0,0.55,Geopolitics,0.869,0.81,97.0,,0.37,45.5
+2025-12-22,weekday,3.3,Energy and commodities,94.9,28,74,13.2,"serious news, few sources",0.0,0.61,Geopolitics,0.729,0.68,29.7,,0.352,91.2
+2025-12-23,weekday,1.1,Energy and commodities,9.4,10,70,16.3,quiet,4.3,0.58,Geopolitics,0.669,0.68,100.0,82.6,0.219,16.3
+2025-12-24,weekday,6.5,Regulation,87.7,22,66,47.3,"serious news, few sources",1.1,0.61,Geopolitics,0.701,0.68,60.2,95.7,0.326,88.2
+2025-12-25,weekday,11.8,Crypto,92.2,26,57,3.5,"serious news, few sources",25.0,0.53,Geopolitics,0.862,0.689,79.6,,0.412,85.7
+2025-12-26,weekday,0.0,Tech and AI,98.8,28,59,12.8,"serious news, few sources",0.0,0.61,Geopolitics,0.836,0.68,10.6,,0.473,100.0
+2025-12-27,weekend,2.9,Geopolitics,71.4,15,44,67.6,mixed,2.9,0.61,Geopolitics,0.936,0.812,35.3,,0.422,79.4
+2025-12-28,weekend,48.6,Geopolitics,72.7,16,46,80.0,mixed,17.1,0.61,Geopolitics,0.907,0.813,45.7,,0.531,94.3
+2025-12-29,weekday,15.8,Geopolitics,98.8,33,68,16.8,"serious news, few sources",2.1,0.65,Geopolitics,0.814,0.68,51.6,78.9,0.397,96.8
+2025-12-30,weekday,3.1,Central banks,63.1,20,73,9.4,mixed,7.3,0.71,Geopolitics,0.749,0.68,52.1,,0.273,55.2
+2025-12-31,weekday,1.0,Geopolitics,91.8,25,70,9.3,"serious news, few sources",1.0,0.52,Geopolitics,0.801,0.68,77.3,78.4,0.402,96.9
+2026-01-01,weekday,22.7,Trade,99.4,31,55,51.0,"serious news, few sources",26.4,0.46,Geopolitics,0.772,0.693,28.4,,0.418,86.0
+2026-01-02,weekday,6.1,Crypto,33.1,15,70,15.3,quiet,0.0,0.49,Geopolitics,0.773,0.681,9.2,93.9,0.236,29.6
+2026-01-03,weekend,97.2,Geopolitics,91.3,27,55,0.0,"widely covered and serious, negative",100.0,2.23,Geopolitics,0.936,0.815,0.0,,0.634,100.0
+2026-01-04,weekend,83.8,Geopolitics,62.5,18,53,10.8,mixed,91.9,1.13,Geopolitics,0.897,0.818,56.8,,0.476,81.1
+2026-01-05,weekday,67.7,Geopolitics,89.1,28,81,5.1,mixed,76.8,1.03,Geopolitics,0.788,0.681,0.0,80.8,0.367,93.9
+2026-01-06,weekday,70.0,Geopolitics,78.4,26,83,61.0,mixed,81.0,1.04,Geopolitics,0.713,0.681,45.0,96.0,0.322,81.0
+2026-01-07,weekday,60.4,Geopolitics,96.1,39,91,1.0,mixed,96.0,1.24,Geopolitics,0.74,0.681,7.9,0.0,0.451,98.0
+2026-01-08,weekday,95.1,US politics,91.1,34,90,72.5,widely covered and serious,100.0,1.4,Geopolitics,0.667,0.682,31.4,1.0,0.405,96.1
+2026-01-09,weekday,38.8,Geopolitics,91.2,31,82,61.2,"serious news, few sources",95.1,1.21,Geopolitics,0.677,0.681,32.0,1.9,0.412,96.1
+2026-01-10,weekend,65.8,US politics,44.0,14,52,28.9,mixed,71.1,1.18,Geopolitics,0.757,0.818,68.4,0.0,0.415,71.1
+2026-01-11,weekend,69.2,Geopolitics,38.5,15,57,15.4,mixed,89.7,1.18,Geopolitics,0.798,0.818,15.4,10.3,0.336,28.2
+2026-01-12,weekday,73.1,Trade,29.3,18,85,49.0,mixed,73.1,1.08,Geopolitics,0.656,0.681,35.6,24.0,0.258,40.4
+2026-01-13,weekday,69.5,US politics,89.2,32,87,0.0,mixed,96.2,1.28,Geopolitics,0.647,0.681,42.9,6.7,0.346,84.8
+2026-01-14,weekday,54.7,Geopolitics,67.0,26,88,25.5,mixed,95.3,1.26,Geopolitics,0.677,0.681,14.2,48.1,0.278,60.4
+2026-01-15,weekday,33.6,US politics,23.2,17,84,68.2,quiet,72.9,0.98,Geopolitics,0.672,0.68,31.8,43.9,0.278,60.7
+2026-01-16,weekday,73.1,Trade,12.0,13,80,73.1,mixed,31.5,0.72,US politics,0.723,0.68,97.2,63.9,0.219,13.9
+2026-01-17,weekend,97.5,Trade,11.1,8,51,55.0,"busy, ordinary",97.5,1.22,Geopolitics,0.718,0.815,40.0,12.5,0.266,7.5
+2026-01-18,weekend,95.1,Trade,39.3,14,57,31.7,"busy, ordinary",97.6,1.22,Geopolitics,0.746,0.813,100.0,63.4,0.328,24.4
+2026-01-19,weekday,70.0,Trade,0.0,5,69,36.3,mixed,56.1,0.9,Geopolitics,0.697,0.701,43.9,90.3,0.198,5.0
+2026-01-20,weekday,89.9,Trade,4.1,9,83,10.1,"busy, ordinary",74.3,1.03,Geopolitics,0.654,0.68,30.3,93.6,0.228,19.3
+2026-01-21,weekday,94.5,Trade,4.1,9,84,93.6,"busy, ordinary",65.5,1.05,Geopolitics,0.606,0.68,33.6,96.4,0.171,1.8
+2026-01-22,weekday,56.8,Company news,33.3,19,89,92.8,mixed,69.4,1.06,Geopolitics,0.655,0.68,9.9,82.9,0.199,10.8
+2026-01-23,weekday,24.1,US politics,11.0,12,80,62.5,quiet,16.1,0.69,Geopolitics,0.746,0.68,79.5,28.6,0.209,12.5
+2026-01-24,weekend,90.5,Trade,75.9,20,54,19.0,"widely covered and serious, negative",92.9,1.28,Geopolitics,0.734,0.812,92.9,0.0,0.6,97.6
+2026-01-25,weekend,86.0,US politics,56.7,15,53,53.5,mixed,53.5,0.93,US politics,0.802,0.81,100.0,2.3,0.505,88.4
+2026-01-26,weekday,79.6,US politics,65.3,24,84,23.9,mixed,70.8,1.03,US politics,0.652,0.68,89.4,5.3,0.254,40.7
+2026-01-27,weekday,56.1,Trade,75.5,26,84,72.8,mixed,72.8,1.0,Geopolitics,0.691,0.68,100.0,7.0,0.269,52.6
+2026-01-28,weekday,96.5,Central banks,36.9,19,86,33.0,"busy, ordinary",90.4,1.27,US politics,0.623,0.68,86.1,15.7,0.311,78.3
+2026-01-29,weekday,65.5,Fiscal,37.0,19,86,91.4,mixed,87.9,1.15,Geopolitics,0.647,0.68,98.3,12.1,0.217,13.8
+2026-01-30,weekday,77.8,US politics,38.1,18,80,88.0,"busy, ordinary",41.0,0.89,US politics,0.7,0.68,100.0,7.7,0.271,53.0
+2026-01-31,weekend,56.8,US politics,32.3,12,53,25.0,mixed,43.2,0.77,Geopolitics,0.829,0.81,84.1,34.1,0.276,11.4
+2026-02-01,weekend,66.7,Fiscal,7.8,8,54,84.4,mixed,31.1,0.85,Geopolitics,0.801,0.81,53.3,84.4,0.224,0.0
+2026-02-02,weekday,36.4,Fiscal,11.3,12,78,95.8,quiet,15.3,0.71,Geopolitics,0.654,0.68,64.4,54.2,0.193,6.8
+2026-02-03,weekday,85.7,Fiscal,40.2,19,84,93.3,"busy, ordinary",75.6,1.1,Geopolitics,0.646,0.68,25.2,25.2,0.284,67.2
+2026-02-04,weekday,80.8,Company news,67.6,24,82,36.7,mixed,58.3,1.02,Geopolitics,0.694,0.68,64.2,19.2,0.28,64.2
+2026-02-05,weekday,43.8,Central banks,34.9,17,79,50.4,quiet,18.2,0.78,Geopolitics,0.68,0.68,100.0,72.7,0.208,12.4
+2026-02-06,weekday,19.7,Geopolitics,95.5,31,80,26.2,"serious news, few sources",24.6,0.81,Geopolitics,0.751,0.68,14.8,93.4,0.356,89.3
+2026-02-07,weekend,23.9,Regulation,47.0,12,45,91.3,quiet,34.8,0.65,Geopolitics,0.82,0.81,100.0,84.8,0.354,39.1
+2026-02-08,weekend,31.9,Company news,0.0,2,47,61.7,quiet,0.0,0.56,Geopolitics,0.774,0.81,100.0,83.0,0.195,0.0
+2026-02-09,weekday,7.3,Crypto,46.8,19,79,26.0,quiet,11.4,0.72,Geopolitics,0.734,0.68,100.0,52.8,0.267,50.4
+2026-02-10,weekday,35.5,US politics,3.6,9,86,23.4,quiet,45.2,0.9,Geopolitics,0.679,0.68,88.7,12.9,0.224,19.4
+2026-02-11,weekday,55.2,Trade,15.9,14,83,80.8,mixed,45.6,0.86,Geopolitics,0.707,0.68,56.0,38.4,0.162,0.0
+2026-02-12,weekday,65.6,Regulation,15.8,14,84,36.5,mixed,56.0,0.88,US politics,0.641,0.68,68.8,34.4,0.271,54.4
+2026-02-13,weekday,41.6,US politics,42.6,18,79,18.9,quiet,11.2,0.69,Geopolitics,0.693,0.68,85.6,30.4,0.203,11.2
+2026-02-14,weekend,41.7,Tech and AI,68.6,15,45,18.8,mixed,8.3,0.61,Geopolitics,0.792,0.81,97.9,,0.402,64.6
+2026-02-15,weekend,2.0,Tech and AI,66.7,16,49,40.8,mixed,0.0,0.52,Geopolitics,0.881,0.81,95.9,,0.414,69.4
+2026-02-16,weekday,34.4,Regulation,33.4,15,68,39.0,quiet,25.0,0.49,Geopolitics,0.745,0.693,94.6,87.8,0.238,19.0
+2026-02-17,weekday,56.5,Regulation,49.1,20,83,64.1,mixed,35.5,0.84,Geopolitics,0.683,0.68,98.4,90.3,0.218,16.9
+2026-02-18,weekday,16.9,Regulation,47.4,18,76,35.7,quiet,15.3,0.73,Geopolitics,0.701,0.68,85.5,80.6,0.222,20.2
+2026-02-19,weekday,4.8,Company news,15.3,14,85,11.5,quiet,29.0,0.78,Geopolitics,0.741,0.68,50.8,72.6,0.195,8.9
+2026-02-20,weekday,100.0,Trade,22.7,17,88,94.7,"busy, ordinary",88.7,1.14,Trade,0.66,0.68,33.1,83.9,0.188,6.5
+2026-02-21,weekend,90.0,Trade,8.1,6,48,22.0,"busy, ordinary",50.0,0.86,Geopolitics,0.781,0.81,18.0,,0.245,8.0
+2026-02-22,weekend,84.3,Trade,61.8,16,56,19.6,mixed,82.4,1.06,Geopolitics,0.744,0.81,27.5,,0.36,41.2
+2026-02-23,weekday,95.2,Trade,90.0,32,89,8.3,"widely covered and serious, negative",72.6,1.06,Geopolitics,0.692,0.68,62.1,95.2,0.244,37.9
+2026-02-24,weekday,74.2,Trade,26.4,17,86,24.1,mixed,78.2,1.08,Geopolitics,0.682,0.68,36.3,85.5,0.175,3.2
+2026-02-25,weekday,25.8,Regulation,27.0,18,89,21.6,quiet,69.4,1.01,Geopolitics,0.683,0.68,70.2,20.2,0.264,50.0
+2026-02-26,weekday,53.2,Tech and AI,18.7,16,90,27.4,mixed,90.3,1.18,Geopolitics,0.705,0.68,58.1,28.2,0.211,16.1
+2026-02-27,weekday,79.8,Tech and AI,91.1,31,84,47.1,widely covered and serious,55.6,1.0,Geopolitics,0.646,0.68,16.1,82.3,0.317,83.1
+2026-02-28,weekend,98.1,Geopolitics,100.0,51,62,0.0,"widely covered and serious, negative",100.0,3.74,Geopolitics,0.906,0.81,1.9,,0.64,100.0
+2026-03-01,weekend,98.1,Geopolitics,97.5,42,66,1.9,"widely covered and serious, negative",96.2,2.59,Geopolitics,0.872,0.81,3.8,,0.617,96.2
+2026-03-02,weekday,89.5,Geopolitics,100.0,57,90,0.0,"widely covered and serious, negative",100.0,1.78,Geopolitics,0.777,0.68,3.2,39.5,0.458,98.4
+2026-03-03,weekday,81.6,Geopolitics,98.4,46,92,0.7,"widely covered and serious, negative",99.2,1.62,Geopolitics,0.763,0.68,0.0,73.6,0.415,96.0
+2026-03-04,weekday,84.8,Geopolitics,96.0,39,90,1.4,"widely covered and serious, negative",97.6,1.55,Geopolitics,0.719,0.68,4.8,40.8,0.355,88.0
+2026-03-05,weekday,70.4,Energy and commodities,78.8,27,84,2.1,mixed,94.4,1.47,Geopolitics,0.693,0.681,27.2,57.6,0.316,80.0
+2026-03-06,weekday,65.6,Geopolitics,92.8,31,81,2.1,mixed,64.0,1.02,Geopolitics,0.755,0.681,0.0,97.6,0.34,84.8
+2026-03-07,weekend,78.8,Geopolitics,36.6,15,62,5.6,"busy, ordinary",94.2,1.43,Geopolitics,0.865,0.81,9.6,,0.5,82.7
+2026-03-08,weekend,76.9,Geopolitics,76.2,24,65,5.5,"widely covered and serious, negative",80.8,1.3,Geopolitics,0.849,0.81,7.7,,0.447,73.1
+2026-03-09,weekday,88.8,Energy and commodities,84.8,31,89,2.8,"widely covered and serious, negative",86.4,1.14,Geopolitics,0.76,0.681,1.6,90.4,0.362,89.6
+2026-03-10,weekday,86.4,Energy and commodities,96.0,41,92,5.6,"widely covered and serious, negative",91.2,1.26,Geopolitics,0.69,0.681,43.2,83.2,0.349,84.8
+2026-03-11,weekday,99.2,Energy and commodities,84.8,32,91,6.2,"widely covered and serious, negative",96.8,1.46,Geopolitics,0.663,0.681,17.6,80.8,0.316,77.6
+2026-03-12,weekday,84.8,Energy and commodities,75.2,28,88,6.2,"widely covered and serious, negative",89.6,1.24,Geopolitics,0.69,0.681,24.0,80.0,0.3,73.6
+2026-03-13,weekday,54.4,Geopolitics,88.8,31,83,5.5,mixed,55.2,1.02,Geopolitics,0.785,0.681,24.8,99.2,0.387,93.6
+2026-03-14,weekend,71.2,Geopolitics,62.8,18,58,14.3,mixed,78.8,1.03,Geopolitics,0.882,0.812,13.5,,0.459,73.1
+2026-03-15,weekend,55.8,Energy and commodities,20.5,10,57,14.0,mixed,46.2,0.87,Geopolitics,0.844,0.812,76.9,,0.345,32.7
+2026-03-16,weekday,83.2,Energy and commodities,74.4,27,86,17.0,mixed,84.8,1.21,Geopolitics,0.692,0.682,48.0,95.2,0.286,67.2
+2026-03-17,weekday,56.8,Geopolitics,55.2,23,88,14.2,mixed,88.8,1.19,Geopolitics,0.691,0.682,10.4,86.4,0.272,53.6
+2026-03-18,weekday,88.8,Central banks,59.2,24,88,3.4,mixed,90.4,1.29,Geopolitics,0.656,0.682,16.0,68.0,0.32,80.8
+2026-03-19,weekday,76.0,Energy and commodities,93.6,37,90,13.3,"widely covered and serious, negative",88.8,1.27,Geopolitics,0.685,0.682,4.8,72.8,0.321,80.8
+2026-03-20,weekday,50.4,Geopolitics,46.4,20,85,4.0,mixed,43.2,1.0,Geopolitics,0.711,0.682,4.8,70.4,0.295,70.4
+2026-03-21,weekend,57.7,Geopolitics,57.8,16,56,37.9,mixed,48.1,0.91,Geopolitics,0.784,0.815,73.1,65.4,0.389,55.8
+2026-03-22,weekend,65.4,Geopolitics,34.8,13,55,10.2,mixed,48.1,0.99,Geopolitics,0.829,0.814,28.8,,0.322,23.1
+2026-03-23,weekday,72.0,Energy and commodities,52.0,21,84,75.7,mixed,48.0,0.92,Geopolitics,0.705,0.682,22.4,61.6,0.299,71.2
+2026-03-24,weekday,63.2,Energy and commodities,42.4,20,87,39.9,mixed,78.4,1.2,Geopolitics,0.695,0.682,41.6,78.4,0.279,61.6
+2026-03-25,weekday,75.2,Energy and commodities,54.8,23,88,11.0,mixed,52.0,1.09,Geopolitics,0.701,0.682,28.8,60.0,0.315,76.8
+2026-03-26,weekday,33.6,Geopolitics,29.6,18,86,18.7,quiet,60.0,1.13,Geopolitics,0.698,0.682,57.6,57.6,0.269,51.2
+2026-03-27,weekday,52.0,Energy and commodities,30.4,17,81,32.1,mixed,42.4,0.94,Geopolitics,0.684,0.682,22.4,76.8,0.26,42.4
+2026-03-28,weekend,71.2,Geopolitics,36.2,14,59,18.3,mixed,55.8,0.95,Geopolitics,0.877,0.818,11.5,,0.516,86.5
+2026-03-29,weekend,55.8,Geopolitics,8.3,8,57,36.1,mixed,40.4,1.02,Geopolitics,0.809,0.819,19.2,86.5,0.387,51.9
+2026-03-30,weekday,60.0,Geopolitics,76.8,27,84,44.6,mixed,41.6,1.04,Geopolitics,0.759,0.682,20.8,,0.334,84.0
+2026-03-31,weekday,86.4,Energy and commodities,45.6,21,90,10.8,"busy, ordinary",84.0,1.28,Geopolitics,0.675,0.682,16.0,25.6,0.303,72.8
+2026-04-01,weekday,37.6,Geopolitics,49.6,21,88,82.4,quiet,48.8,0.93,Geopolitics,0.716,0.682,9.6,92.0,0.249,36.8
+2026-04-02,weekday,32.8,Energy and commodities,77.6,28,85,23.1,"serious news, few sources",46.4,0.93,Geopolitics,0.658,0.683,52.0,87.2,0.28,63.2
+2026-04-03,weekday,51.7,Fiscal,54.7,22,81,52.6,mixed,59.9,0.92,Geopolitics,0.769,0.701,18.1,73.6,0.327,52.7
+2026-04-04,weekend,26.9,Geopolitics,44.9,13,49,37.1,quiet,23.1,0.63,Geopolitics,0.828,0.818,44.2,,0.429,67.3
+2026-04-05,weekend,75.0,Geopolitics,4.0,6,60,88.9,"busy, ordinary",36.5,0.89,Geopolitics,0.87,0.818,26.9,,0.283,13.5
+2026-04-06,weekday,33.9,Geopolitics,76.6,27,82,7.5,"serious news, few sources",30.6,0.83,Geopolitics,0.776,0.683,37.1,99.2,0.351,87.1
+2026-04-07,weekday,88.7,Geopolitics,91.1,35,92,88.9,"widely covered and serious, positive",92.7,1.28,Geopolitics,0.765,0.683,27.4,74.2,0.313,75.0
+2026-04-08,weekday,83.1,Geopolitics,99.2,55,88,94.5,"widely covered and serious, positive",94.4,1.31,Geopolitics,0.782,0.684,16.9,83.9,0.534,100.0
+2026-04-09,weekday,54.8,Energy and commodities,74.2,28,87,62.8,mixed,54.8,1.03,Geopolitics,0.779,0.684,29.8,71.8,0.358,89.5
+2026-04-10,weekday,30.6,Energy and commodities,58.1,22,79,64.8,mixed,25.8,0.75,Geopolitics,0.729,0.684,72.6,82.3,0.348,83.9
+2026-04-11,weekend,38.5,Energy and commodities,17.6,9,55,92.2,quiet,7.7,0.76,Geopolitics,0.822,0.819,38.5,,0.297,15.4
+2026-04-12,weekend,76.9,Geopolitics,31.7,14,63,12.3,"busy, ordinary",78.8,1.27,Geopolitics,0.821,0.82,9.6,,0.347,36.5
+2026-04-13,weekday,44.4,Energy and commodities,67.3,26,83,7.2,mixed,46.0,0.99,Geopolitics,0.652,0.684,47.6,85.5,0.371,91.9
+2026-04-14,weekday,42.7,Energy and commodities,83.1,30,85,57.5,"serious news, few sources",49.2,1.0,Geopolitics,0.716,0.683,40.3,96.8,0.348,83.1
+2026-04-15,weekday,21.0,Regulation,50.0,21,85,78.0,mixed,67.7,1.06,Geopolitics,0.737,0.683,14.5,80.6,0.288,63.7
+2026-04-16,weekday,37.1,Energy and commodities,91.9,32,81,95.3,"serious news, few sources",43.5,0.96,Geopolitics,0.743,0.684,38.7,90.3,0.334,78.2
+2026-04-17,weekday,20.2,Energy and commodities,4.0,10,75,95.9,quiet,12.1,0.69,Geopolitics,0.726,0.684,20.2,94.4,0.317,73.4
+2026-04-18,weekend,28.8,Geopolitics,83.7,20,54,24.2,"serious news, few sources",55.8,0.96,Geopolitics,0.884,0.821,73.1,,0.422,65.4
+2026-04-19,weekend,21.2,Tech and AI,28.8,11,53,68.7,quiet,32.7,0.91,Geopolitics,0.834,0.821,51.9,,0.372,46.2
+2026-04-20,weekday,29.8,Geopolitics,46.4,19,78,60.2,quiet,25.8,0.83,Geopolitics,0.687,0.685,45.2,69.8,0.309,68.5
+2026-04-21,weekday,28.2,Energy and commodities,49.6,20,80,87.8,quiet,66.9,1.16,Geopolitics,0.664,0.685,26.6,41.1,0.307,67.7
+2026-04-22,weekday,74.2,Energy and commodities,47.6,21,86,56.1,mixed,75.0,1.17,Geopolitics,0.601,0.684,63.7,71.8,0.31,68.5
+2026-04-23,weekday,31.5,Geopolitics,39.9,20,85,55.2,quiet,80.6,1.14,Geopolitics,0.714,0.684,46.0,58.1,0.339,79.8
+2026-04-24,weekday,19.4,Energy and commodities,21.8,17,82,58.3,quiet,33.9,0.89,Geopolitics,0.691,0.685,66.9,29.8,0.258,36.3
+2026-04-25,weekend,44.2,US politics,55.8,15,56,39.7,mixed,38.5,0.75,Geopolitics,0.837,0.821,90.4,78.8,0.371,46.2
+2026-04-26,weekend,61.5,US politics,59.6,13,47,55.1,mixed,9.6,0.52,Geopolitics,0.826,0.821,88.5,21.2,0.492,80.8
+2026-04-27,weekday,15.3,US politics,61.3,23,79,31.2,mixed,38.7,0.87,Geopolitics,0.701,0.686,96.8,11.3,0.346,81.5
+2026-04-28,weekday,84.7,Energy and commodities,3.2,9,81,58.8,"busy, ordinary",66.1,1.1,Geopolitics,0.642,0.686,79.8,12.9,0.199,8.9
+2026-04-29,weekday,87.1,Central banks,22.6,18,87,42.7,"busy, ordinary",78.2,1.16,Geopolitics,0.644,0.686,54.8,44.4,0.284,55.6
+2026-04-30,weekday,65.3,Energy and commodities,0.0,7,87,68.7,mixed,82.3,1.11,Geopolitics,0.638,0.686,47.6,66.9,0.2,10.5
+2026-05-01,weekday,83.1,Trade,14.5,14,76,36.7,"busy, ordinary",25.8,0.78,Geopolitics,0.664,0.686,68.5,90.3,0.251,32.3
+2026-05-02,weekend,71.2,Company news,19.2,9,52,41.4,mixed,34.6,0.7,Geopolitics,0.783,0.822,100.0,,0.384,50.0
+2026-05-03,weekend,59.6,Energy and commodities,9.6,8,58,76.1,mixed,42.3,0.83,Geopolitics,0.821,0.822,69.2,,0.334,26.9
+2026-05-04,weekday,18.5,Crypto,60.5,21,75,39.8,mixed,25.8,0.71,Geopolitics,0.765,0.686,64.5,87.9,0.313,68.5
+2026-05-05,weekday,16.1,Regulation,56.5,23,86,30.8,mixed,45.2,0.94,Geopolitics,0.719,0.688,25.8,74.2,0.337,78.2
+2026-05-06,weekday,31.5,Tech and AI,9.7,14,87,79.8,quiet,75.0,1.09,Geopolitics,0.71,0.688,28.2,65.3,0.288,57.3
+2026-05-07,weekday,52.4,Trade,19.0,17,86,54.3,mixed,47.6,0.99,Geopolitics,0.717,0.689,22.6,83.9,0.309,63.7
+2026-05-08,weekday,14.5,Geopolitics,42.7,20,85,80.0,quiet,29.0,0.84,Geopolitics,0.742,0.689,72.6,91.9,0.348,82.3
+2026-05-09,weekend,5.8,Tech and AI,88.5,21,50,76.4,"serious news, few sources",3.8,0.52,Geopolitics,0.884,0.822,84.6,,0.451,71.2
+2026-05-10,weekend,38.5,Energy and commodities,17.3,9,56,79.5,quiet,15.4,0.72,Geopolitics,0.849,0.824,44.2,,0.394,53.8
+2026-05-11,weekday,12.1,Energy and commodities,20.2,16,80,22.6,quiet,18.5,0.8,Geopolitics,0.7,0.69,30.6,53.2,0.287,54.0
+2026-05-12,weekday,27.4,Company news,53.2,23,89,13.4,mixed,53.2,0.93,Geopolitics,0.66,0.69,80.6,79.0,0.337,76.6
+2026-05-13,weekday,5.6,Tech and AI,30.6,18,83,27.7,quiet,21.0,0.78,Geopolitics,0.696,0.69,71.8,93.5,0.271,40.3
+2026-05-14,weekday,13.7,Energy and commodities,55.6,22,84,52.9,mixed,17.7,0.75,Geopolitics,0.732,0.691,85.5,66.1,0.287,54.0
+2026-05-15,weekday,24.2,Energy and commodities,30.6,17,77,70.5,quiet,8.9,0.68,Geopolitics,0.696,0.691,81.5,93.5,0.266,36.3
+2026-05-16,weekend,34.6,Company news,78.8,16,45,51.4,"serious news, few sources",9.6,0.54,Geopolitics,0.795,0.827,44.2,,0.51,84.6
+2026-05-17,weekend,9.6,Regulation,37.5,13,55,29.3,quiet,9.6,0.62,Geopolitics,0.822,0.827,38.5,,0.46,73.1
+2026-05-18,weekday,8.9,Regulation,13.7,15,81,74.3,quiet,20.2,0.74,Geopolitics,0.754,0.691,21.0,81.5,0.262,33.1
+2026-05-19,weekday,29.0,Fiscal,43.5,19,80,50.0,quiet,33.9,0.81,Geopolitics,0.693,0.691,67.7,91.9,0.297,58.1
+2026-05-20,weekday,63.7,Company news,0.0,6,91,85.0,mixed,78.2,1.14,Geopolitics,0.68,0.692,24.2,85.5,0.187,3.2
+2026-05-21,weekday,14.5,Company news,4.8,11,88,33.0,quiet,16.1,0.77,Geopolitics,0.7,0.692,58.1,97.6,0.197,7.3
+2026-05-22,weekday,58.9,US politics,4.4,9,81,39.5,mixed,19.4,0.72,Geopolitics,0.671,0.692,69.4,19.4,0.154,0.0
+2026-05-23,weekend,13.5,Trade,1.9,4,55,97.4,quiet,40.4,0.75,Geopolitics,0.853,0.827,59.6,,0.378,40.4
+2026-05-24,weekend,23.1,Geopolitics,90.4,26,54,83.1,"serious news, few sources",7.7,0.59,Geopolitics,0.923,0.828,15.4,,0.507,82.7
+2026-05-25,weekday,23.1,Geopolitics,47.4,17,67,43.7,quiet,36.0,0.62,Geopolitics,0.825,0.716,52.0,,0.356,58.4
+2026-05-26,weekday,20.3,Tech and AI,88.6,33,87,7.7,"serious news, few sources",34.1,0.81,Geopolitics,0.736,0.692,67.5,100.0,0.358,88.6
+2026-05-27,weekday,11.4,Tech and AI,69.1,26,82,31.5,mixed,36.6,0.89,Geopolitics,0.731,0.692,69.9,72.4,0.32,69.1
+2026-05-28,weekday,30.1,Tech and AI,76.4,29,85,74.2,"serious news, few sources",39.0,0.89,Geopolitics,0.732,0.693,15.4,74.8,0.34,78.0
+2026-05-29,weekday,4.0,Central banks,57.3,24,87,16.6,mixed,24.2,0.8,Geopolitics,0.735,0.693,49.2,33.9,0.34,77.4
+2026-05-30,weekend,36.5,US politics,9.6,7,53,48.7,quiet,19.2,0.72,Geopolitics,0.795,0.829,76.9,30.8,0.341,23.1
+2026-05-31,weekend,13.5,Tech and AI,23.1,9,53,48.1,quiet,32.7,0.77,Geopolitics,0.814,0.829,88.5,,0.412,51.9
+2026-06-01,weekday,46.8,Tech and AI,55.6,22,81,51.5,mixed,24.2,0.83,Geopolitics,0.741,0.693,33.9,96.8,0.31,61.3
+2026-06-02,weekday,11.3,Trade,65.3,27,87,35.8,mixed,36.3,0.83,Geopolitics,0.708,0.693,57.3,79.0,0.304,58.1
+2026-06-03,weekday,30.6,Company news,90.3,34,89,77.7,"serious news, few sources",50.8,1.0,Geopolitics,0.705,0.694,6.5,99.2,0.357,87.9
+2026-06-04,weekday,40.3,Tech and AI,48.0,21,85,70.4,quiet,30.6,0.87,Geopolitics,0.676,0.695,73.4,95.2,0.316,65.3
+2026-06-05,weekday,33.9,Tech and AI,19.4,17,86,53.9,quiet,23.4,0.75,Geopolitics,0.721,0.695,61.3,69.4,0.261,28.2
+2026-06-06,weekend,19.2,US politics,42.3,12,49,31.2,quiet,7.7,0.55,Geopolitics,0.845,0.828,30.8,46.2,0.512,86.5
+2026-06-07,weekend,32.7,Central banks,88.5,25,57,50.6,"serious news, few sources",75.0,1.07,Geopolitics,0.834,0.829,65.4,90.4,0.456,67.3
+2026-06-08,weekday,57.3,Regulation,60.9,24,84,37.1,mixed,29.0,0.86,Geopolitics,0.719,0.696,18.5,97.6,0.327,71.8
+2026-06-09,weekday,16.9,Regulation,93.5,35,82,11.7,"serious news, few sources",31.5,0.87,Geopolitics,0.741,0.696,66.1,92.7,0.382,91.9
+2026-06-10,weekday,34.7,Geopolitics,41.9,20,84,12.1,quiet,42.7,0.95,Geopolitics,0.676,0.697,43.5,35.5,0.331,71.0
+2026-06-11,weekday,54.8,Central banks,80.2,30,85,74.0,mixed,47.6,0.94,Geopolitics,0.691,0.697,21.0,91.1,0.342,78.2
+2026-06-12,weekday,86.3,Company news,96.8,38,79,83.7,"widely covered and serious, positive",13.7,0.75,Geopolitics,0.683,0.697,89.5,91.9,0.381,91.1
+2026-06-13,weekend,40.4,Tech and AI,55.8,13,48,74.4,mixed,23.1,0.49,Geopolitics,0.871,0.831,86.5,,0.41,48.1
+2026-06-14,weekend,55.8,Geopolitics,67.3,16,55,100.0,mixed,55.8,0.79,Geopolitics,0.888,0.831,51.9,,0.501,78.8
+2026-06-15,weekday,8.9,Company news,39.9,19,80,84.3,quiet,29.8,0.85,Geopolitics,0.724,0.697,61.3,18.5,0.328,68.5
+2026-06-16,weekday,34.7,Central banks,13.7,15,88,75.8,quiet,43.5,0.86,Geopolitics,0.702,0.699,62.1,100.0,0.276,36.3
+2026-06-17,weekday,82.3,Central banks,24.6,17,82,85.8,"busy, ordinary",19.4,0.86,Geopolitics,0.728,0.7,60.5,,0.262,27.4
+2026-06-18,weekday,46.0,Geopolitics,47.6,22,90,86.9,quiet,48.4,0.99,Geopolitics,0.728,0.7,23.4,91.9,0.275,36.3
+2026-06-19,weekday,32.4,Central banks,69.6,23,73,72.2,mixed,42.8,0.72,Geopolitics,0.82,0.727,32.9,,0.424,78.2
+2026-06-20,weekend,5.8,Geopolitics,71.2,17,53,41.7,mixed,9.6,0.54,Geopolitics,0.896,0.831,53.8,,0.518,90.4
+2026-06-21,weekend,13.5,Central banks,11.5,7,50,74.1,quiet,1.9,0.61,Geopolitics,0.815,0.831,28.8,,0.289,11.5
+2026-06-22,weekday,10.6,Fiscal,33.3,18,81,82.2,quiet,4.9,0.62,Geopolitics,0.734,0.7,92.7,46.3,0.2,9.8
+2026-06-23,weekday,21.1,Fiscal,17.9,16,82,85.6,quiet,8.9,0.75,Geopolitics,0.701,0.7,87.0,92.7,0.283,42.3
+2026-06-24,weekday,32.5,Tech and AI,28.9,18,84,69.9,quiet,8.1,0.72,Geopolitics,0.703,0.701,78.9,27.6,0.252,22.0
+2026-06-25,weekday,36.6,Tech and AI,38.2,20,86,21.2,quiet,8.9,0.69,Geopolitics,0.709,0.701,89.4,30.1,0.237,19.5
+2026-06-26,weekday,26.6,Trade,78.2,27,77,17.9,"serious news, few sources",5.6,0.71,Geopolitics,0.707,0.701,93.5,94.4,0.357,86.3
+2026-06-27,weekend,23.1,US politics,75.0,19,56,22.1,"serious news, few sources",36.5,0.76,Geopolitics,0.863,0.829,15.4,82.7,0.486,73.1
+2026-06-28,weekend,23.1,Tech and AI,68.3,18,58,57.5,mixed,15.4,0.79,Geopolitics,0.836,0.829,80.8,,0.402,48.1
+2026-06-29,weekday,41.9,Regulation,60.1,24,87,69.9,mixed,4.0,0.64,Geopolitics,0.723,0.701,95.2,32.3,0.275,37.9
+2026-06-30,weekday,41.9,US politics,46.0,22,92,49.1,quiet,33.9,0.82,US politics,0.688,0.701,78.2,7.3,0.289,50.0
+2026-07-01,weekday,14.5,Tech and AI,14.5,15,83,64.7,quiet,3.2,0.7,Geopolitics,0.732,0.7,94.4,95.2,0.218,15.3
+2026-07-02,weekday,7.3,Energy and commodities,77.4,27,80,38.3,"serious news, few sources",3.2,0.69,Geopolitics,0.718,0.7,32.3,91.9,0.373,92.7
+2026-07-03,weekday,34.3,Regulation,33.9,17,76,57.6,quiet,36.0,0.61,Geopolitics,0.76,0.723,55.1,71.2,0.338,49.1
+2026-07-04,weekend,3.8,Regulation,80.8,16,46,46.6,"serious news, few sources",0.0,0.32,Geopolitics,0.823,0.829,92.3,,0.549,92.3
+2026-07-05,weekend,15.4,Regulation,7.7,5,38,61.8,quiet,1.9,0.0,Geopolitics,0.769,0.828,90.4,,0.264,5.8
+2026-07-06,weekday,8.9,Company news,92.7,34,85,3.6,"serious news, few sources",0.8,0.58,Geopolitics,0.759,0.7,43.5,98.4,0.345,79.0
+2026-07-07,weekday,3.2,Company news,92.7,36,88,3.6,"serious news, few sources",25.0,0.8,Geopolitics,0.741,0.7,31.5,99.2,0.408,96.0
+2026-07-08,weekday,37.1,Geopolitics,93.1,37,90,4.0,"serious news, few sources",47.6,0.99,Geopolitics,0.748,0.7,16.1,99.2,0.373,91.9
+2026-07-09,weekday,4.0,Energy and commodities,87.1,30,79,15.5,"serious news, few sources",13.7,0.75,Geopolitics,0.722,0.7,23.4,97.6,0.405,96.0
+2026-07-10,weekday,0.0,Energy and commodities,64.9,23,79,33.9,mixed,3.2,0.61,Geopolitics,0.725,0.701,83.9,66.9,0.385,94.4
+2026-07-11,weekend,0.0,Regulation,48.1,14,56,36.7,quiet,17.3,0.56,Geopolitics,0.896,0.827,67.3,,0.449,65.4
+2026-07-12,weekend,23.1,Fiscal,90.4,21,52,20.9,"serious news, few sources",5.8,0.44,Geopolitics,0.874,0.828,40.4,,0.572,94.2
+2026-07-13,weekday,34.7,Company news,94.4,36,86,3.5,"serious news, few sources",53.2,0.99,Geopolitics,0.705,0.701,14.5,17.7,0.382,94.4
+2026-07-14,weekday,52.4,Tech and AI,47.6,22,91,12.2,mixed,62.1,1.07,Geopolitics,0.706,0.701,42.7,9.7,0.289,48.4
+2026-07-15,weekday,26.6,Tech and AI,8.9,14,88,22.6,quiet,46.0,0.87,Geopolitics,0.714,0.702,62.9,82.3,0.238,20.2
+2026-07-16,weekday,28.2,Tech and AI,54.8,22,86,20.8,mixed,37.1,0.85,Geopolitics,0.719,0.703,85.5,86.3,0.285,44.4
+2026-07-17,weekday,50.0,Trade,54.0,20,79,12.1,mixed,5.6,0.64,Geopolitics,0.731,0.704,77.4,91.9,0.303,53.2
+2026-07-18,weekend,55.8,Geopolitics,78.8,21,61,6.5,mixed,55.8,0.85,Geopolitics,0.859,0.829,17.3,,0.586,94.2
+2026-07-19,weekend,17.3,Geopolitics,96.2,28,55,9.7,"serious news, few sources",51.9,0.76,Geopolitics,0.886,0.831,9.6,,0.62,98.1
+2026-07-20,weekday,95.2,Trade,77.8,29,85,1.7,"widely covered and serious, negative",41.1,0.86,Geopolitics,0.684,0.704,38.7,92.7,0.376,91.9
+2026-07-21,weekday,93.6,Trade,91.2,36,89,8.5,"widely covered and serious, negative",76.0,1.01,Geopolitics,0.636,0.703,37.6,92.8,0.341,76.8
+2026-07-22,weekday,80.8,Tech and AI,34.8,20,87,28.5,"busy, ordinary",80.8,1.1,Geopolitics,0.635,0.703,40.8,77.6,0.306,53.6
+2026-07-23,weekday,91.2,Trade,7.2,14,89,2.5,"busy, ordinary",80.0,1.11,Geopolitics,0.644,0.703,60.0,88.8,0.296,48.0
+2026-07-24,weekday,97.6,Trade,94.4,36,85,2.1,"widely covered and serious, negative",63.2,0.95,Geopolitics,0.657,0.703,16.8,92.0,0.338,72.8
+2026-07-25,weekend,50.0,Tech and AI,86.5,23,58,57.4,mixed,42.3,0.81,Geopolitics,0.799,0.834,73.1,,0.456,61.5
+2026-07-26,weekend,19.2,Geopolitics,28.8,11,59,83.2,quiet,69.2,1.03,Geopolitics,0.874,0.834,9.6,,0.542,88.5
+2026-07-27,weekday,69.6,Tech and AI,74.4,29,86,75.2,mixed,16.8,0.8,Geopolitics,0.713,0.702,8.8,84.8,0.321,65.6
+2026-07-28,weekday,41.6,Tech and AI,56.8,23,85,38.9,mixed,12.8,0.66,Geopolitics,0.727,0.703,96.8,92.0,0.344,77.6
+2026-07-29,weekday,85.6,Central banks,65.6,26,88,1.7,mixed,43.2,0.84,Geopolitics,0.676,0.705,45.6,92.8,0.291,44.0
+2026-07-30,weekday,61.6,Central banks,81.6,32,88,4.6,mixed,44.8,0.84,Geopolitics,0.71,0.705,6.4,80.8,0.375,91.2
+2026-07-31,weekday,64.0,Tech and AI,80.8,30,83,26.0,mixed,7.2,0.72,Geopolitics,0.685,0.705,32.0,100.0,0.386,95.2
+2026-08-01,weekend,21.2,US politics,48.1,14,53,43.8,quiet,63.5,0.76,Geopolitics,0.812,0.835,34.6,,0.454,61.5
+2026-08-02,weekend,42.3,Fiscal,45.2,14,56,93.8,quiet,40.4,0.73,Geopolitics,0.856,0.835,40.4,,0.444,53.8
+2026-08-03,weekday,29.6,Fiscal,12.0,14,79,39.9,quiet,12.0,0.65,Geopolitics,0.674,0.705,47.2,72.8,0.235,14.4
+2026-08-04,weekday,64.8,Company news,72.4,29,86,35.7,mixed,30.4,0.8,Geopolitics,0.654,0.705,21.6,76.8,0.297,44.8
+2026-08-05,weekday,54.4,Company news,69.6,30,92,26.1,mixed,70.4,1.03,Geopolitics,0.707,0.705,25.6,73.6,0.319,60.8
+2026-08-06,weekday,29.6,Trade,66.4,29,91,56.5,mixed,33.6,0.8,Geopolitics,0.736,0.705,29.6,84.0,0.313,53.6
+2026-08-07,weekday,12.0,US politics,4.8,11,85,36.4,quiet,9.6,0.67,Geopolitics,0.697,0.705,96.0,74.4,0.221,11.2
+2026-08-08,weekend,55.8,Fiscal,28.8,11,54,74.5,mixed,38.5,0.75,Geopolitics,0.84,0.836,59.6,,0.332,13.5
+2026-08-09,weekend,38.5,Company news,3.8,5,53,28.3,quiet,23.1,0.57,Geopolitics,0.847,0.838,23.1,,0.211,1.9
+2026-08-10,weekday,20.8,Tech and AI,9.2,14,85,40.3,quiet,14.4,0.77,Geopolitics,0.717,0.705,92.0,96.8,0.273,28.8
+2026-08-11,weekday,0.8,Fiscal,47.2,21,84,65.1,quiet,16.0,0.75,Geopolitics,0.725,0.705,11.2,96.0,0.295,42.4
+2026-08-12,weekday,73.6,US politics,52.4,22,84,43.2,mixed,13.6,0.69,Geopolitics,0.674,0.705,84.0,11.2,0.278,30.4
+2026-08-13,weekday,53.6,Trade,76.0,29,84,11.6,mixed,23.2,0.77,Geopolitics,0.681,0.705,53.6,72.8,0.344,76.0
+2026-08-14,weekday,12.0,Crypto,58.0,21,75,49.0,mixed,0.0,0.51,Geopolitics,0.738,0.705,100.0,61.6,0.267,23.2
+2026-08-15,weekend,15.4,Trade,32.7,11,50,51.0,quiet,15.4,0.5,Geopolitics,0.878,0.842,98.1,,0.381,30.8
+2026-08-16,weekend,11.5,Tech and AI,73.1,17,52,42.6,mixed,9.6,0.49,Geopolitics,0.838,0.845,30.8,,0.513,82.7
+2026-08-17,weekday,4.8,Crypto,61.6,25,82,24.8,mixed,15.2,0.71,Geopolitics,0.716,0.705,12.8,75.2,0.261,19.2
+2026-08-18,weekday,76.2,Trade,40.1,21,86,41.4,"busy, ordinary",46.0,0.86,Geopolitics,0.689,0.706,87.3,21.4,0.253,16.7
+2026-08-19,weekday,68.3,Fiscal,14.3,16,86,55.8,mixed,26.2,0.75,Geopolitics,0.691,0.706,88.9,,0.288,38.1
+2026-08-20,weekday,16.7,Fiscal,82.9,31,84,22.7,"serious news, few sources",30.2,0.78,Geopolitics,0.721,0.706,11.1,94.4,0.328,65.9
+2026-08-21,weekday,75.4,Trade,30.2,19,81,33.5,"busy, ordinary",2.4,0.63,Geopolitics,0.728,0.706,91.3,94.4,0.31,51.6
+2026-08-22,weekend,100.0,Trade,65.4,16,53,7.8,mixed,73.1,0.83,Geopolitics,0.749,0.842,63.5,,0.478,67.3
+2026-08-23,weekend,84.6,Trade,5.8,6,53,43.7,"busy, ordinary",15.4,0.61,Geopolitics,0.82,0.842,71.2,,0.282,3.8
+2026-08-24,weekday,99.2,Trade,14.3,17,90,3.2,"busy, ordinary",50.0,0.93,Geopolitics,0.676,0.707,54.0,96.8,0.224,7.9
+2026-08-25,weekday,99.2,Trade,22.2,19,91,15.1,"busy, ordinary",56.3,1.03,Geopolitics,0.647,0.707,76.2,95.2,0.252,13.5
+2026-08-26,weekday,59.5,Trade,5.6,12,87,51.8,mixed,23.8,0.77,Geopolitics,0.693,0.707,93.7,96.8,0.193,1.6
+2026-08-27,weekday,44.4,Trade,42.1,21,85,77.7,quiet,38.9,0.82,Geopolitics,0.69,0.707,92.9,35.7,0.238,10.3
+2026-08-28,weekday,11.1,Regulation,18.3,16,78,42.2,quiet,0.8,0.51,Geopolitics,0.71,0.707,99.2,58.7,0.2,5.6
+2026-08-29,weekend,38.5,US politics,90.4,23,54,75.0,"serious news, few sources",34.6,0.68,Geopolitics,0.839,0.842,44.2,,0.429,46.2
+2026-08-30,weekend,13.5,Central banks,56.7,13,48,43.8,mixed,69.2,0.8,Geopolitics,0.823,0.839,59.6,,0.329,13.5
+2026-08-31,weekday,20.6,Fiscal,47.6,21,82,48.4,quiet,33.3,0.79,Geopolitics,0.691,0.707,57.1,14.3,0.299,44.4
+2026-09-01,weekday,28.6,Fiscal,96.0,38,88,10.8,"serious news, few sources",54.8,0.93,Geopolitics,0.726,0.707,7.1,88.1,0.396,96.8
+2026-09-02,weekday,38.9,Regulation,15.9,17,87,13.5,quiet,56.3,0.96,Geopolitics,0.667,0.707,38.1,79.4,0.317,59.5
+2026-09-03,weekday,23.8,US politics,29.8,20,86,25.8,quiet,46.0,0.85,Geopolitics,0.693,0.706,65.9,96.8,0.224,7.9
+2026-09-04,weekday,50.8,Central banks,71.4,26,80,45.6,mixed,7.9,0.68,Geopolitics,0.676,0.706,34.9,92.1,0.368,88.1
+2026-09-05,weekend,28.8,Company news,36.5,12,51,85.6,quiet,57.7,0.76,Geopolitics,0.841,0.838,69.2,,0.423,48.1
+2026-09-06,weekend,30.8,Energy and commodities,17.3,7,44,64.8,quiet,5.8,0.42,Geopolitics,0.836,0.838,86.5,,0.368,25.0
+2026-09-07,weekday,48.4,Trade,24.9,14,69,7.8,quiet,50.8,0.63,Geopolitics,0.679,0.723,78.1,,0.298,28.0
+2026-09-08,weekday,92.0,Trade,69.2,28,88,3.2,mixed,62.4,1.05,Geopolitics,0.691,0.705,87.2,,0.322,65.6
+2026-09-09,weekday,25.6,Crypto,9.6,14,83,22.3,quiet,30.4,0.77,Geopolitics,0.699,0.705,74.4,95.2,0.274,26.4
+2026-09-10,weekday,72.8,Central banks,26.8,18,83,19.9,mixed,27.2,0.78,Geopolitics,0.666,0.705,76.8,94.8,0.319,61.6
+2026-09-11,weekday,51.2,Central banks,85.6,30,82,14.7,mixed,20.8,0.73,Geopolitics,0.689,0.705,57.6,84.8,0.367,87.2
+2026-09-12,weekend,13.5,Crypto,34.6,10,46,36.5,quiet,42.3,0.63,Geopolitics,0.852,0.837,92.3,,0.356,25.0
+2026-09-13,weekend,71.2,Trade,11.5,7,51,69.5,mixed,67.3,0.87,Geopolitics,0.794,0.837,86.5,,0.305,11.5
+2026-09-14,weekday,26.4,Tech and AI,16.0,17,88,22.0,quiet,53.6,0.89,Geopolitics,0.699,0.705,95.2,97.6,0.278,29.6
+2026-09-15,weekday,81.6,US politics,14.8,16,86,31.9,"busy, ordinary",84.0,1.03,Geopolitics,0.671,0.705,93.6,4.0,0.252,15.2
+2026-09-16,weekday,100.0,Central banks,6.8,14,89,16.7,"busy, ordinary",96.8,1.19,Geopolitics,0.643,0.705,40.0,21.6,0.222,8.0
+2026-09-17,weekday,86.4,Central banks,10.4,15,89,24.3,"busy, ordinary",59.2,0.92,Geopolitics,0.689,0.705,93.6,98.4,0.235,11.2
+2026-09-18,weekday,62.4,Tech and AI,58.4,21,80,62.5,mixed,52.0,0.79,Geopolitics,0.677,0.705,75.2,74.4,0.257,19.2
+2026-09-19,weekend,86.5,Tech and AI,1.9,4,50,47.1,"busy, ordinary",73.1,0.8,Geopolitics,0.808,0.837,76.9,,0.36,26.9
+2026-09-20,weekend,75.0,US politics,86.5,21,56,20.0,"widely covered and serious, negative",96.2,1.18,Geopolitics,0.793,0.837,9.6,96.2,0.509,80.8
+2026-09-21,weekday,80.8,Company news,39.2,21,89,70.0,"busy, ordinary",85.6,1.03,Geopolitics,0.651,0.703,92.8,0.0,0.289,41.6
+2026-09-22,weekday,42.4,US politics,26.8,19,91,88.4,quiet,84.8,1.01,Geopolitics,0.685,0.702,63.2,4.8,0.266,25.6
+2026-09-23,weekday,76.8,Tech and AI,14.4,16,87,86.1,"busy, ordinary",69.6,0.98,Geopolitics,0.677,0.702,56.0,9.6,0.314,59.2
+2026-09-24,weekday,80.8,US politics,65.6,27,93,19.1,mixed,93.6,1.15,Geopolitics,0.668,0.702,75.2,0.8,0.421,99.2
+2026-09-25,weekday,4.0,Crypto,48.0,20,81,41.4,quiet,5.6,0.7,Geopolitics,0.702,0.702,79.2,94.4,0.326,65.6
+2026-09-26,weekend,69.2,Tech and AI,35.6,11,53,74.0,mixed,44.2,0.69,Geopolitics,0.835,0.837,75.0,,0.381,36.5
+2026-09-27,weekend,34.6,Central banks,65.4,15,53,26.7,mixed,84.6,0.87,Geopolitics,0.842,0.836,69.2,,0.342,21.2
+2026-09-28,weekday,34.4,Tech and AI,32.8,20,89,80.8,quiet,50.4,0.87,Geopolitics,0.714,0.702,19.2,85.6,0.3,47.2
+2026-09-29,weekday,68.8,Tech and AI,22.4,17,86,62.5,mixed,66.4,0.93,Geopolitics,0.69,0.702,93.6,99.2,0.285,35.2
+2026-09-30,weekday,53.6,Tech and AI,45.6,20,82,78.5,mixed,60.0,0.91,Geopolitics,0.63,0.702,78.4,86.4,0.271,26.4
+2026-10-01,weekday,62.4,Fiscal,6.4,12,85,34.3,mixed,90.4,0.95,Geopolitics,0.69,0.702,86.4,88.0,0.237,12.0
+2026-10-02,weekday,82.4,Energy and commodities,13.6,15,85,59.0,"busy, ordinary",23.2,0.68,Geopolitics,0.67,0.702,89.6,70.4,0.252,18.4
+2026-10-03,weekend,76.9,US politics,67.3,14,48,66.3,mixed,71.2,0.78,Geopolitics,0.823,0.837,86.5,32.7,0.383,40.4
+2026-10-04,weekend,40.4,Energy and commodities,39.4,11,50,79.0,quiet,53.8,0.74,Geopolitics,0.821,0.837,67.3,,0.342,23.1
+2026-10-05,weekday,11.1,Energy and commodities,77.0,26,79,36.0,"serious news, few sources",17.5,0.72,Geopolitics,0.723,0.702,93.7,92.1,0.348,82.5
+2026-10-06,weekday,84.9,Company news,54.0,22,87,76.1,mixed,84.1,0.99,Geopolitics,0.678,0.702,98.4,37.3,0.272,28.6
+2026-10-07,weekday,59.5,Tech and AI,61.1,24,89,26.7,mixed,85.7,0.99,Geopolitics,0.683,0.701,31.7,98.4,0.283,34.9
+2026-10-08,weekday,75.4,US politics,79.4,31,92,45.8,widely covered and serious,98.4,1.12,Geopolitics,0.684,0.7,50.0,4.0,0.308,54.0
+2026-10-09,weekday,61.9,US politics,73.8,27,86,66.1,mixed,64.3,0.85,Geopolitics,0.699,0.7,34.1,1.6,0.314,61.1
+2026-10-10,weekend,67.3,US politics,90.4,22,54,29.8,mixed,94.2,1.08,Geopolitics,0.815,0.836,15.4,1.9,0.505,78.8
+2026-10-11,weekend,90.4,Geopolitics,98.1,27,56,65.7,widely covered and serious,100.0,1.36,Geopolitics,0.884,0.836,13.5,,0.523,90.4
+2026-10-12,weekday,44.4,US politics,92.1,31,79,36.8,"serious news, few sources",87.3,0.97,Geopolitics,0.729,0.7,14.3,31.0,0.383,95.2
+2026-10-13,weekday,69.0,US politics,43.7,21,88,25.5,mixed,70.6,0.95,Geopolitics,0.701,0.7,38.1,0.8,0.354,84.9
+2026-10-14,weekday,19.0,US politics,40.9,21,89,35.9,quiet,81.0,1.04,Geopolitics,0.691,0.7,19.0,56.3,0.294,46.0
+2026-10-15,weekday,51.6,US politics,61.1,25,94,13.9,mixed,96.0,1.09,Geopolitics,0.701,0.7,4.8,42.1,0.259,21.4
+2026-10-16,weekday,18.3,US politics,86.5,29,81,47.0,"serious news, few sources",28.6,0.67,Geopolitics,0.732,0.7,83.3,9.5,0.416,99.2
+2026-10-17,weekend,7.7,US politics,48.1,13,50,70.2,quiet,82.7,0.68,Geopolitics,0.871,0.837,98.1,,0.402,42.3
+2026-10-18,weekend,71.2,Geopolitics,71.2,18,56,31.4,mixed,96.2,1.41,Geopolitics,0.831,0.837,15.4,,0.461,67.3
+2026-10-19,weekday,1.6,Crypto,64.3,23,84,26.4,mixed,68.3,0.98,Geopolitics,0.749,0.7,92.1,45.2,0.296,48.4
+2026-10-20,weekday,19.0,Fiscal,76.2,27,84,33.1,"serious news, few sources",54.8,0.85,Geopolitics,0.726,0.7,92.9,87.3,0.317,64.3
+2026-10-21,weekday,38.1,US politics,25.4,18,89,98.8,quiet,99.2,1.15,Geopolitics,0.717,0.7,1.6,36.5,0.237,12.7
+2026-10-22,weekday,62.7,Tech and AI,8.3,14,88,49.0,mixed,80.2,1.1,Geopolitics,0.671,0.701,69.8,63.5,0.271,30.2
+2026-10-23,weekday,27.8,Trade,89.7,32,86,89.2,"serious news, few sources",47.6,0.87,Geopolitics,0.702,0.7,34.1,100.0,0.384,94.4
+2026-10-24,weekend,55.8,US politics,25.0,8,46,56.7,mixed,59.6,0.53,Geopolitics,0.81,0.837,100.0,46.2,0.413,48.1
+2026-10-25,weekend,86.5,US politics,5.8,5,51,73.3,"busy, ordinary",90.4,1.0,Geopolitics,0.823,0.836,92.3,7.7,0.26,1.9
+2026-10-26,weekday,43.7,US politics,13.5,15,87,91.2,quiet,70.6,0.92,Geopolitics,0.7,0.701,42.1,7.1,0.248,15.9
+2026-10-27,weekday,54.0,US politics,58.7,23,87,95.6,mixed,81.7,0.98,Geopolitics,0.708,0.7,37.3,37.3,0.255,21.4
+2026-10-28,weekday,97.6,Central banks,1.6,9,92,73.3,"busy, ordinary",96.8,1.15,Geopolitics,0.689,0.701,91.3,56.3,0.184,0.8
+2026-10-29,weekday,81.0,Crypto,45.2,20,83,13.9,"busy, ordinary",90.5,0.99,Geopolitics,0.666,0.701,76.2,37.3,0.271,31.7
+2026-10-30,weekday,99.2,Crypto,99.2,38,87,28.3,widely covered and serious,59.5,0.8,Geopolitics,0.667,0.701,94.4,84.1,0.379,90.5
+2026-10-31,weekend,98.1,Crypto,28.8,10,56,92.3,"busy, ordinary",94.2,0.86,Geopolitics,0.779,0.836,42.3,0.0,0.264,5.8
+2026-11-01,weekend,98.1,Crypto,80.8,19,52,87.6,"widely covered and serious, positive",86.5,0.87,Geopolitics,0.775,0.836,94.2,34.6,0.391,38.5
+2026-11-02,weekday,86.5,Crypto,92.1,33,84,58.0,widely covered and serious,92.1,1.01,Geopolitics,0.663,0.701,53.2,56.3,0.329,71.4
+2026-11-03,weekday,90.5,Crypto,68.3,27,91,53.8,mixed,89.7,1.1,Geopolitics,0.69,0.7,26.2,21.4,0.311,58.7
+2026-11-04,weekday,87.3,US politics,5.6,12,84,69.3,"busy, ordinary",64.3,0.81,US politics,0.725,0.7,99.2,6.3,0.226,9.5
+2026-11-05,weekday,81.0,US politics,7.1,14,89,51.4,"busy, ordinary",97.6,1.06,Geopolitics,0.677,0.7,65.1,13.5,0.21,5.6

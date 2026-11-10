@@ -4,8 +4,8 @@
 name: nightly
 on:
   workflow_dispatch: {inputs: {day: {description: "finished New York date YYYY-MM-DD (default: yesterday)", required: false}}}
-permissions: {contents: write, pages: write, id-token: write, actions: write}   # contents: write: the raw-<date> and engine-files releases are drafts
-concurrency: {group: pipeline, cancel-in-progress: false}
+permissions: {contents: write, pages: write, id-token: write, actions: write, issues: write}   # contents: write: the raw-<date> and engine-files releases are drafts; issues: holiday list warning (RFIX20)
+concurrency: {group: nightly, cancel-in-progress: false}   # 10 Nov (check 19c): own group, so a build dispatch never cancels a waiting nightly
 jobs:
   nightly:
     runs-on: ubuntu-latest
@@ -14,7 +14,7 @@ jobs:
     env: {GH_TOKEN: "${{ github.token }}", GH_REPO: "${{ github.repository }}", WIM_HOME: "${{ github.workspace }}/pipeline/home/", WIM_SNAP: "${{ github.workspace }}/pipeline/conf/snapshot", TZ: America/New_York, OMP_NUM_THREADS: "2", WIM_THREADS: "2", PYTHONDONTWRITEBYTECODE: "1"}
     steps:
       - uses: actions/checkout@v4      # engine code from the private repository (read-only deploy key)
-        with: {repository: janwuestenfeld/news-engine, ssh-key: "${{ secrets.ENGINE_DEPLOY_KEY }}", path: pipeline, fetch-depth: 1}
+        with: {repository: janwuestenfeld/news-engine, ssh-key: "${{ secrets.ENGINE_DEPLOY_KEY }}", path: pipeline, fetch-depth: 1, ref: test-v1}
       - id: d
         run: |
           F="${{ github.event.inputs.day }}"; [ -n "$F" ] || F=$(date -d yesterday +%F)
@@ -43,6 +43,16 @@ jobs:
           gh release download engine-files -p "engine_seed.tar.gz.enc" -D /tmp
           mkdir -p live && openssl enc -d -aes-256-cbc -pbkdf2 -pass env:ENGINE_KEY -in /tmp/engine_seed.tar.gz.enc | tar xz -C live
           rm /tmp/engine_seed.tar.gz.enc
+      - name: Minute store from the seed (only when the state has none)
+        if: steps.night.outputs.cache-matched-key != ''
+        env: {ENGINE_KEY: "${{ secrets.ENGINE_KEY }}"}
+        run: |
+          if [ ! -d live/minute ]; then
+            gh release download engine-files -p "engine_seed.tar.gz.enc" -D /tmp
+            mkdir -p /tmp/seed && openssl enc -d -aes-256-cbc -pbkdf2 -pass env:ENGINE_KEY -in /tmp/engine_seed.tar.gz.enc | tar xz -C /tmp/seed ./minute ./site/data
+            cp -R /tmp/seed/minute live/minute && mkdir -p live/site/data && cp -n /tmp/seed/site/data/* live/site/data/
+            rm -rf /tmp/seed /tmp/engine_seed.tar.gz.enc; echo "minute store taken from the seed"
+          fi
       - name: Restore the finished day's last run state (new labels)
         uses: actions/cache/restore@v4
         with: {path: run_state, key: "run-${{ steps.d.outputs.fin }}-last", restore-keys: "run-${{ steps.d.outputs.fin }}-"}
@@ -56,13 +66,43 @@ jobs:
         run: |
           gh release download engine-files -p "model_v2.tar.gz.enc" -D /tmp
           openssl enc -d -aes-256-cbc -pbkdf2 -pass env:ENGINE_KEY -in /tmp/model_v2.tar.gz.enc | tar xz -C pipeline/labeller
+      - name: Restore labeller v6 head
+        id: model6
+        uses: actions/cache/restore@v4
+        with: {path: pipeline/labeller/model_v6, key: labeller-model-v6}
+      - name: Fetch labeller v6 head (first time only)
+        if: steps.model6.outputs.cache-hit != 'true'
+        env: {ENGINE_KEY: "${{ secrets.ENGINE_KEY }}"}
+        run: |
+          gh release download engine-files -p "model_v6.tar.gz.enc" -D /tmp
+          openssl enc -d -aes-256-cbc -pbkdf2 -pass env:ENGINE_KEY -in /tmp/model_v6.tar.gz.enc | tar xz -C pipeline/labeller
+          test -f pipeline/labeller/model_v6/meta.json
+      - name: Save labeller v6 head
+        if: steps.model6.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with: {path: pipeline/labeller/model_v6, key: labeller-model-v6}
       - name: The finished day's posts
         run: |
           python pipeline/live/state_io.py restore run_state live
           mkdir -p fin_chunks
           gh release download "raw-${{ steps.d.outputs.fin }}" -p "*.jsonl.gz" -D fin_chunks || echo "no posts released for that day"
+          # RFIX20 (V20-02): a damaged chunk is downloaded once more; still damaged: ingest.py uses its complete lines and logs it
+          for f in fin_chunks/*.jsonl.gz; do [ -f "$f" ] || continue; gzip -t "$f" 2>/dev/null && continue
+            echo "::warning title=damaged chunk::$(basename "$f") fails the gzip test; downloading it once more"
+            gh release download "raw-${{ steps.d.outputs.fin }}" -p "$(basename "$f")" -D fin_chunks --clobber || true; done
       - name: Nightly (counts, status, seconds and memory per step only)
         run: python pipeline/nightly.py --live "$PWD/live" --day "${{ steps.d.outputs.fin }}" --chunks "$PWD/fin_chunks"
+      - name: Holiday list warning (opens a GitHub issue; never fails the run)
+        if: always()
+        run: |
+          # RFIX20 (V20-01): nightly.py writes live/logs/holiday_alert.txt when tests/test_holidays.py fails; the run still
+          # stores the state and deploys the page. One open issue at a time.
+          if [ -f live/logs/holiday_alert.txt ]; then
+            T="Nightly: US market holiday list needs updating"
+            echo "::warning title=US market holiday list::$(tr '\n' ' ' < live/logs/holiday_alert.txt)"
+            N=$(gh issue list --state open --search "$T in:title" --json number --jq length 2>/dev/null || echo 0)
+            [ "$N" != 0 ] || gh issue create --title "$T" --body-file live/logs/holiday_alert.txt || echo "::warning::could not open the issue"
+          fi
       - name: Store state for today's runs
         uses: actions/cache/save@v4
         with: {path: live, key: "night-${{ steps.d.outputs.today }}"}

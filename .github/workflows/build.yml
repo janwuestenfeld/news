@@ -100,6 +100,8 @@ jobs:
         run: |
           mkdir -p _site && cd live/site
           cp index.html history.html ../../_site/ 2>/dev/null || true
+          # history.html is rebuilt by the nightly; until then fix the stale nav label (no-op once regenerated)
+          sed -i 's|methodology.html">Methods<|methodology.html">Methodology<|' ../../_site/history.html 2>/dev/null || true
           cp -R data archive ../../_site/ 2>/dev/null || true
           [ -f ../../pipeline/site/methodology.html ] && cp ../../pipeline/site/methodology.html ../../_site/ || true
           ls ../../_site

@@ -101,7 +101,26 @@ jobs:
           mkdir -p _site && cd live/site
           cp index.html history.html ../../_site/ 2>/dev/null || true
           # history.html is rebuilt by the nightly; until then apply the 11 Nov wording fixes (no-op once regenerated; remove after the 12 Nov nightly)
-          python3 ../../.github/history_text_patch.py ../../_site/history.html || true
+          python3 - <<'PYEOF' || true
+          import pathlib
+          p = pathlib.Path("../../_site/history.html")
+          if p.exists():
+              s = p.read_text(); n = 0
+              for old, new in [
+                  ("Severe News Share (rank)</h2>", "Severe News Share</h2>"),
+                  ("Rank of the day's Severe News Share against comparable days (0–100; the share is each source's share of notable stories at the top grade, averaged over sources), 7-day average",
+                   "How much of the day's news is at the most serious level (0–100 against comparable days), 7-day average"),
+                  ("Each source's share of notable stories in its largest topic, averaged over sources (dark), and its usual value (grey), in %",
+                   "How much of the news is on one topic, in % (dark: the day; grey: usual)"),
+                  ("How much more widely than usual the day's top topic is covered: the topic furthest above its usual number of sources (0–100 against comparable days)",
+                   "How far the day's top topic stands above its usual coverage (0–100 against comparable days)"),
+                  ("Every 0–100 reading compares the day with comparable days: the same kind of day (weekday or weekend) in the previous 26 weeks, for News Sentiment the previous year; 50 is a typical day.",
+                   "Every reading from 0 to 100 compares the day with the same kind of day (weekday or weekend) in the previous 26 weeks, or for News Sentiment the previous year. 50 is a typical day."),
+                  ('methodology.html">Methods<', 'methodology.html">Methodology<')]:
+                  if old in s:
+                      s = s.replace(old, new); n += 1
+              p.write_text(s); print("history wording patch:", n, "applied")
+          PYEOF
           cp -R data archive ../../_site/ 2>/dev/null || true
           [ -f ../../pipeline/site/methodology.html ] && cp ../../pipeline/site/methodology.html ../../_site/ || true
           ls ../../_site

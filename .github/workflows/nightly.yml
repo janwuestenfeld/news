@@ -14,7 +14,7 @@ jobs:
     env: {GH_TOKEN: "${{ github.token }}", GH_REPO: "${{ github.repository }}", WIM_HOME: "${{ github.workspace }}/pipeline/home/", WIM_SNAP: "${{ github.workspace }}/pipeline/conf/snapshot", TZ: America/New_York, OMP_NUM_THREADS: "2", WIM_THREADS: "2", PYTHONDONTWRITEBYTECODE: "1"}
     steps:
       - uses: actions/checkout@v4      # engine code from the private repository (read-only deploy key)
-        with: {repository: janwuestenfeld/news-engine, ssh-key: "${{ secrets.ENGINE_DEPLOY_KEY }}", path: pipeline, fetch-depth: 1, ref: test-v1}
+        with: {repository: janwuestenfeld/news-engine, ssh-key: "${{ secrets.ENGINE_DEPLOY_KEY }}", path: pipeline, fetch-depth: 1}
       - id: d
         run: |
           F="${{ github.event.inputs.day }}"; [ -n "$F" ] || F=$(date -d yesterday +%F)

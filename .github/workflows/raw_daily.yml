@@ -1,0 +1,23 @@
+# After midnight New York: merge the previous day's collection chunks into one file raw_<date>.jsonl.gz and remove the chunks.
+name: raw-daily
+on:
+  workflow_dispatch: {inputs: {day: {description: "New York date YYYY-MM-DD (default: yesterday)", required: false}}}
+permissions: {contents: write}
+concurrency: {group: raw-daily, cancel-in-progress: false}
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env: {GH_TOKEN: "${{ github.token }}", TZ: America/New_York}
+    steps:
+      - uses: actions/checkout@v4
+        with: {sparse-checkout: "collector", fetch-depth: 1}
+      - name: Merge
+        run: |
+          D="${{ github.event.inputs.day }}"; [ -n "$D" ] || D=$(date -d yesterday +%F)
+          mkdir -p chunks
+          gh release download "raw-$D" -p "chunk_*.jsonl.gz" -D chunks
+          python collector/merge_day.py merge "raw_$D.jsonl.gz" chunks/chunk_*.jsonl.gz
+          gh release upload "raw-$D" "raw_$D.jsonl.gz" --clobber
+          for f in chunks/chunk_*.jsonl.gz; do gh release delete-asset "raw-$D" "$(basename "$f")" -y; done
+          ls -la "raw_$D.jsonl.gz"

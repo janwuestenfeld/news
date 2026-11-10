@@ -1,0 +1,19 @@
+# One-off: export a stored nightly state as an encrypted draft release asset (state-export). Prints nothing about its contents.
+name: state-tools
+on:
+  workflow_dispatch: {inputs: {a: {required: true}}}
+permissions: {contents: write}
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env: {GH_TOKEN: "${{ github.token }}", GH_REPO: "${{ github.repository }}"}
+    steps:
+      - uses: actions/cache/restore@v4
+        with: {path: live, key: "${{ github.event.inputs.a }}", fail-on-cache-miss: true}
+      - name: Export
+        env: {ENGINE_KEY: "${{ secrets.ENGINE_KEY }}"}
+        run: |
+          tar czf - -C live . | openssl enc -aes-256-cbc -pbkdf2 -pass env:ENGINE_KEY -out "/tmp/${{ github.event.inputs.a }}.tar.gz.enc"
+          gh release view state-export >/dev/null 2>&1 || gh release create state-export --draft --title state-export --notes "state export" >/dev/null
+          gh release upload state-export "/tmp/${{ github.event.inputs.a }}.tar.gz.enc" --clobber >/dev/null

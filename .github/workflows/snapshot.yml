@@ -1,0 +1,19 @@
+# One-off: copy the latest published page (github-pages artifact of the last successful build) into this branch. Runs only on this branch.
+name: snapshot
+on:
+  push: {branches: [claude-snapshot]}
+permissions: {contents: write, actions: read}
+jobs:
+  snap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env: {GH_TOKEN: "${{ github.token }}", GH_REPO: "${{ github.repository }}"}
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: claude-snapshot}
+      - run: |
+          id=$(gh run list -w build.yml -s success -L 1 --json databaseId --jq '.[0].databaseId')
+          gh run download "$id" -n github-pages -D /tmp/p
+          mkdir -p snap && tar -xf /tmp/p/artifact.tar -C snap ./index.html
+          git config user.name snapshot && git config user.email snapshot@users.noreply.github.com
+          git add snap && git commit -m "snapshot of the live page [skip ci]" && git push
